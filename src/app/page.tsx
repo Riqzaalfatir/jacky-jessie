@@ -22,23 +22,10 @@ export default function Home() {
 
   return (
     <>
-      {/* 1. LOADING SCREEN */}
-      {showLoading && (
-        <LoadingScreen
-          progress={progress}
-          onDone={() => setShowLoading(false)}
-        />
-      )}
-
-      {/* 2. OPENING — muncul setelah loading, sebelum start */}
-      <div className={!showLoading && !start ? "block" : "hidden"}>
-        <Opening setStart={setStart} namaTamu="Sela" />
-      </div>
-
-      {/* 3. KONTEN — muncul setelah start */}
-      <div className={!showLoading && start ? "block" : "hidden"}>
+      {/* KONTEN — selalu ada di DOM dari awal sebagai background */}
+      <main className="block">
         <Header />
-        <Hero />
+        <Hero start={start} />
         <Tentang />
         <LoveStory />
         <CountDown />
@@ -47,7 +34,18 @@ export default function Home() {
         <Dresscode />
         <Rsvp />
         <Wishes />
-      </div>
+      </main>
+
+      {/* LOADING — ngambang di atas, pakai pointer-events none saat fade */}
+      <LoadingScreen
+        progress={progress}
+        onDone={() => setShowLoading(false)}
+      />
+
+      {/* OPENING — ngambang di atas konten, muncul setelah loading selesai */}
+      {!showLoading && !start && (
+        <Opening setStart={setStart} namaTamu="Sela" />
+      )}
     </>
   );
 }

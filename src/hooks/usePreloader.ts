@@ -2,6 +2,14 @@
 import { useEffect, useState } from "react";
 
 const IMAGES_TO_PRELOAD = [
+  // OPENING
+  "/images/Opening/Pengantin..png",
+  "/images/Opening/Ranting-KiriAtas.png",
+  "/images/Opening/Ranting-KananAtas.png",
+  "/images/Opening/Pohon-Golden.png",
+  "/images/Opening/Pohon-GoldenKanan.png",
+  "/images/Opening/Aset-KiriBawah..png",
+  "/images/Opening/Aset-KananBawah.png",
   // HERO — Background
   "/images/Hero/Bg-Hero.webp",
 
