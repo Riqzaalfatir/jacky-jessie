@@ -1,23 +1,30 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { fadeUp, fadeIn, stagger } from "@/lib/animation";
+
 
 const Tentang = () => {
   return (
-    <section
+    <motion.section
       id="tentang"
+      variants={stagger}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.5 }}
       className="relative w-full pt-[42.3vw]  bg-[#FEF8EF] overflow-x-hidden"
       // pt: 165/390*100 = 42.3vw | pb: 267/390*100 = 68.5vw
     >
       {/* ASET BAGIAN ATAS */}
 
       {/* Pohon Golden Kanan */}
-            <Image
-              src="/images/Hero/svg/Pohon-GoldenKanan.svg"
-              alt="Pohon Golden Kanan"
-              width={50}
-              height={80}
-              className="absolute top-[74vw] right-0 w-[30vw] z-[1]"
-            />
+      <Image
+        src="/images/Hero/svg/Pohon-GoldenKanan.svg"
+        alt="Pohon Golden Kanan"
+        width={50}
+        height={80}
+        className="absolute top-[74vw] right-0 w-[30vw] z-[1]"
+      />
       {/* Ranting Kiri Atas */}
       <Image
         src="/images/Tentang/Ranting-KiriAtas.png"
@@ -36,8 +43,6 @@ const Tentang = () => {
         height={238}
         className="absolute -top-[64.1vw] right-0 w-[61vw]"
       />
-
-      
 
       {/* Ranting Kiri Tengah */}
       <Image
@@ -218,13 +223,13 @@ const Tentang = () => {
 
       {/* KONTEN - TIDAK DIUBAH */}
       <div className="relative z-10 flex flex-col items-center justify-center leading-none text-center">
-        <p className="font-creators text-[12px] text-[#713324] text-cente tracking-wide leading-[20px]">
+        <motion.p variants={fadeUp} transition={{ duration: 0.8, ease: "easeOut" }} className="font-creators text-[12px] text-[#713324] text-cente tracking-wide leading-[20px]">
           By the Grace of Our God
           <br />
           We request the honour of your presence
           <br />
           of our wedding
-        </p>
+        </motion.p>
 
         {/* Pengantin Laki-Laki */}
         <Image
@@ -240,7 +245,9 @@ const Tentang = () => {
         </h1>
 
         <div className="flex flex-col items-center justify-center mt-[31px]">
-          <p className="font-creators text-[12px] text-[#713324] tracking-wide">The Son of</p>
+          <p className="font-creators text-[12px] text-[#713324] tracking-wide">
+            The Son of
+          </p>
           <p className="font-creators text-[12px] text-[#713324] mt-3 tracking-wide">
             Mr. AGUS RUSLI and
           </p>
@@ -280,7 +287,7 @@ const Tentang = () => {
           by your presence and blessing.
         </p>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

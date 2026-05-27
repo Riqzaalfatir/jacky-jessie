@@ -2,7 +2,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeUp, fadeIn, stagger } from "@/lib/animation";
 
-
+type HeroProps = {
+  start: boolean;
+};
 
 const Hero = () => {
   return (
@@ -12,7 +14,7 @@ const Hero = () => {
       variants={stagger}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.05 }}
+      viewport={{ once: true, amount: 0.5 }}
       className="relative w-full pt-[42.8vw] pb-[70vw]  overflow-x-hidden"
     >
       {/* Background Image */}
@@ -28,11 +30,11 @@ const Hero = () => {
 
       {/* Pohon Kiri Atas */}
       <motion.div
-         variants={fadeIn}
+        variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute top-0 left-0 w-[66vw]"
       >
         <Image
@@ -46,11 +48,11 @@ const Hero = () => {
 
       {/* Pohon Kanan Atas */}
       <motion.div
-         variants={fadeIn}
+        variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute top-0 right-0 w-[64.4vw]"
       >
         <Image
@@ -67,8 +69,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute top-[70px] w-[102.6vw]"
       >
         <Image
@@ -83,11 +85,11 @@ const Hero = () => {
       {/* ASET BAGIAN BAWAH */}
       {/* Pohon Golden Kiri Bawah */}
       <motion.div
-         variants={fadeIn}
+        variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-0 w-[38vw] z-[1]"
       >
         <Image
@@ -104,8 +106,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 -left-[10vw] w-[34.7vw] z-[2]"
       >
         <Image
@@ -122,8 +124,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-0 w-[36vw] z-[1]"
       >
         <Image
@@ -140,8 +142,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-[11vw] w-[16vw] z-[3]"
       >
         <Image
@@ -158,8 +160,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-[13vw] w-[19vw] z-[2]"
       >
         <Image
@@ -176,8 +178,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-[22.3vw] w-[22vw] z-[2]"
       >
         <Image
@@ -194,8 +196,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-[30.5vw] w-[27.8vw] z-[1]"
       >
         <Image
@@ -212,8 +214,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-[44vw] w-[24vw] z-[2]"
       >
         <Image
@@ -230,8 +232,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-[53vw] w-[17.8vw] z-[1]"
       >
         <Image
@@ -248,8 +250,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-[58.5vw] w-[26.6vw] z-[2]"
       >
         <Image
@@ -266,8 +268,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-[73.5vw] w-[16vw] z-[3]"
       >
         <Image
@@ -284,8 +286,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-[85.5vw] w-[20vw] z-[2]"
       >
         <Image
@@ -302,8 +304,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 right-0 w-[30vw] z-[1]"
       >
         <Image
@@ -318,7 +320,10 @@ const Hero = () => {
       {/* Pohon Golden Kanan */}
       <motion.div
         variants={fadeIn}
-        transition={{ duration: 1, ease: "easeIn" }}
+        initial="hidden"
+        whileInView="show"
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-[10vw] right-0 w-[32vw] z-[1]"
       >
         <Image
@@ -336,7 +341,7 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
         transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 right-0 w-[55vw] z-[0]"
       >
         <Image
@@ -354,7 +359,7 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
         transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 right-[40vw] w-[33vw] z-[0]"
       >
         <Image
@@ -372,7 +377,7 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
         transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-0 left-4 w-[55vw] z-[0]"
       >
         <Image
@@ -390,8 +395,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-[10.5vw] left-[24.5vw] w-[11vw] z-[5]"
       >
         <Image
@@ -408,8 +413,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-[9vw] left-[69vw] w-[11vw] z-[5]"
       >
         <Image
@@ -426,8 +431,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-[21vw] right-[3.5vw] w-[7vw] z-[5]"
       >
         <Image
@@ -444,8 +449,8 @@ const Hero = () => {
         variants={fadeIn}
         initial="hidden"
         whileInView="show"
-        transition={{ duration: 1, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.5 }}
+        transition={{ duration: 1.5, ease: "easeIn" }}
+        viewport={{ once: true, amount: 0.2 }}
         className="absolute bottom-[51vw] right-[20vw] w-[11vw] z-[5]  scale-x-[-1]"
       >
         <Image
@@ -470,6 +475,7 @@ const Hero = () => {
 
       {/* Konten */}
       <div className="relative z-10 w-full flex flex-col items-center justify-center leading-none">
+        
         <Image
           src="/images/Hero/Logo-J.svg"
           alt="Logo J"
@@ -539,7 +545,7 @@ export default Hero;
 //       variants={fadeIn}
 // initial="hidden"
 //   whileInView="show"
-//       transition={{ duration: 1, ease: "easeIn" }}
+//       transition={{ duration: 1.5, ease: "easeIn" }}
 //       className="absolute top-0 left-0 w-[66vw]"
 //     >
 //       <Image
