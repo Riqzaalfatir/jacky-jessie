@@ -66,7 +66,6 @@ import Gallery from "@/components/sections/Gallery";
 import Dresscode from "@/components/sections/Dresscode";
 import Rsvp from "@/components/sections/Rsvp";
 import Wishes from "@/components/sections/Wishes";
-
 export default function Home() {
   const [start, setStart] = useState<boolean>(false);
   const [showLoading, setShowLoading] = useState<boolean>(true);
@@ -77,7 +76,7 @@ export default function Home() {
       {/* KONTEN — selalu ada di DOM dari awal sebagai background */}
       <main className="block">
         <Header />
-        <Hero start={start} />
+        <Hero  />
         <Tentang />
         <LoveStory />
         <CountDown />
