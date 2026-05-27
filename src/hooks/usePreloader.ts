@@ -14,7 +14,7 @@ const IMAGES_TO_PRELOAD = [
   "/images/Hero/Bg-Hero.webp",
 
   // HERO — Aset Atas
-  "/images/Hero/Pohon-KiriAtas.svg",
+  "/images/Hero/PohonKiriAtas.png",
   "/images/Hero/Pohon-KananAtas.webp",
   "/images/Hero/Burung.gif",
 

@@ -6,7 +6,7 @@ type HeroProps = {
   start: boolean;
 };
 
-const Hero = () => {
+const Hero = ({ start }: { start: boolean }) => {
   return (
     // pt-[167px] = 167/390*100 = 42.8vw | pb-[273px] = 273/390*100 = 70vw
     <motion.section
