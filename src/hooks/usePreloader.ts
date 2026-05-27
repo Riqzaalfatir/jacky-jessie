@@ -28,8 +28,7 @@ const IMAGES_TO_PRELOAD = [
   "/images/Hero/svg/Pohon-BungaKecil.svg",
   "/images/Hero/svg/Pohon-BungaMerah2.svg",
   "/images/Hero/svg/Pohon-GoldenKanan.svg",
-  "/images/Hero/svg/DedaunanBelakang.svg",
-  "/images/Hero/svg/Dedaunan-BelakangKiri.svg",
+
 
   // HERO — Kupu Kupu
   "/images/Hero/KupuKupu-1.gif",

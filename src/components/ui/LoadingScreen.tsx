@@ -26,36 +26,7 @@ export default function LoadingScreen({ progress, onDone }: Props) {
         pointerEvents: fading ? "none" : "auto",
       }}
     >
-      {/* Dekorasi pojok — opsional, sesuaikan path aset */}
-      <Image
-        src="/images/Opening/Ranting-KiriAtas.png"
-        alt="dekorasi"
-        width={103}
-        height={74}
-        className="absolute top-0 left-0 w-[90px] opacity-60"
-      />
-      <Image
-        src="/images/Opening/Ranting-KananAtas.png"
-        alt="dekorasi"
-        width={103}
-        height={74}
-        className="absolute top-0 right-0 w-[90px] opacity-60"
-      />
-      <Image
-        src="/images/Opening/Aset-KiriBawah..png"
-        alt="dekorasi"
-        width={151}
-        height={163}
-        className="absolute bottom-0 left-0 w-[120px] opacity-60"
-      />
-      <Image
-        src="/images/Opening/Aset-KananBawah.png"
-        alt="dekorasi"
-        width={151}
-        height={163}
-        className="absolute bottom-0 right-0 w-[120px] opacity-60"
-      />
-
+    
       {/* NAMA */}
       <p className="font-creators text-[11px] text-[#713324] tracking-widest mb-3">
         THE WEDDING OF

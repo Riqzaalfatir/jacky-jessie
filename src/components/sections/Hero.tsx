@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 
 const Hero = () => {
@@ -8,7 +7,6 @@ const Hero = () => {
       id="hero"
       className="relative w-full pt-[42.8vw] pb-[70vw]  overflow-x-hidden"
     >
-
       {/* Background Image */}
       <Image
         src="/images/Hero/Bg-Hero.svg"
@@ -24,17 +22,16 @@ const Hero = () => {
       <Image
         src="/images/Hero/PohonKiriAtas.png"
         alt="Pohon Kiri Atas"
-        width={958}
+        width={458}
         height={211}
         className="absolute top-0 left-0 w-[66vw]"
       />
-
 
       {/* Pohon Kanan Atas */}
       <Image
         src="/images/Hero/Pohon-KananAtas.webp"
         alt="Pohon Kanan Atas"
-        width={251}
+        width={451}
         height={205}
         className="absolute top-0 right-0 w-[64.4vw]"
       />
@@ -51,9 +48,9 @@ const Hero = () => {
       {/* ASET BAGIAN BAWAH */}
       {/* Pohon Golden Kiri Bawah */}
       <Image
-        src="/images/Hero/svg/Pohon-GoldenKiri.svg"
+        src="/images/Hero/Pohon-KiriBawah.png"
         alt="Pohon Golden Kiri Bawah"
-        width={160}
+        width={460}
         height={282}
         className="absolute bottom-0 left-0 w-[38vw] z-[1]"
       />
@@ -69,16 +66,16 @@ const Hero = () => {
 
       {/* Pohon Buah Merah Kiri */}
       <Image
-        src="/images/Hero/svg/Pohon-BuahMerah1.svg"
+        src="/images/Hero/Buah-MerahKiri.png"
         alt="Pohon Buah Merah"
-        width={150}
+        width={550}
         height={120}
         className="absolute bottom-0 left-0 w-[36vw] z-[1]"
       />
 
       {/* Bunga Mawar Putih */}
       <Image
-        src="/images/Hero/svg/Bunga-MawarPutih.svg"
+      src="/images/Hero/Mawar-Putih.png"
         alt="Bunga Mawar Putih"
         width={70}
         height={70}
@@ -87,43 +84,43 @@ const Hero = () => {
 
       {/* Bunga Mawar Kuning */}
       <Image
-        src="/images/Hero/svg/Bunga-MawarKuning.svg"
+      src="/images/Hero/MawarKuning..png"
         alt="Bunga Mawar Kuning"
-        width={80}
+        width={580}
         height={80}
         className="absolute bottom-0 left-[13vw] w-[19vw] z-[2]"
       />
 
       {/* Daun Pandan */}
       <Image
-        src="/images/Hero/svg/Daun-Pandan.svg"
+        src="/images/Hero/Daun-Pandan.png"
         alt="Daun Pandan"
-        width={46}
+        width={546}
         height={80}
-        className="absolute bottom-0 left-[22.3vw] w-[22vw] z-[2]"
+        className="absolute bottom-0 left-[22.3vw] w-[18vw] z-[2]"
       />
 
       {/* Pohon Akar */}
       <Image
-        src="/images/Hero/svg/Pohon-Akar.svg"
+        src="/images/Hero/Pohon-Akar.png"
         alt="Pohon Akar"
-        width={120}
+        width={520}
         height={80}
         className="absolute bottom-0 left-[30.5vw] w-[27.8vw] z-[1]"
       />
 
       {/* Pohon Bunga Kecil */}
       <Image
-        src="/images/Hero/svg/Pohon-BungaKecil.svg"
+        src="/images/Hero/Pohon-BungaKecil.png"
         alt="Pohon Bunga Kecil"
-        width={100}
+        width={500}
         height={80}
         className="absolute bottom-0 left-[44vw] w-[24vw] z-[2]"
       />
 
       {/* Pohon Akar 2 */}
       <Image
-        src="/images/Hero/svg/Pohon-Akar.svg"
+        src="/images/Hero/Pohon-Akar.png"
         alt="Pohon Akar"
         width={120}
         height={80}
@@ -132,27 +129,27 @@ const Hero = () => {
 
       {/* Daun Pandan */}
       <Image
-        src="/images/Hero/svg/Daun-Pandan.svg"
+        src="/images/Hero/Daun-Pandan.png"
         alt="Daun Pandan"
-        width={100}
+        width={500}
         height={80}
         className="absolute bottom-0 left-[58.5vw] w-[26.6vw] z-[2]"
       />
 
       {/* Bunga Mawar Putih */}
       <Image
-        src="/images/Hero/svg/Bunga-MawarPutih.svg"
+      src="/images/Hero/Mawar-Putih.png"
         alt="Bunga Mawar Putih"
-        width={100}
+        width={500}
         height={80}
         className="absolute bottom-0 left-[73.5vw] w-[16vw] z-[3]"
       />
 
       {/* Bunga Mawar Kuning */}
       <Image
-        src="/images/Hero/svg/Bunga-MawarKuning.svg"
+      src="/images/Hero/MawarKuning..png"
         alt="Bunga Mawar Kuning"
-        width={100}
+        width={200}
         height={80}
         className="absolute bottom-0 left-[85.5vw] w-[20vw] z-[2]"
       />
@@ -177,20 +174,20 @@ const Hero = () => {
 
       {/* Dedaunan Belakang Kanan */}
       <Image
-        src="/images/Hero/svg/DedaunanBelakang.svg"
+        src="/images/Hero/DedaunanBelakang.png"
         alt="Dedaunan Belakang"
-        width={50}
+        width={650}
         height={80}
         className="absolute bottom-0 right-0 w-[55vw] z-[0]"
       />
 
       {/* Dedaunan Belakang Tengah */}
       <Image
-        src="/images/Hero/svg/DedaunanBelakang.svg"
+        src="/images/Hero/DedaunanBelakangKiri.png"
         alt="Dedaunan Belakang"
-        width={50}
+        width={520}
         height={80}
-        className="absolute bottom-0 right-[40vw] w-[33vw] z-[0]"
+        className="absolute bottom-0 right-[20vw] w-[43vw] z-[0]"
       />
 
       {/* Dedaunan Belakang Kiri */}
@@ -288,39 +285,6 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import Image from "next/image";
 // import { motion } from "framer-motion";
@@ -791,7 +755,7 @@ export default Hero;
 
 //       {/* Konten */}
 //       <div className="relative z-10 w-full flex flex-col items-center justify-center leading-none">
-        
+
 //         <Image
 //           src="/images/Hero/Logo-J.svg"
 //           alt="Logo J"

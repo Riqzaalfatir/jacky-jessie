@@ -74,29 +74,29 @@ const TimeLocation = () => {
 
       {/* Dedaunan Belakang Kanan */}
       <Image
-        src="/images/Time/Dedaunan-BelakangKiri.svg"
+        src="/images/Time/Dedaunan-BelakangKiri..png"
         alt="Dedaunan Belakang"
-        width={50}
+        width={550}
         height={80}
         className="absolute bottom-0 -left-[7vw] w-[76vw] z-[1]"
       />
 
       {/* Dedaunan Belakang Kanan */}
       <Image
-        src="/images/Time/Dedaunan-BelakangKiri.svg"
+        src="/images/Time/DedaunanTengah.png"
         alt="Dedaunan Belakang"
-        width={50}
+        width={550}
         height={80}
-        className="absolute bottom-0 right-[10vw] w-[53vw] z-[1]"
+        className="absolute bottom-0 right-[12vw] w-[80vw] z-[0]"
       />
 
       {/* Dedaunan Belakang Kanan */}
       <Image
-        src="/images/Time/Dedaunan-BelakangKiri.svg"
+        src="/images/Time/DedaunanTengah.png"
         alt="Dedaunan Belakang"
-        width={50}
+        width={550}
         height={80}
-        className="absolute bottom-0 -right-[10vw] w-[45vw] z-[0]"
+        className="absolute bottom-0 -right-[10vw] w-[75vw] z-[0]"
       />
       {/* Pohon Akar */}
       <Image
@@ -165,7 +165,7 @@ const TimeLocation = () => {
       <Image
         src="/images/LoveStory/Dedaunan.png"
         alt="Dedaunan Belakang"
-        width={50}
+        width={550}
         height={80}
         className="absolute bottom-0 right-[7vw] w-[55vw] z-[1]"
       />
@@ -173,7 +173,7 @@ const TimeLocation = () => {
       <Image
         src="/images/LoveStory/Dedaunan.png"
         alt="Dedaunan Belakang"
-        width={50}
+        width={550}
         height={80}
         className="absolute bottom-0 -right-[18vw] w-[55vw] z-[1]"
       />

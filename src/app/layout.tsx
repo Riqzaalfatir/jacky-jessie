@@ -1,8 +1,16 @@
 import type { Metadata } from "next";
-import { century, creatorsWavy, trajanProBold, trajanProRegular, burguesScript, elMessiri, cylburn  ,notoSans,
- } from "@/lib/fonts";
+import {
+  century,
+  creatorsWavy,
+  trajanProBold,
+  trajanProRegular,
+  burguesScript,
+  elMessiri,
+  cylburn,
+  notoSans,
+} from "@/lib/fonts";
 import "./globals.css";
-
+import AOSInit from "@/components/AOSINIT";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,8 +23,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${notoSans.variable} ${century.variable} ${creatorsWavy.variable} ${trajanProBold.variable} ${trajanProRegular.variable} ${burguesScript.variable} ${cylburn.variable} ${elMessiri.variable}`}>
-      <body>{children}</body>
+    <html
+      lang="en"
+      className={`${notoSans.variable} ${century.variable} ${creatorsWavy.variable} ${trajanProBold.variable} ${trajanProRegular.variable} ${burguesScript.variable} ${cylburn.variable} ${elMessiri.variable}`}
+    >
+      <body>
+        <AOSInit />
+
+        {children}
+      </body>
     </html>
   );
 }
