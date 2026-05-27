@@ -2,11 +2,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeUp, fadeIn, stagger } from "@/lib/animation";
 
-type HeroProps = {
-  start: boolean;
-};
 
-const Hero = ({ start }: HeroProps) => {
+
+const Hero = () => {
   return (
     // pt-[167px] = 167/390*100 = 42.8vw | pb-[273px] = 273/390*100 = 70vw
     <motion.section
@@ -321,7 +319,6 @@ const Hero = ({ start }: HeroProps) => {
       <motion.div
         variants={fadeIn}
         transition={{ duration: 1, ease: "easeIn" }}
-        animate={start ? "show" : "hidden"}
         className="absolute bottom-[10vw] right-0 w-[32vw] z-[1]"
       >
         <Image
