@@ -31,10 +31,8 @@ const Hero = ({ start }: { start: boolean }) => {
       {/* Pohon Kiri Atas */}
       <motion.div
         variants={fadeIn}
-        initial="hidden"
-        whileInView="show"
-        transition={{ duration: 1.5, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.2 }}
+        transition={{ duration: 0.6, ease: "easeIn" }}
+        animate={start ? "show" : "hidden"}
         className="absolute top-0 left-0 w-[66vw]"
       >
         <Image
@@ -48,11 +46,9 @@ const Hero = ({ start }: { start: boolean }) => {
 
       {/* Pohon Kanan Atas */}
       <motion.div
-        variants={fadeIn}
-        initial="hidden"
-        whileInView="show"
-        transition={{ duration: 1.5, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.2 }}
+         variants={fadeIn}
+        transition={{ duration: 0.8, ease: "easeIn" }}
+        animate={start ? "show" : "hidden"}
         className="absolute top-0 right-0 w-[64.4vw]"
       >
         <Image
@@ -85,11 +81,9 @@ const Hero = ({ start }: { start: boolean }) => {
       {/* ASET BAGIAN BAWAH */}
       {/* Pohon Golden Kiri Bawah */}
       <motion.div
-        variants={fadeIn}
-        initial="hidden"
-        whileInView="show"
-        transition={{ duration: 1.5, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.2 }}
+       variants={fadeIn}
+        transition={{ duration: 1, ease: "easeIn" }}
+        animate={start ? "show" : "hidden"}
         className="absolute bottom-0 left-0 w-[38vw] z-[1]"
       >
         <Image
@@ -319,11 +313,9 @@ const Hero = ({ start }: { start: boolean }) => {
 
       {/* Pohon Golden Kanan */}
       <motion.div
-        variants={fadeIn}
-        initial="hidden"
-        whileInView="show"
-        transition={{ duration: 1.5, ease: "easeIn" }}
-        viewport={{ once: true, amount: 0.2 }}
+       variants={fadeIn}
+        transition={{ duration: 1.2, ease: "easeIn" }}
+        animate={start ? "show" : "hidden"}
         className="absolute bottom-[10vw] right-0 w-[32vw] z-[1]"
       >
         <Image
