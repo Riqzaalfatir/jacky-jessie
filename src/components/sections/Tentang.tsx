@@ -9,6 +9,15 @@ const Tentang = () => {
       // pt: 165/390*100 = 42.3vw | pb: 267/390*100 = 68.5vw
     >
       {/* ASET BAGIAN ATAS */}
+
+      {/* Pohon Golden Kanan */}
+            <Image
+              src="/images/Hero/svg/Pohon-GoldenKanan.svg"
+              alt="Pohon Golden Kanan"
+              width={50}
+              height={80}
+              className="absolute top-[74vw] right-0 w-[30vw] z-[1]"
+            />
       {/* Ranting Kiri Atas */}
       <Image
         src="/images/Tentang/Ranting-KiriAtas.png"
@@ -28,13 +37,15 @@ const Tentang = () => {
         className="absolute -top-[64.1vw] right-0 w-[61vw]"
       />
 
+      
+
       {/* Ranting Kiri Tengah */}
       <Image
         src="/images/Tentang/Ranting-Kiri.png"
         alt="Ranting Kanan Atas"
         width={138}
         height={138}
-        className="absolute top-[160vw] left-0 w-[26vw]"
+        className="absolute top-[165vw] left-0 w-[28vw]"
         // top: 650/390*100 = 166.7vw | w: 138/390*100 = 35.4vw
       />
 
@@ -49,14 +60,14 @@ const Tentang = () => {
         // w: 160/390*100 = 41vw
       />
 
-        {/* Dedaunan Belakang Kanan */}
-             <Image
-               src="/images/Tentang/Bunga-BelakangKiri.svg"
-               alt="Dedaunan Belakang"
-               width={50}
-               height={80}
-               className="absolute bottom-0 left-0 w-[50vw] z-[0]"
-             />
+      {/* Dedaunan Belakang Kanan */}
+      <Image
+        src="/images/Tentang/Bunga-BelakangKiri.svg"
+        alt="Dedaunan Belakang"
+        width={50}
+        height={80}
+        className="absolute bottom-0 left-0 w-[55vw] z-[0]"
+      />
 
       {/* Daun Pandan dari aset hero */}
       <Image
@@ -139,7 +150,7 @@ const Tentang = () => {
         alt="Pohon Bunga Kecil"
         width={100}
         height={80}
-        className="absolute bottom-0 left-[56vw] w-[20vw] z-[1]"
+        className="absolute bottom-0 left-[57vw] w-[24vw] z-[1]"
       />
 
       {/* Bunga Mawar Kuning aset dari hero */}
@@ -148,7 +159,7 @@ const Tentang = () => {
         alt="Bunga Mawar Kuning"
         width={100}
         height={80}
-        className="absolute bottom-0 left-[65vw] w-[12vw] z-[2]"
+        className="absolute bottom-0 left-[67vw] w-[12vw] z-[2]"
       />
 
       {/* Bunga Mawar Putih */}
@@ -159,7 +170,7 @@ const Tentang = () => {
         height={80}
         className="absolute bottom-0 left-[71.5vw] w-[15vw] z-[2]"
       />
-       {/* Pohon Buah Merah Kiri dari aset hero */}
+      {/* Pohon Buah Merah Kiri dari aset hero */}
       <Image
         src="/images/Tentang/Daun-BungaMerah.png"
         alt="Pohon Buah Merah"
@@ -192,7 +203,7 @@ const Tentang = () => {
         alt="Pohon Akar"
         width={120}
         height={80}
-        className="absolute bottom-0 right-1 w-[40vw] z-[1]"
+        className="absolute bottom-0 right-1 w-[42vw] z-[1]"
       />
 
       {/* Pohon Kanan bAWAH */}
@@ -201,13 +212,13 @@ const Tentang = () => {
         alt="Pohon Golden Kiri Bawah"
         width={160}
         height={282}
-        className="absolute bottom-0 right-0 w-[35vw] z-[0]"
+        className="absolute bottom-0 right-0 w-[37vw] z-[0]"
         // w: 160/390*100 = 41vw
       />
 
       {/* KONTEN - TIDAK DIUBAH */}
       <div className="relative z-10 flex flex-col items-center justify-center leading-none text-center">
-        <p className="font-creators text-[12px] text-[#713324] text-center">
+        <p className="font-creators text-[12px] text-[#713324] text-cente tracking-wide leading-[20px]">
           By the Grace of Our God
           <br />
           We request the honour of your presence
@@ -229,12 +240,12 @@ const Tentang = () => {
         </h1>
 
         <div className="flex flex-col items-center justify-center mt-[31px]">
-          <p className="font-creators text-[12px] text-[#713324]">The Son of</p>
-          <p className="font-creators text-[12px] text-[#713324]">
-            Mr. Agus Rusli and
+          <p className="font-creators text-[12px] text-[#713324] tracking-wide">The Son of</p>
+          <p className="font-creators text-[12px] text-[#713324] mt-3 tracking-wide">
+            Mr. AGUS RUSLI and
           </p>
-          <p className="font-creators text-[12px] text-[#713324]">
-            Mrs. Ong Kie Lim (Tridewi)
+          <p className="font-creators text-[12px] text-[#713324] mt-1.5 tracking-wide ">
+            Mrs. ONG KIE LIM (TRIDEWI)
           </p>
         </div>
 
@@ -251,19 +262,19 @@ const Tentang = () => {
           Jessie Andayani Santoso
         </h1>
 
-        <div className="flex flex-col items-center justify-center mt-[14px]">
+        <div className="flex flex-col items-center justify-center mt-[24px] tracking-wide">
           <p className="font-creators text-[12px] text-[#713324]">
             The Daughter of
           </p>
-          <p className="font-creators text-[12px] text-[#713324]">
+          <p className="font-creators text-[12px] text-[#713324] mt-4">
             Mr. Wibowo Santoso and
           </p>
-          <p className="font-creators text-[12px] text-[#713324]">
+          <p className="font-creators text-[12px] text-[#713324] mt-2">
             Mrs. Imelda Sien
           </p>
         </div>
 
-        <p className="font-creators text-[12px] text-[#713324] mt-[46px] pb-[171px]">
+        <p className="font-creators text-[12px] text-[#713324] mt-[46px] pb-[171px] tracking-wide leading-[20px]">
           We would be honoured
           <br />
           by your presence and blessing.

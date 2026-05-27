@@ -64,191 +64,191 @@ const Wishes = () => {
         <Image
           src="/images/Wishes/Bg-Wishes.png"
           alt="Hero Background"
-          fill 
+          fill
           className="object-cover object-top"
           priority
-        /> 
+        />
 
         {/* Ranting Kanan Atas */}
-          <Image
-                src="/images/Wishes/Ranting-KananAtas.svg"
-                alt="Pohon Kanan Atas"
-                width={251}
-                height={205}
-                className="absolute top-0 right-0 w-[67vw]"
-              />
+        <Image
+          src="/images/Wishes/Ranting-KananAtas.svg"
+          alt="Pohon Kanan Atas"
+          width={251}
+          height={205}
+          className="absolute top-0 right-0 w-[67vw]"
+        />
 
-              {/* Pohon Golden Kanan */}
-                    <Image
-                      src="/images/Hero/svg/Pohon-GoldenKanan.svg"
-                      alt="Pohon Golden Kanan"
-                      width={50}
-                      height={80}
-                      className="absolute bottom-[85vw] right-0 w-[26vw] z-[1]"
-                    />
-                    
-              {/* Ranting Kiri Tengah */}
-                    <Image
-                      src="/images/Wishes/Ranting-KiriTengah.png"
-                      alt="Pohon Golden Kanan"
-                      width={50}
-                      height={80}
-                      className="absolute bottom-[100vw] left-0 w-[18vw] z-[1]"
-                    />
+        {/* Pohon Golden Kanan */}
+        <Image
+          src="/images/Hero/svg/Pohon-GoldenKanan.svg"
+          alt="Pohon Golden Kanan"
+          width={50}
+          height={80}
+          className="absolute bottom-[85vw] right-0 w-[26vw] z-[1]"
+        />
 
-              {/* Pohon Kiri Bawah */}
-                    <Image
-                      src="/images/Wishes/Pohon-Kiri.svg"
-                      alt="Pohon Kiri"
-                      width={50}
-                      height={80}
-                      className="absolute bottom-[0vw] left-0 w-[30vw] z-[1]"
-                    />
+        {/* Ranting Kiri Tengah */}
+        <Image
+          src="/images/Wishes/Ranting-KiriTengah.png"
+          alt="Pohon Golden Kanan"
+          width={50}
+          height={80}
+          className="absolute bottom-[100vw] left-0 w-[18vw] z-[1]"
+        />
 
-              {/* Pohon Kanan Bawah */}
-                    <Image
-                      src="/images/Wishes/Pohon-Kanan.png"
-                      alt="Pohon Kiri"
-                      width={50}
-                      height={80}
-                      className="absolute bottom-[0vw] right-0 w-[29vw] z-[1]"
-                    />
+        {/* Pohon Kiri Bawah */}
+        <Image
+          src="/images/Wishes/Pohon-Kiri.svg"
+          alt="Pohon Kiri"
+          width={50}
+          height={80}
+          className="absolute bottom-[0vw] left-0 w-[30vw] z-[1]"
+        />
 
-                     {/* Dedaunan Belakang Kiri */}
-                          <Image
-                            src="/images/Time/Dedaunan-BelakangKiri.svg"
-                            alt="Dedaunan Belakang"
-                            width={50}
-                            height={80}
-                            className="absolute bottom-0 -left-[5vw] w-[54vw] z-[2]"
-                          />
+        {/* Pohon Kanan Bawah */}
+        <Image
+          src="/images/Wishes/Pohon-Kanan.png"
+          alt="Pohon Kiri"
+          width={50}
+          height={80}
+          className="absolute bottom-[0vw] right-0 w-[29vw] z-[1]"
+        />
 
-                     {/* Dedaunan Belakang Kanan */}
-                          <Image
-                            src="/images/Wishes/Dedaunan-BungaKanan.svg"
-                            alt="Dedaunan Belakang"
-                            width={50}
-                            height={80}
-                            className="absolute bottom-0 right-[0vw] w-[25vw] z-[3]"
-                          />
+        {/* Dedaunan Belakang Kiri */}
+        <Image
+          src="/images/Time/Dedaunan-BelakangKiri.svg"
+          alt="Dedaunan Belakang"
+          width={50}
+          height={80}
+          className="absolute bottom-0 -left-[5vw] w-[54vw] z-[2]"
+        />
 
-                          {/* Pohon Buah Merah Kiri */}
-                                <Image
-                                  src="/images/LoveStory/Pohon-BungaMerah.png"
-                                  alt="Pohon Buah Merah"
-                                  width={150}
-                                  height={120}
-                                  className="absolute bottom-0 -left-[15vw] w-[45vw] z-[3]"
-                                />
+        {/* Dedaunan Belakang Kanan */}
+        <Image
+          src="/images/Wishes/Dedaunan-BungaKanan.svg"
+          alt="Dedaunan Belakang"
+          width={50}
+          height={80}
+          className="absolute bottom-0 right-[0vw] w-[25vw] z-[3]"
+        />
 
-                                 {/* Daun Pandan dari aset hero */}
-                                      <Image
-                                        src="/images/Hero/svg/Daun-Pandan.svg"
-                                        alt="Daun Pandan"
-                                        width={147}
-                                        height={81}
-                                        className="absolute bottom-0 -left-[17vw] w-[43vw] z-[5]"
-                                        // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
-                                      />
+        {/* Pohon Buah Merah Kiri */}
+        <Image
+          src="/images/LoveStory/Pohon-BungaMerah.png"
+          alt="Pohon Buah Merah"
+          width={150}
+          height={120}
+          className="absolute bottom-0 -left-[15vw] w-[45vw] z-[3]"
+        />
 
-                                 {/* Daun Pandan dari aset hero */}
-                                      <Image
-                                        src="/images/Hero/svg/Daun-Pandan.svg"
-                                        alt="Daun Pandan"
-                                        width={147}
-                                        height={81}
-                                        className="absolute bottom-0 left-[4vw] w-[32vw] z-[4]"
-                                        // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
-                                      />
+        {/* Daun Pandan dari aset hero */}
+        <Image
+          src="/images/Hero/svg/Daun-Pandan.svg"
+          alt="Daun Pandan"
+          width={147}
+          height={81}
+          className="absolute bottom-0 -left-[17vw] w-[43vw] z-[5]"
+          // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
+        />
 
-                                      {/* Pohon Akar */}
-                                            <Image
-                                              src="/images/Hero/svg/Pohon-Akar.svg"
-                                              alt="Pohon Akar"
-                                              width={120}
-                                              height={80}
-                                              className="absolute bottom-0 left-[15vw] w-[27vw] z-[5]"
-                                            />
+        {/* Daun Pandan dari aset hero */}
+        <Image
+          src="/images/Hero/svg/Daun-Pandan.svg"
+          alt="Daun Pandan"
+          width={147}
+          height={81}
+          className="absolute bottom-0 left-[4vw] w-[32vw] z-[4]"
+          // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
+        />
 
-                                            {/* Bunga Mawar Putih */}
-                                                  <Image
-                                                    src="/images/Hero/svg/Bunga-MawarPutih.svg"
-                                                    alt="Bunga Mawar Putih"
-                                                    width={70}
-                                                    height={70}
-                                                    className="absolute bottom-0 left-[24vw] w-[24vw] z-[5]"
-                                                  />
+        {/* Pohon Akar */}
+        <Image
+          src="/images/Hero/svg/Pohon-Akar.svg"
+          alt="Pohon Akar"
+          width={120}
+          height={80}
+          className="absolute bottom-0 left-[15vw] w-[27vw] z-[5]"
+        />
 
-                                                   {/* Bunga Mawar Kuning */}
-                                                                                <Image
-                                                                                  src="/images/Hero/svg/Bunga-MawarKuning.svg"
-                                                                                  alt="Bunga Mawar Kuning"
-                                                                                  width={80}
-                                                                                  height={80}
-                                                                                  className="absolute bottom-0 left-[39.5vw] w-[15vw] z-[6]"
-                                                                                />
+        {/* Bunga Mawar Putih */}
+        <Image
+          src="/images/Hero/svg/Bunga-MawarPutih.svg"
+          alt="Bunga Mawar Putih"
+          width={70}
+          height={70}
+          className="absolute bottom-0 left-[24vw] w-[24vw] z-[5]"
+        />
 
-                                                                                {/* Pohon Buah Merah Kiri */}
+        {/* Bunga Mawar Kuning */}
+        <Image
+          src="/images/Hero/svg/Bunga-MawarKuning.svg"
+          alt="Bunga Mawar Kuning"
+          width={80}
+          height={80}
+          className="absolute bottom-0 left-[39.5vw] w-[15vw] z-[6]"
+        />
 
-                                                                                {/* Daun Pandan dari aset hero */}
-                                      <Image
-                                        src="/images/Hero/svg/Daun-Pandan.svg"
-                                        alt="Daun Pandan"
-                                        width={147}
-                                        height={81}
-                                        className="absolute bottom-0 left-[39vw] w-[34vw] z-[6]"
-                                        // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
-                                      />
-                                <Image
-                                  src="/images/LoveStory/Pohon-BungaMerah.png"
-                                  alt="Pohon Buah Merah"
-                                  width={150}
-                                  height={120}
-                                  className="absolute bottom-0 left-[35vw] w-[37vw] z-[4]"
-                                />
+        {/* Pohon Buah Merah Kiri */}
 
-                                {/* Pohon Bunga Kecil */}
-                                      <Image
-                                        src="/images/Hero/svg/Pohon-BungaKecil.svg"
-                                        alt="Pohon Bunga Kecil"
-                                        width={100}
-                                        height={80}
-                                        className="absolute bottom-0 left-[54vw] w-[27vw] z-[2]"
-                                      />
+        {/* Daun Pandan dari aset hero */}
+        <Image
+          src="/images/Hero/svg/Daun-Pandan.svg"
+          alt="Daun Pandan"
+          width={147}
+          height={81}
+          className="absolute bottom-0 left-[39vw] w-[34vw] z-[6]"
+          // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
+        />
+        <Image
+          src="/images/LoveStory/Pohon-BungaMerah.png"
+          alt="Pohon Buah Merah"
+          width={150}
+          height={120}
+          className="absolute bottom-0 left-[35vw] w-[37vw] z-[4]"
+        />
 
-                                      {/* Bunga Mawar Kuning */}
-                                                                                <Image
-                                                                                  src="/images/Hero/svg/Bunga-MawarKuning.svg"
-                                                                                  alt="Bunga Mawar Kuning"
-                                                                                  width={80}
-                                                                                  height={80}
-                                                                                  className="absolute bottom-0 left-[66vw] w-[20vw] z-[6]"
-                                                                                />
+        {/* Pohon Bunga Kecil */}
+        <Image
+          src="/images/Hero/svg/Pohon-BungaKecil.svg"
+          alt="Pohon Bunga Kecil"
+          width={100}
+          height={80}
+          className="absolute bottom-0 left-[54vw] w-[27vw] z-[2]"
+        />
 
-                                                                                {/* Bunga Mawar Putih */}
-                                                  <Image
-                                                    src="/images/Hero/svg/Bunga-MawarPutih.svg"
-                                                    alt="Bunga Mawar Putih"
-                                                    width={70}
-                                                    height={70}
-                                                    className="absolute bottom-0 left-[77vw] w-[20vw] z-[7]"
-                                                  />
-                        {/* Pohon Bunga Kecil */}
-                                      <Image
-                                        src="/images/Hero/svg/Pohon-BungaKecil.svg"
-                                        alt="Pohon Bunga Kecil"
-                                        width={100}
-                                        height={80}
-                                        className="absolute bottom-0 left-[86vw] w-[25vw] z-[7]"
-                                      />
+        {/* Bunga Mawar Kuning */}
+        <Image
+          src="/images/Hero/svg/Bunga-MawarKuning.svg"
+          alt="Bunga Mawar Kuning"
+          width={80}
+          height={80}
+          className="absolute bottom-0 left-[66vw] w-[20vw] z-[6]"
+        />
 
-                                       <Image
-                                  src="/images/LoveStory/Pohon-BungaMerah.png"
-                                  alt="Pohon Buah Merah"
-                                  width={150}
-                                  height={120}
-                                  className="absolute bottom-0 left-[71vw] w-[30vw] z-[4]"
-                                />
+        {/* Bunga Mawar Putih */}
+        <Image
+          src="/images/Hero/svg/Bunga-MawarPutih.svg"
+          alt="Bunga Mawar Putih"
+          width={70}
+          height={70}
+          className="absolute bottom-0 left-[77vw] w-[20vw] z-[7]"
+        />
+        {/* Pohon Bunga Kecil */}
+        <Image
+          src="/images/Hero/svg/Pohon-BungaKecil.svg"
+          alt="Pohon Bunga Kecil"
+          width={100}
+          height={80}
+          className="absolute bottom-0 left-[86vw] w-[25vw] z-[7]"
+        />
+
+        <Image
+          src="/images/LoveStory/Pohon-BungaMerah.png"
+          alt="Pohon Buah Merah"
+          width={150}
+          height={120}
+          className="absolute bottom-0 left-[71vw] w-[30vw] z-[4]"
+        />
         <motion.div
           variants={fadeUp}
           initial="hidden"
@@ -329,7 +329,7 @@ const Wishes = () => {
                 style={{ willChange: "transform" }}
               >
                 <div
-                  className={`w-full rounded-2xl h-[329px] lg:h-[526px] overflow-y-auto scrollbar-hide mt-[15px] ${
+                  className={`w-full rounded-2xl h-[329px] lg:h-[526px] overflow-y-auto scrollbar-hide ${
                     showAll ? "bg-transparent rounded-none" : "bg-[#E2C6AA] "
                   }`}
                 >

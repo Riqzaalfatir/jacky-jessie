@@ -43,7 +43,7 @@ const CountDown = () => {
   return (
     <section
       id="countdown"
-      className="relative w-full pt-[40px] pb-[51px] bg-[#935D3B]"
+      className="relative w-full pt-[48px] pb-[51px] bg-[#935D3B]"
     >
       <Image
         src="/images/Countdown/Layer.png"
@@ -57,15 +57,15 @@ const CountDown = () => {
         Saturday, 27 June 2026
       </h1>
 
-      <div className="flex justify-center items-center gap-[10px] mt-[20px]">
+      <div className="flex justify-center items-center gap-[10px] mt-[16px]">
         {boxes.map((box, i) => (
           <div key={i} className="flex flex-col items-center">
             {/* Kotak 49x49 */}
-            <div className="w-[49px] h-[49px] bg-[#FEF8EF] rounded-[8px] flex flex-col items-center justify-center leading-none gap-[4px]">
-              <span className="font-creators text-[24px] text-[#935D3B]">
+            <div className="w-[49px] h-[49px] bg-[#FEF8EF] rounded-[8px] flex flex-col items-center justify-center leading-none gap-[0px]">
+              <span className="font-creators text-[28px] text-[#A64508]">
                 {String(box.value).padStart(2, "0")}
               </span>
-               <span className="font-creators text-[10px] text-[#935D3B]">
+               <span className="font-creators text-[5.66px] text-[#A64508] tracking-widest">
               {box.label}
             </span>
             </div>

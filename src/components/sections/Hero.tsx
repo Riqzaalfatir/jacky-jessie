@@ -22,7 +22,7 @@ const Hero = () => {
         alt="Pohon Kiri Atas"
         width={258}
         height={211}
-        className="absolute top-0 left-0 w-[64.2vw]"
+        className="absolute top-0 left-0 w-[66vw]"
       />
 
       <Image
@@ -177,6 +177,15 @@ const Hero = () => {
         className="absolute bottom-0 right-0 w-[55vw] z-[0]"
       />
 
+      {/* Dedaunan Belakang Tengah */}
+      <Image
+        src="/images/Hero/svg/DedaunanBelakang.svg"
+        alt="Dedaunan Belakang"
+        width={50}
+        height={80}
+        className="absolute bottom-0 right-[40vw] w-[33vw] z-[0]"
+      />
+
       {/* Dedaunan Belakang Kiri */}
       <Image
         src="/images/Hero/svg/Dedaunan-BelakangKiri.svg"
@@ -250,7 +259,7 @@ const Hero = () => {
             <span className="font-burgues">J</span>acky
           </h1>
           <h3 className="font-creators text-[24px]">&amp;</h3>
-          <h1 className="font-creators text-[48px] ml-[100px]">
+          <h1 className="font-creators text-[48px] ml-[115px]">
             <span className="font-burgues">J</span>essie
           </h1>
         </div>
@@ -269,5 +278,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
- 

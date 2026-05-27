@@ -4,22 +4,22 @@ import Image from "next/image";
 const Rsvp = () => {
   return (
     <section id="rsvp" className="w-full pt-[72px] pb-[85px] bg-[#935D3B]">
-      <div className="flex flex-col items-center justify-center leading-none text-center">
+      <div className="flex flex-col items-center justify-center leading-none text-center tracking-wide">
         <h1 className="font-cylburn text-[42px] text-[#FEF8EF]">Rsvp</h1>
         <div className="flex flex-col items-center justify-center gap-[26px] mt-[37px]">
           <p className="font-creators text-[12px] text-[#FEF8EF]">Dear</p>
           <p className="font-creators text-[12px] text-[#FEF8EF]">Sela</p>
         </div>
-        <p className="font-creators text-[12px] text-[#FEF8EF] mt-[24px]">Kindly confirm your attendance before <br />
-        27 June 2026</p>
+        <p className="font-creators text-[12px] text-[#FEF8EF] mt-[24px]">Kindly confirm your attendance before <span className="block mt-2">27 June 2026</span>
+        </p>
         <div className="flex items-center justify-center gap-[19px] mt-[34px]">
             <button className="w-[146px] h-[33px] bg-[#FEF8EF] text-[#713324] font-creators text-[12px] uppercase rounded-[71px]">ATTEND</button>
             <button className="w-[146px] h-[33px] border border-[#FEF8EF] text-[#FEF8EF] font-creators text-[12px] uppercase rounded-[71px]">UNABLE TO ATTEND</button>
         </div>
         <p className="font-creators text-[12px] text-[#FEF8EF] mt-[37px]">Confirm your selection?</p>
         <button className="w-[222px] h-[33px] bg-[#FEF8EF] font-creators text-[12px] text-[#A64508] uppercase rounded-[71px] mt-[29px]">CONFIRM NOT ATTEND</button>
-        <p className="font-creators text-[10px] text-[#FEF8EF] mt-[54px]">If you need assistance with your RSVP, <br />
-        please contact our support team.</p>
+        <p className="font-creators text-[10px] text-[#FEF8EF] mt-[54px]">If you need assistance with your RSVP, <span className="block mt-2">please contact our support team.</span>
+        </p>
 
               <a
                 href="https://wa.me/6281234567890"

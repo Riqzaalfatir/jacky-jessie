@@ -14,7 +14,7 @@ const Dresscode = () => {
               />
         <div className="relative flex flex-col items-center justify-center text-center gap-[12px]">
             <h2 className='font-cylburn text-[42px] text-[#713324]'>Dress Code</h2>
-            <p className='font-creators text-[12px] text-[#713324] leading-[20px]'>Black preferred, <br />
+            <p className='font-creators text-[12px] text-[#713324] leading-[20px] tracking-wide'>Black preferred, <br />
             or your darkest colour
             </p>
         </div>
