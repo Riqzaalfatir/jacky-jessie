@@ -1,3 +1,10 @@
+"use client";
+
+import { useState } from "react";
+import { usePreloader } from "@/hooks/usePreloader";
+import LoadingScreen from "@/components/ui/LoadingScreen";
+import Opening from "@/components/popup/Opening";
+import Header from "@/components/layout/Header";
 import Hero from "@/components/sections/Hero";
 import Tentang from "@/components/sections/Tentang";
 import LoveStory from "@/components/sections/LoveStory";
@@ -8,19 +15,39 @@ import Dresscode from "@/components/sections/Dresscode";
 import Rsvp from "@/components/sections/Rsvp";
 import Wishes from "@/components/sections/Wishes";
 
-
 export default function Home() {
+  const [start, setStart] = useState<boolean>(false);
+  const [showLoading, setShowLoading] = useState<boolean>(true);
+  const { progress } = usePreloader();
+
   return (
     <>
-      <Hero />
-      <Tentang />
-      <LoveStory />
-      <CountDown />
-      <TimeLocation />
-      <Gallery />
-      <Dresscode />
-      <Rsvp/>
-      <Wishes/>
+      {/* 1. LOADING SCREEN */}
+      {showLoading && (
+        <LoadingScreen
+          progress={progress}
+          onDone={() => setShowLoading(false)}
+        />
+      )}
+
+      {/* 2. OPENING — muncul setelah loading, sebelum start */}
+      <div className={!showLoading && !start ? "block" : "hidden"}>
+        <Opening setStart={setStart} namaTamu="Sela" />
+      </div>
+
+      {/* 3. KONTEN — muncul setelah start */}
+      <div className={!showLoading && start ? "block" : "hidden"}>
+        <Header />
+        <Hero />
+        <Tentang />
+        <LoveStory />
+        <CountDown />
+        <TimeLocation />
+        <Gallery />
+        <Dresscode />
+        <Rsvp />
+        <Wishes />
+      </div>
     </>
   );
 }

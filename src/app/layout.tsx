@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { century, creatorsWavy, trajanProBold, trajanProRegular, burguesScript, elMessiri, cylburn } from "@/lib/fonts";
+import { century, creatorsWavy, trajanProBold, trajanProRegular, burguesScript, elMessiri, cylburn  ,notoSans,
+ } from "@/lib/fonts";
 import "./globals.css";
 
 
@@ -14,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${century.variable} ${creatorsWavy.variable} ${trajanProBold.variable} ${trajanProRegular.variable} ${burguesScript.variable} ${cylburn.variable} ${elMessiri.variable}`}>
+    <html lang="en" className={`${notoSans.variable} ${century.variable} ${creatorsWavy.variable} ${trajanProBold.variable} ${trajanProRegular.variable} ${burguesScript.variable} ${cylburn.variable} ${elMessiri.variable}`}>
       <body>{children}</body>
     </html>
   );

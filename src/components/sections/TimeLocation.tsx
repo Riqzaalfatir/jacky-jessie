@@ -4,7 +4,7 @@ import Image from "next/image";
 const TimeLocation = () => {
   return (
     <section
-      id="timelocation"
+      id="time"
       className="relative w-full pt-[212px] pb-[320px] overflow-x-hidden"
     >
       {/* ASET BAGIAN ATAS */}
@@ -201,9 +201,26 @@ const TimeLocation = () => {
           <p className="font-creators text-[12px] text-[#713324] mt-5 tracking-wide">
             Jl. Pandu No.4, Bandung
           </p>
-          <button className="w-[160px] h-[33px] bg-[#E2C6AA] font-century text-[12px] text-[#713324] rounded-[44px] mt-10">
-            GOOGLE MAPS
-          </button>
+          <a
+            href="https://www.google.com/maps/place/Gereja+Katolik+Paroki+Bunda+Tujuh+Kedukaan,+Pandu/@-6.9055223,107.5908405,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e66b9767b619:0x307eda200152ee3d!8m2!3d-6.9055223!4d107.5934154!16s%2Fg%2F122yh67w?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              className="
+    w-[160px] h-[33px]
+    bg-[#E2C6AA] 
+    font-century text-[12px] text-[#713324] 
+    rounded-[44px] mt-10
+    transition-all duration-300 ease-in-out
+    hover:bg-[#713324] hover:text-[#E2C6AA]
+    active:bg-[#5a2819] active:text-[#E2C6AA] active:scale-95
+    cursor-pointer
+  "
+            >
+              GOOGLE MAPS
+            </button>
+          </a>
         </div>
 
         <div className="w-3 h-3 rounded-full bg-[#713324] my-[44px]" />
@@ -224,9 +241,26 @@ const TimeLocation = () => {
           <p className="font-creators text-[12px] text-[#713324] mt-5">
             Jl. Kolonel Masturi No. VIII, Kab. Bandung, Lembang
           </p>
-          <button className="w-[160px] h-[33px] bg-[#E2C6AA] font-century text-[12px] text-[#713324] rounded-[44px] mt-10">
-            GOOGLE MAPS
-          </button>
+          <a
+            href="https://www.google.com/maps/place/Gereja+Katolik+Paroki+Bunda+Tujuh+Kedukaan,+Pandu/@-6.9055223,107.5908405,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e66b9767b619:0x307eda200152ee3d!8m2!3d-6.9055223!4d107.5934154!16s%2Fg%2F122yh67w?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              className="
+    w-[160px] h-[33px]
+    bg-[#E2C6AA] 
+    font-century text-[12px] text-[#713324] 
+    rounded-[44px] mt-10
+    transition-all duration-300 ease-in-out
+    hover:bg-[#713324] hover:text-[#E2C6AA]
+    active:bg-[#5a2819] active:text-[#E2C6AA] active:scale-95
+    cursor-pointer
+  "
+            >
+              GOOGLE MAPS
+            </button>
+          </a>
         </div>
 
         <div className="w-3 h-3 rounded-full bg-[#713324] my-[44px]" />
@@ -247,9 +281,26 @@ const TimeLocation = () => {
           <p className="font-creators text-[12px] text-[#713324] mt-5">
             Jl. Kolonel Masturi No. VIII, Kab. Bandung, Lembang
           </p>
-          <button className="w-[160px] h-[33px] bg-[#E2C6AA] font-century text-[12px] text-[#713324] rounded-[44px] mt-10">
-            GOOGLE MAPS
-          </button>
+         <a
+            href="https://www.google.com/maps/place/Gereja+Katolik+Paroki+Bunda+Tujuh+Kedukaan,+Pandu/@-6.9055223,107.5908405,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e66b9767b619:0x307eda200152ee3d!8m2!3d-6.9055223!4d107.5934154!16s%2Fg%2F122yh67w?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              className="
+    w-[160px] h-[33px]
+    bg-[#E2C6AA] 
+    font-century text-[12px] text-[#713324] 
+    rounded-[44px] mt-10
+    transition-all duration-300 ease-in-out
+    hover:bg-[#713324] hover:text-[#E2C6AA]
+    active:bg-[#5a2819] active:text-[#E2C6AA] active:scale-95
+    cursor-pointer
+  "
+            >
+              GOOGLE MAPS
+            </button>
+          </a>
         </div>
       </div>
     </section>

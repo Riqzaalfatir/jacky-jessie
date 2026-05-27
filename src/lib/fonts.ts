@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import { El_Messiri } from "next/font/google";
+import { El_Messiri, Noto_Sans } from "next/font/google";
 
 export const century = localFont({
   src: "../../public/fonts/Century.ttf",
@@ -34,4 +34,10 @@ export const cylburn = localFont({
 export const elMessiri = El_Messiri({
   subsets: ["latin"],
   variable: "--font-el-messiri",
+});
+
+export const notoSans = Noto_Sans({
+  subsets: ["latin"],
+  variable: "--font-noto-sans",
+  weight: ["400", "500", "600", "700"],
 });

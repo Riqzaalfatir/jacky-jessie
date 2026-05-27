@@ -15,7 +15,9 @@ module.exports = {
       trajanRegular: ["var(--font-trajan-regular)"],
       burgues: ["var(--font-burgues-script)"],
       elMessiri: ["var(--font-el-messiri)"],
-      cylburn: ["var(--font-cylburn-script)"],    
+      cylburn: ["var(--font-cylburn-script)"],  
+              sans: ["var(--font-noto-sans)"],
+  
     },
     },
   },
