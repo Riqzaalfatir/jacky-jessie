@@ -12,11 +12,11 @@ const overlayVariants = {
   hidden: { opacity: 0 },
   show: {
     opacity: 1,
-    transition: { duration: 1.9, ease: "easeOut", delay: 0.9 },
+    transition: { duration: 1.9, ease: "easeOut" as const, delay: 0.9 },
   },
   exit: {
     opacity: 0,
-    transition: { duration: 1.0, ease: "easeInOut", delay: 0 },
+    transition: { duration: 1.0, ease: "easeInOut" as const, delay: 0 },
   },
 };
 
@@ -26,13 +26,13 @@ const cardVariants = {
     opacity: 1,
     scale: 1,
     y: 0,
-    transition: { duration: 1.0, ease: [0.22, 1, 0.36, 1], delay: 0.5 },
+    transition: { duration: 1.0, ease: [0.22, 1, 0.36, 1] as const, delay: 0.5 },
   },
   exit: {
     opacity: 0,
     scale: 0.93,
     y: 30,
-    transition: { duration: 0.8, ease: [0.4, 0, 0.2, 1], delay: 0.1 },
+    transition: { duration: 0.8, ease: [0.4, 0, 0.2, 1] as const, delay: 0.1 },
   },
 };
 
