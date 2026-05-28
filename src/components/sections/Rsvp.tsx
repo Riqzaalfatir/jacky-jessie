@@ -104,7 +104,7 @@ const Rsvp = () => {
             href="https://wa.me/6281234567890"
             target="_blank"
             rel="noopener noreferrer"
-            className="h-[33px] w-[160px] bg-[#12877B] hover:bg-[#0F6B61] active:bg-[#0A4F47] transition-colors duration-200 text-[#FEF8EF] flex items-center justify-center font-creators text-[12px] rounded-full gap-[6px] mt-[24px]"
+            className="h-[33px] w-[160px] bg-[#12877B] hover:bg-[#0F6B61] active:bg-[#0A4F47] transition-colors duration-200 text-[#FEF8EF] flex items-center justify-center font-creators text-[12px] rounded-full gap-[6px] mt-[24px] z-[5]"
           >
             <Image
               src="/images/Rsvp/Logo-Wa.svg"

@@ -24,7 +24,7 @@ const Tentang = () => {
         alt="Pohon Golden Kanan"
         width={550}
         height={80}
-        className="absolute top-[84vw] right-0 w-[30vw] z-[1]"
+        className="absolute top-[89vw] right-0 w-[32vw] z-[1]"
       />
       {/* Ranting Kiri Atas */}
       <Image
@@ -51,7 +51,7 @@ const Tentang = () => {
         alt="Ranting Kanan Atas"
         width={538}
         height={138}
-        className="absolute top-[165vw] left-0 w-[28vw]"
+        className="absolute top-[185vw] left-0 w-[26vw]"
         // top: 650/390*100 = 166.7vw | w: 138/390*100 = 35.4vw
       />
 
@@ -300,10 +300,10 @@ const Tentang = () => {
           <p className="font-creators text-[12px] text-[#713324] tracking-wide">
             The Son of
           </p>
-          <p className="font-creators text-[12px] text-[#713324] mt-3 tracking-wide">
+          <p className="font-creators text-[12px] text-[#713324] mt-3.5 tracking-wide">
             Mr. AGUS RUSLI and
           </p>
-          <p className="font-creators text-[12px] text-[#713324] mt-1.5 tracking-wide ">
+          <p className="font-creators text-[12px] text-[#713324] mt-2 tracking-wide ">
             Mrs. ONG KIE LIM (TRIDEWI)
           </p>
         </div>
@@ -326,14 +326,14 @@ const Tentang = () => {
             The Daughter of
           </p>
           <p className="font-creators text-[12px] text-[#713324] mt-4">
-            Mr. Wibowo Santoso and
+            Mr. WIBOWO SANTOSO and
           </p>
           <p className="font-creators text-[12px] text-[#713324] mt-2">
-            Mrs. Imelda Sien
+            Mrs. IMELDA SIEN
           </p>
         </div>
 
-        <p className="font-creators text-[12px] text-[#713324] mt-[46px] pb-[68.5vw] tracking-wide leading-[20px]">
+        <p className="font-creators text-[12px] text-[#713324] mt-[46px] pb-[44vw] tracking-wide leading-[20px]">
           We would be honoured
           <br />
           by your presence and blessing.

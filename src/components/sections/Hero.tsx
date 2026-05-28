@@ -287,7 +287,7 @@ const Hero = () => {
           27 June 2026
         </p>
 
-        <p className="font-century text-[12px] text-[#6D3323] tracking-wide text-center mt-[28px] leading-[20px]">
+        <p className="font-century text-[12px] text-[#6D3323] tracking-wide text-center mt-[28px] leading-[25px]">
           In a forest of a billion souls, <br />
           found the one who speaks my silence.
         </p>

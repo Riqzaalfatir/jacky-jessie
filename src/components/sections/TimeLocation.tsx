@@ -48,7 +48,7 @@ const TimeLocation = () => {
         alt="Pohon Kiri Atas"
         width={558}
         height={211}
-        className="absolute top-[180vw] right-0 w-[34.2vw] z-0"
+        className="absolute top-[205vw] right-0 w-[25vw] z-0"
       />
 
       {/* Ornament Group Bawah */}
@@ -204,7 +204,7 @@ const TimeLocation = () => {
           <h3 className="font-creators text-[20px] text-[#713324] tracking-wide">
             Catholic Holy Matrimony
           </h3>
-          <div className="flex flex-col items-center justify-center mt-[27px] gap-3 tracking-wide">
+          <div className="flex flex-col items-center justify-center mt-[27px] gap-4 tracking-wide">
             <p className="font-creators text-[14px] text-[#713324]">
               08.30 WIB
             </p>

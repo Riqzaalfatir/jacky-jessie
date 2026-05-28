@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 
 const IMAGES_TO_PRELOAD = [
   // OPENING
+  "/images/Cover/Pengantin.svg",
   "/images/Opening/Pengantin..png",
   "/images/Opening/Ranting-KiriAtas.png",
   "/images/Opening/Ranting-KananAtas.png",
@@ -10,8 +11,9 @@ const IMAGES_TO_PRELOAD = [
   "/images/Opening/Pohon-GoldenKanan.png",
   "/images/Opening/Aset-KiriBawah..png",
   "/images/Opening/Aset-KananBawah.png",
+
   // HERO — Background
-  "/images/Hero/Bg-Hero.webp",
+  "/images/Hero/Bg-Hero.svg",
 
   // HERO — Aset Atas
   "/images/Hero/PohonKiriAtas.png",
@@ -19,16 +21,17 @@ const IMAGES_TO_PRELOAD = [
   "/images/Hero/Burung.gif",
 
   // HERO — Aset Bawah
-  "/images/Hero/svg/Pohon-GoldenKiri.svg",
+  "/images/Hero/Pohon-KiriBawah.png",
   "/images/Hero/svg/Daun-Pandan.svg",
-  "/images/Hero/svg/Pohon-BuahMerah1.svg",
-  "/images/Hero/svg/Bunga-MawarPutih.svg",
-  "/images/Hero/svg/Bunga-MawarKuning.svg",
-  "/images/Hero/svg/Pohon-Akar.svg",
-  "/images/Hero/svg/Pohon-BungaKecil.svg",
-  "/images/Hero/svg/Pohon-BungaMerah2.svg",
-  "/images/Hero/svg/Pohon-GoldenKanan.svg",
-
+  "/images/Hero/Buah-MerahKiri.png",
+  "/images/Hero/Mawar-Putih.png",
+  "/images/Hero/MawarKuning..png",
+  "/images/Hero/Daun-Pandan.png",
+  "/images/Hero/Pohon-Akar.png",
+  "/images/Hero/Pohon-BungaKecil.png",
+  "/images/Hero/Pohon-GoldenKanan.png",
+  "/images/Hero/DedaunanBelakang.png",
+  "/images/Hero/DedaunanBelakangKiri.png",
 
   // HERO — Kupu Kupu
   "/images/Hero/KupuKupu-1.gif",

@@ -303,7 +303,7 @@ const Wishes = () => {
 
         <div className="max-w-[284px] lg:max-w-[564px] mx-auto">
           <div className="flex flex-col items-center">
-            <div className="w-full flex flex-col gap-[20px] mt-[37px]">
+            <div className="w-full flex flex-col gap-[20px] mt-[20px]">
               <motion.div
                 variants={fadeUp}
                 initial="hidden"
@@ -317,7 +317,7 @@ const Wishes = () => {
                   value={nama}
                   placeholder="Desy (Tester)"
                   onChange={(e) => setNama(e.target.value)}
-                  className="w-full text-[#713324] font-trajanRegular border-[1px] text-[12px] lg:text-[18px]  bg-transparent border-[#713324] px-[13px] lg:px-[23px] h-[33px] lg:h-[40px] rounded-full outline-none placeholder:text-[#713324]/50"
+                  className="w-full text-[#713324] font-trajanRegular border-[1px] text-[12px] lg:text-[18px]  bg-transparent border-[#713324]/80 px-[13px] lg:px-[23px] h-[33px] lg:h-[40px] rounded-full outline-none placeholder:text-[#713324]/50"
                 />
               </motion.div>
 
@@ -332,7 +332,7 @@ const Wishes = () => {
                 <textarea
                   value={pesan}
                   onChange={(e) => setPesan(e.target.value)}
-                  className="w-full text-[#713324] font-trajanRegular border-[1px] text-[12px] lg:text-[18px] bg-transparent border-[#713324] px-[13px] lg:px-[23px] h-[60px] lg:h-[261px] rounded-xl outline-none placeholder:text-[#713324]/50 resize-none"
+                  className="w-full text-[#713324] font-trajanRegular border-[1px] text-[12px] lg:text-[18px] bg-transparent border-[#713324]/80 px-[13px] lg:px-[23px] h-[60px] lg:h-[261px] rounded-xl outline-none placeholder:text-[#713324]/50 resize-none"
                 />
               </motion.div>
 
@@ -485,7 +485,7 @@ const Wishes = () => {
         )}
         <div className="flex flex-col items-center justify-center text-center gap-[40px] mt-[98px] z-10">
           <h2 className="text-[#713324] font-cylburn text-[42px]">Thank You</h2>
-          <p className="font-creators text-[12px] text-[#713324]">
+          <p className="font-creators text-[12px] text-[#713324] leading-[25px]">
             for being part of our journey. <br />
             We look forward to celebrating love, <br />
             laughter, and happily ever after with you!

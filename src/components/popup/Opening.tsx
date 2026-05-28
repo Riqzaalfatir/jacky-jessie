@@ -31,7 +31,7 @@ const Opening = ({ setStart, namaTamu = "Sela" }: OpeningProps) => {
         >
           {/* BG IMAGE */}
           <Image
-            src="/images/Cover/FotoCoupleMobil.webp"
+            src="/images/Cover/Pengantin.svg"
             alt="Galih & Vio Wedding Cover"
             fill
             priority
@@ -110,15 +110,6 @@ const Opening = ({ setStart, namaTamu = "Sela" }: OpeningProps) => {
                 className="absolute -bottom-16 right-0 w-[151px]  z-[1]"
               />
 
-              {/* Tambah ranting/pohon lain sesuai desain, misal kanan bawah */}
-              {/* <Image
-                src="/images/Opening/Ranting-KananBawah.png"
-                alt="RantingKananBawah"
-                width={103}
-                height={74}
-                className="absolute bottom-0 right-0 w-[80px] md:w-[100px] z-[1]"
-              /> */}
-
               {/* TEKS — z-[2] supaya di depan ranting */}
               <p className="relative z-[2] text-[10px] text-[#713324] font-creators tracking-wide">
                 THE WEDDING OF
@@ -126,7 +117,7 @@ const Opening = ({ setStart, namaTamu = "Sela" }: OpeningProps) => {
               <h1 className="relative z-[2] text-[36px] lg:text-[48px] text-[#713324] pt-[12px] font-cylburn">
                 Jacky & Jessie
               </h1>
-              <p className="relative z-[2] text-[10px] lg:text-[14px] text-[#713324] font-creators pt-[10.5px] md:pt-[19px]">
+              <p className="relative z-[2] text-[10px] lg:text-[14px] text-[#713324] font-creators pt-[14px] md:pt-[19px]">
                 Dear.
               </p>
               <p className="relative z-[2] text-[14px] lg:text-[18px] text-[#713324] font-creators pt-[14px] md:pt-[17px]">

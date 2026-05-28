@@ -52,6 +52,14 @@ const CountDown = () => {
         className="object-cover"
         priority
       />
+       {/* Burung */}
+            <Image
+              src="/images/Hero/Burung.gif"
+              alt="Burung"
+              width={400}
+              height={150}
+              className="absolute -top-[70px] w-[102.6vw]"
+            />
       
       <h1 className="font-cylburn text-[32px] text-[#FEF8EF] text-center">
         Saturday, 27 June 2026
