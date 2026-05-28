@@ -38,7 +38,7 @@ const Rsvp = () => {
                 className="object-cover"
                 priority
               />
-        <div className="flex flex-col items-center justify-center leading-none text-center tracking-wide">
+        <div className="relative flex flex-col items-center justify-center leading-none text-center tracking-wide z-4">
           <h1 className="font-cylburn text-[42px] text-[#FEF8EF]">Rsvp</h1>
 
           <div className="flex flex-col items-center justify-center gap-[26px] mt-[37px]">

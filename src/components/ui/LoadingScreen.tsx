@@ -1,6 +1,5 @@
 "use client";
 import { useEffect } from "react";
-import Image from "next/image";
 
 type Props = {
   progress: number;
@@ -12,21 +11,24 @@ export default function LoadingScreen({ progress, onDone }: Props) {
 
   useEffect(() => {
     if (progress === 100) {
+      // onDone dipanggil setelah fade selesai — hanya untuk cleanup state
+      // Opening sudah mount sebelum ini via progress===100 di page.tsx
       const timer = setTimeout(() => onDone?.(), 600);
       return () => clearTimeout(timer);
     }
   }, [progress, onDone]);
 
+  // Tidak render sama sekali setelah fade selesai (showLoading=false)
   return (
     <div
-      className="fixed inset-0 z-[9999] flex flex-col items-center justify-center transition-opacity duration-500"
+      className="fixed inset-0 z-[9999] flex flex-col items-center justify-center"
       style={{
         backgroundColor: "#EADCC8",
         opacity: fading ? 0 : 1,
+        transition: "opacity 500ms ease",
         pointerEvents: fading ? "none" : "auto",
       }}
     >
-    
       {/* NAMA */}
       <p className="font-creators text-[11px] text-[#713324] tracking-widest mb-3">
         THE WEDDING OF

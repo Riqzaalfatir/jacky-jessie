@@ -463,26 +463,63 @@ const Wishes = () => {
         </div>
 
         {/* POPUP KETIKA PESAN DIKIRIM */}
-        {showPopup && (
-          <div className="fixed inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm z-50">
-            <div className="bg-[#F5F2EC] rounded-2xl p-6 w-[340px] text-center shadow-xl border border-[#37546B]/20">
-              <h3 className="text-[22px] font-quattrocento font-semibold text-[#37546B] mb-3 tracking-wide">
-                Pesan Terkirim!
-              </h3>
-              <div className="w-10 h-[2px] bg-[#37546B] mx-auto mb-4 opacity-60" />
-              <p className="text-[16px] text-[#37546B] font-quattrocento leading-relaxed mb-6">
-                Terima kasih atas doa dan ucapan baik Anda. Kami sangat
-                menghargai pesan yang telah diberikan.
-              </p>
-              <button
-                onClick={() => setShowPopup(false)}
-                className="bg-[#37546B] hover:bg-[#2E4559] transition-all text-white px-6 py-2 rounded-full text-[14px] tracking-wide font-quattrocento"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        )}
+       
+{/* POPUP KETIKA PESAN DIKIRIM */}
+{showPopup && (
+  <div className="fixed inset-0 z-[999] flex items-center justify-center bg-[#2E1D14]/40 backdrop-blur-[4px] px-6">
+    <motion.div
+      initial={{ opacity: 0, scale: 0.9, y: 20 }}
+      animate={{ opacity: 1, scale: 1, y: 0 }}
+      exit={{ opacity: 0, scale: 0.9, y: 20 }}
+      transition={{ duration: 0.45, ease: "easeOut" }}
+      className="relative overflow-hidden rounded-[28px] border border-[#713324]/20 bg-[#F6EBDD]/95 shadow-[0_10px_40px_rgba(113,51,36,0.18)] w-full max-w-[330px]"
+    >
+      {/* ORNAMEN ATAS */}
+      <div className="absolute top-0 left-0 w-full h-[6px] bg-gradient-to-r from-[#C58B63] via-[#E2C6AA] to-[#C58B63]" />
+
+      {/* ISI */}
+      <div className="px-7 pt-9 pb-7 flex flex-col items-center text-center">
+        {/* ICON */}
+        <div className="w-[72px] h-[72px] rounded-full bg-[#E2C6AA]/60 border border-[#713324]/10 flex items-center justify-center mb-5 shadow-inner">
+          <Image
+            src="/images/Wishes/Pesan.svg"
+            alt="Success"
+            width={34}
+            height={34}
+            className="object-contain opacity-90"
+          />
+        </div>
+
+        {/* TITLE */}
+        <h3 className="font-cylburn text-[30px] leading-none text-[#713324]">
+          Thank You
+        </h3>
+
+        {/* LINE */}
+        <div className="w-[70px] h-[1px] bg-[#713324]/30 my-4" />
+
+        {/* DESC */}
+        <p className="font-creators text-[12px] leading-[22px] text-[#713324]/85 max-w-[240px]">
+          Your wishes and prayers mean so much to us.
+          Thank you for sharing your kind words on our special day.
+        </p>
+
+        {/* BUTTON */}
+        <button
+          onClick={() => setShowPopup(false)}
+          className="mt-7 bg-[#713324] hover:bg-[#5c281c] active:scale-95 transition-all duration-300 text-[#FEF8EF] font-trajanRegular uppercase tracking-[1.5px] text-[11px] px-8 h-[38px] rounded-full shadow-md"
+        >
+          Close
+        </button>
+      </div>
+
+      {/* ORNAMEN BAWAH */}
+      <div className="absolute bottom-0 left-0 w-full h-[5px] bg-gradient-to-r from-[#C58B63] via-[#E2C6AA] to-[#C58B63]" />
+    </motion.div>
+  </div>
+)}
+
+
         <div className="flex flex-col items-center justify-center text-center gap-[40px] mt-[98px] z-10">
           <h2 className="text-[#713324] font-cylburn text-[42px]">Thank You</h2>
           <p className="font-creators text-[12px] text-[#713324] leading-[25px]">

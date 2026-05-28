@@ -66,17 +66,21 @@ import Gallery from "@/components/sections/Gallery";
 import Dresscode from "@/components/sections/Dresscode";
 import Rsvp from "@/components/sections/Rsvp";
 import Wishes from "@/components/sections/Wishes";
+
 export default function Home() {
   const [start, setStart] = useState<boolean>(false);
   const [showLoading, setShowLoading] = useState<boolean>(true);
   const { progress } = usePreloader();
 
+  // Opening mulai mount saat progress=100 (bersamaan LoadingScreen fade out)
+  // bukan menunggu LoadingScreen selesai hilang
+  const showOpening = progress === 100 && !showLoading && !start;
+
   return (
     <>
-      {/* KONTEN — selalu ada di DOM dari awal sebagai background */}
       <main className="block">
         <Header />
-        <Hero  />
+        <Hero start={start} />
         <Tentang />
         <LoveStory />
         <CountDown />
@@ -87,14 +91,13 @@ export default function Home() {
         <Wishes />
       </main>
 
-      {/* LOADING — ngambang di atas, pakai pointer-events none saat fade */}
       <LoadingScreen
         progress={progress}
         onDone={() => setShowLoading(false)}
       />
 
-      {/* OPENING — ngambang di atas konten, muncul setelah loading selesai */}
-      {!showLoading && !start && (
+      {/* Mount Opening bersamaan saat loading selesai (progress=100) */}
+      {progress === 100 && !start && (
         <Opening setStart={setStart} namaTamu="Sela" />
       )}
     </>

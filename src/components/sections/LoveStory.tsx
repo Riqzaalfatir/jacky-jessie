@@ -187,7 +187,8 @@ const LoveStory = () => {
                 stretched late into the night, and adventures across <br />
                 many cities. They made memories by the sea and in <br />
                 the mountains, dreamed of the future, and slowly <br />
-                realised they had found their perfect match in each other.
+                realised they had found their perfect match in each <br/>
+                other.
               </h3>
             </div>
 
@@ -203,7 +204,8 @@ const LoveStory = () => {
                 planner on steroids—scouting the perfect spot, arranging <br />
                 a violinist, and hiring a florist. To top it off, he flew in{" "}
                 <br />
-                two of Jessie's friends. The result? Tears, laughter, and a very
+                two of Jessie's friends. The result? Tears, laughter, and a  <br />
+                very
                 big "yes."
               </h3>
             </div>
