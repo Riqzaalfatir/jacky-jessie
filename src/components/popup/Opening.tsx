@@ -74,7 +74,7 @@ const Opening = ({ setStart, namaTamu = "Sela" }: OpeningProps) => {
             initial="hidden"
             animate="show"
             exit="exit"
-            className="relative bg-[#EADCC8] rounded-xl md:rounded-2xl overflow-hidden w-[290px] md:w-[416px] shadow-xl flex flex-col z-[100]"
+            className="relative bg-[#EADCC8] rounded-xl md:rounded-2xl overflow-hidden w-[290px] md:w-[416px] shadow-xl flex flex-col z-[100] [box-shadow:0px_8px_11.6px_0px_rgba(0,0,0,0.54)]"
           >
             {/* FOTO */}
             <div className="relative w-full h-[180px] md:h-[220px] overflow-hidden z-10">
@@ -93,6 +93,11 @@ const Opening = ({ setStart, namaTamu = "Sela" }: OpeningProps) => {
               <Image src="/images/Opening/Pohon-Golden.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-[65px] -left-[10px] w-[61px] z-[1]" />
               <Image src="/images/Opening/Pohon-GoldenKanan.png" alt="Pohon Golden" width={761} height={163} className="absolute top-[110px] right-[0px] w-[61px] z-[1]" />
               <Image src="/images/Opening/Aset-KiriBawah..png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-0 w-[151px] z-[1]" />
+              <Image src="/images/Opening/Daun-Akar.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-8 w-[80px] z-[0]" />
+              <Image src="/images/Opening/Daun-Akar.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-20 w-[70px] z-[0]" />
+              <Image src="/images/Opening/Daun-Akar.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-32 w-[70px] z-[0]" />
+              <Image src="/images/Opening/Daun-Akar.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-36 w-[70px] z-[0]" />
+              <Image src="/images/Opening/Aset-Tambahan.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-4 w-[171px] z-[1]" />
               <Image src="/images/Opening/Aset-KananBawah.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 right-0 w-[151px] z-[1]" />
 
               <p className="relative z-[2] text-[10px] text-[#713324] font-creators tracking-wide">THE WEDDING OF</p>
