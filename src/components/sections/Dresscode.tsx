@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Dresscode = () => {
   return (
-    <section id='dresscode' className='relative w-full pt-[96px] pb-[74px]'>
+    <section id='dresscode' className='relative w-full pt-[66px] pb-[74px]'>
         {/* Background Image */}
               <Image
                 src="/images/Dresscode/Bg-Dresscode.png"

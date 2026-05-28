@@ -30,7 +30,14 @@ const Rsvp = () => {
 
   return (
     <>
-      <section id="rsvp" className="w-full pt-[72px] pb-[85px] bg-[#935D3B]">
+      <section id="rsvp" className="relative w-full pt-[72px] pb-[85px] bg-[#935D3B]">
+         <Image
+                src="/images/Rsvp/Layer-Rsvp.webp"
+                alt="Hero Background"
+                fill
+                className="object-cover"
+                priority
+              />
         <div className="flex flex-col items-center justify-center leading-none text-center tracking-wide">
           <h1 className="font-cylburn text-[42px] text-[#FEF8EF]">Rsvp</h1>
 
@@ -89,8 +96,8 @@ const Rsvp = () => {
           </button>
 
           <p className="font-creators text-[10px] text-[#FEF8EF] mt-[54px]">
-            If you need assistance with your RSVP,{" "}
-            <span className="block mt-2">please contact our support team.</span>
+            If you need assistance with your RSVP,
+            <span className="block mt-1">please contact our support team.</span>
           </p>
 
           <a

@@ -52,7 +52,7 @@ const Hero = () => {
         alt="Pohon Golden Kiri Bawah"
         width={460}
         height={282}
-        className="absolute bottom-0 left-0 w-[38vw] z-[1]"
+        className="absolute bottom-0 left-0 w-[38vw] z-[3]"
       />
 
       {/* Daun Pandan */}
@@ -61,7 +61,7 @@ const Hero = () => {
         alt="Daun Pandan"
         width={80}
         height={81}
-        className="absolute bottom-0 -left-[10vw] w-[34.7vw] z-[2]"
+        className="absolute bottom-0 -left-[10vw] w-[34.7vw] z-[4]"
       />
 
       {/* Pohon Buah Merah Kiri */}
@@ -75,7 +75,7 @@ const Hero = () => {
 
       {/* Bunga Mawar Putih */}
       <Image
-      src="/images/Hero/Mawar-Putih.png"
+        src="/images/Hero/Mawar-Putih.png"
         alt="Bunga Mawar Putih"
         width={570}
         height={70}
@@ -84,7 +84,7 @@ const Hero = () => {
 
       {/* Bunga Mawar Kuning */}
       <Image
-      src="/images/Hero/MawarKuning..png"
+        src="/images/Hero/MawarKuning..png"
         alt="Bunga Mawar Kuning"
         width={580}
         height={80}
@@ -105,7 +105,7 @@ const Hero = () => {
         src="/images/Hero/Pohon-Akar.png"
         alt="Pohon Akar"
         width={520}
-       height={80}
+        height={80}
         className="absolute bottom-0 left-[30.5vw] w-[27.8vw] z-[1]"
       />
 
@@ -138,7 +138,7 @@ const Hero = () => {
 
       {/* Bunga Mawar Putih */}
       <Image
-      src="/images/Hero/Mawar-Putih.png"
+        src="/images/Hero/Mawar-Putih.png"
         alt="Bunga Mawar Putih"
         width={500}
         height={80}
@@ -147,21 +147,20 @@ const Hero = () => {
 
       {/* Bunga Mawar Kuning */}
       <Image
-      src="/images/Hero/MawarKuning..png"
+        src="/images/Hero/MawarKuning..png"
         alt="Bunga Mawar Kuning"
-        width={200}
+        width={500}
         height={80}
-        className="absolute bottom-0 left-[85.5vw] w-[20vw] z-[2]"
+        className="absolute bottom-0 left-[82vw] w-[18vw] z-[3]"
       />
 
       {/* Pohon-BungaMerah */}
       <Image
-              src="/images/Hero/Buah-MerahKiri.png"
-
+        src="/images/Hero/Buah-MerahKiri.png"
         alt="Bunga Bunga Merah"
         width={550}
         height={80}
-        className="absolute bottom-0 right-0 w-[30vw] z-[1]"
+        className="absolute bottom-0 right-[1vw] w-[29vw] z-[1] scale-x-[-1]"
       />
 
       {/* Pohon Golden Kanan */}
@@ -188,7 +187,7 @@ const Hero = () => {
         alt="Dedaunan Belakang"
         width={520}
         height={80}
-        className="absolute bottom-0 right-[20vw] w-[43vw] z-[0]"
+        className="absolute bottom-0 right-[22vw] w-[43vw] z-[0]"
       />
 
       {/* Dedaunan Belakang Kiri */}
@@ -197,8 +196,20 @@ const Hero = () => {
         alt="Dedaunan Belakang"
         width={550}
         height={80}
-        className="absolute bottom-0 left-4 w-[55vw] z-[0]"
+        className="absolute bottom-0 left-0 w-[55vw] z-[0]"
       />
+
+      {/* Kunang Kunang */}
+      {/* <video
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="absolute bottom-0 w-full h-[80vw] z-[2] object-cover pointer-events-none"
+  style={{ mixBlendMode: "screen", filter: "brightness(3) saturate(2)" }}
+>
+  <source src="/images/Hero/kunang2.mp4" type="video/mp4" />
+</video> */}
 
       {/* KUPU KUPU */}
       {/* kupu kupu 1 */}

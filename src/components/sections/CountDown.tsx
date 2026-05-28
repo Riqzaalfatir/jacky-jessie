@@ -46,10 +46,10 @@ const CountDown = () => {
       className="relative w-full pt-[48px] pb-[51px] bg-[#935D3B]"
     >
       <Image
-        src="/images/Countdown/Layer.png"
+        src="/images/Countdown/Layer-Countdown.png"
         alt="Hero Background"
         fill
-        className="object-cover object-top"
+        className="object-cover"
         priority
       />
       

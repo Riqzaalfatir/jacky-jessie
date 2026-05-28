@@ -58,7 +58,7 @@ const Wishes = () => {
     <>
       <section
         id="wishes"
-        className="relative w-full flex flex-col items-center px-8 bg-[#F7F4EF] pt-[190px] pb-[220px] lg:pt-[100px] lg:pb-[132px] overflow-x-hidden"
+        className="relative w-full flex flex-col items-center px-8 bg-[#F7F4EF] pt-[48.7vw] pb-[56.4vw]  overflow-x-hidden"
       >
         {/* Background Image */}
         <Image
@@ -69,13 +69,41 @@ const Wishes = () => {
           priority
         />
 
+        {/* KUPU KUPU */}
+              {/* kupu kupu 1 */}
+              <Image
+                src="/images/Hero/KupuKupu-1.gif"
+                alt="Kupu Kupu 1"
+                width={50}
+                height={80}
+                className="absolute bottom-[20vw] left-[21vw] w-[12vw] z-[5]"
+              />
+
+              {/* kupu kupu 1 */}
+              <Image
+                src="/images/Hero/KupuKupu-2.gif"
+                alt="Kupu Kupu 1"
+                width={50}
+                height={80}
+                className="absolute top-[35vw] left-[7vw] w-[14vw] z-[5]"
+              />
+
+              {/* Kupu Kupu 4 */}
+                    <Image
+                      src="/images/Hero/KupuKupu-3.gif"
+                      alt="Kupu Kupu 4"
+                      width={50}
+                      height={80}
+                      className="absolute bottom-[73vw] right-[16vw] w-[10vw] z-[5]"
+                    />
+
         {/* Ranting Kanan Atas */}
         <Image
           src="/images/Wishes/Ranting-KananAtas.webp"
           alt="Pohon Kanan Atas"
           width={551}
           height={205}
-          className="absolute top-0 right-0 w-[67vw]"
+          className="absolute top-[2vw] right-0 w-[60vw]"
         />
 
         {/* Pohon Golden Kanan */}
@@ -121,7 +149,15 @@ const Wishes = () => {
           alt="Dedaunan Belakang"
           width={550}
           height={80}
-          className="absolute bottom-0 -left-[5vw] w-[54vw] z-[2]"
+          className="absolute bottom-0 -left-[4vw] w-[65vw] z-[2]"
+        />
+
+        <Image
+          src="/images/Time/Dedaunan-BelakangKiri.png"
+          alt="Dedaunan Belakang"
+          width={550}
+          height={80}
+          className="absolute bottom-0 left-[24vw] w-[57vw] z-[1] opacity-60"
         />
 
         {/* Dedaunan Belakang Kanan */}
@@ -130,7 +166,7 @@ const Wishes = () => {
           alt="Dedaunan Belakang"
           width={550}
           height={80}
-          className="absolute bottom-0 right-[0vw] w-[25vw] z-[3]"
+          className="absolute bottom-0 right-[0vw] w-[33vw] z-[3]"
         />
 
         {/* Pohon Buah Merah Kiri */}

@@ -6,18 +6,25 @@ const Tentang = () => {
   return (
     <section
       id="tentang"
-      className="relative w-full pt-[42.3vw]  bg-[#FEF8EF] overflow-x-hidden"
+      className="relative w-full pt-[42.3vw]  bg-[#EADCC8] overflow-x-hidden"
       // pt: 165/390*100 = 42.3vw | pb: 267/390*100 = 68.5vw
     >
       {/* ASET BAGIAN ATAS */}
+      <Image
+              src="/images/Hero/Burung.gif"
+              alt="Burung"
+              width={400}
+              height={150}
+              className="absolute top-[5px] w-[102.6vw]"
+            />
 
       {/* Pohon Golden Kanan */}
       <Image
-        src="/images/Hero/svg/Pohon-GoldenKanan.svg"
+        src="/images/Tentang/Pohon-goldenKanan.png"
         alt="Pohon Golden Kanan"
-        width={50}
+        width={550}
         height={80}
-        className="absolute top-[74vw] right-0 w-[30vw] z-[1]"
+        className="absolute top-[84vw] right-0 w-[30vw] z-[1]"
       />
       {/* Ranting Kiri Atas */}
       <Image
@@ -25,7 +32,7 @@ const Tentang = () => {
         alt="Ranting Kiri Atas"
         width={538}
         height={238}
-        className="absolute -top-[64.1vw] left-0 w-[63vw]"
+        className="absolute -top-[63vw] left-0 w-[63vw]"
         // -top: 250/390*100 = 64.1vw | w: 238/390*100 = 61vw
       />
 
@@ -35,7 +42,7 @@ const Tentang = () => {
         alt="Ranting Kanan Atas"
         width={538}
         height={238}
-        className="absolute -top-[64.1vw] right-0 w-[61vw]"
+        className="absolute -top-[61.1vw] right-0 w-[61vw]"
       />
 
       {/* Ranting Kiri Tengah */}
@@ -68,33 +75,41 @@ const Tentang = () => {
         className="absolute bottom-0 -left-[30vw] w-[90vw] z-[0]"
       />
 
+      <Image
+        src="/images/LoveStory/Dedaunan.png"
+        alt="Dedaunan Belakang"
+        width={550}
+        height={80}
+        className="absolute bottom-0 left-[0vw] w-[82vw] z-[0] opacity-50"
+      />
+
       {/* Daun Pandan dari aset hero */}
       <Image
-        src="/images/Hero/svg/Daun-Pandan.svg"
+        src="/images/Hero/Daun-Pandan.png"
         alt="Daun Pandan"
-        width={147}
+        width={547}
         height={81}
-        className="absolute bottom-0 -left-[12.7vw] w-[32vw] z-[2]"
+        className="absolute bottom-0 -left-[16vw] w-[33vw] z-[2]"
         // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
       />
 
       {/* Pohon Buah Merah Kiri dari aset hero */}
       <Image
-        src="/images/Hero/svg/Pohon-BuahMerah1.svg"
+        src="/images/Hero/Buah-MerahKiri.png"
         alt="Pohon Buah Merah"
-        width={160}
+        width={560}
         height={120}
-        className="absolute bottom-0 -left-[9vw] w-[35vw] z-[1]"
+        className="absolute bottom-0 -left-[10.5vw] w-[38vw] z-[1]"
         // -left: 35/390*100 = 9vw | w: 160/390*100 = 41vw
       />
 
       {/* Daun Pandan dari aset hero */}
       <Image
-        src="/images/Hero/svg/Daun-Pandan.svg"
+        src="/images/Hero/Daun-Pandan.png"
         alt="Daun Pandan"
-        width={107}
+        width={507}
         height={81}
-        className="absolute bottom-0 left-[3vw] w-[27.4vw] z-[2]"
+        className="absolute bottom-0 left-[3vw] w-[26vw] z-[2]"
         // left: 25/390*100 = 6.4vw | w: 107/390*100 = 27.4vw
       />
 
@@ -136,11 +151,11 @@ const Tentang = () => {
 
       {/* Daun Pandan dari aset hero */}
       <Image
-        src="/images/Hero/svg/Daun-Pandan.svg"
+        src="/images/Hero/Daun-Pandan.png"
         alt="Daun Pandan"
-        width={107}
+        width={507}
         height={81}
-        className="absolute bottom-0 left-[36vw] w-[37vw] z-[2]"
+        className="absolute bottom-0 left-[36vw] w-[30vw] z-[2]"
       />
 
       {/* Pohon Bunga Kecil */}
@@ -158,7 +173,7 @@ const Tentang = () => {
         alt="Bunga Mawar Kuning"
         width={500}
         height={80}
-        className="absolute bottom-0 left-[67vw] w-[12vw] z-[2]"
+        className="absolute bottom-0 left-[67vw] w-[18vw] z-[2]"
       />
 
       {/* Bunga Mawar Putih */}
@@ -167,7 +182,7 @@ const Tentang = () => {
         alt="Pohon Akar"
         width={520}
         height={80}
-        className="absolute bottom-0 left-[71.5vw] w-[15vw] z-[2]"
+        className="absolute bottom-0 left-[77vw] w-[17vw] z-[2]"
       />
       {/* Pohon Buah Merah Kiri dari aset hero */}
       <Image
@@ -195,14 +210,29 @@ const Tentang = () => {
         height={80}
         className="absolute bottom-0 right-0 w-[35vw] z-[1]"
       />
-
-      {/* Bunga Kanan */}
       <Image
-        src="/images/Tentang/Ranting.svg"
+        src="/images/Tentang/Daun-BelakangKanan.png"
         alt="Pohon Akar"
         width={520}
         height={80}
-        className="absolute bottom-0 right-1 w-[42vw] z-[1]"
+        className="absolute bottom-0 right-0 w-[35vw] z-[1]"
+      />
+
+      <Image
+        src="/images/Tentang/Daun-BelakangKanan.png"
+        alt="Pohon Akar"
+        width={520}
+        height={80}
+        className="absolute bottom-0 right-[15vw] w-[25vw] z-[0]"
+      />
+
+      {/* Bunga Kanan */}
+      <Image
+        src="/images/Tentang/Ranting.png"
+        alt="Pohon Akar"
+        width={520}
+        height={80}
+        className="absolute bottom-0 right-3 w-[42vw] z-[1]"
       />
 
       {/* Pohon Kanan bAWAH */}
@@ -214,6 +244,34 @@ const Tentang = () => {
         className="absolute bottom-0 right-0 w-[37vw] z-[0]"
         // w: 160/390*100 = 41vw
       />
+
+      {/* Kupu Kupu 2 */}
+            <Image
+              src="/images/Hero/KupuKupu-2.gif"
+              alt="Kupu Kupu 2"
+              width={50}
+              height={80}
+              className="absolute top-[47vw] right-[1.5vw] w-[12vw] z-[5]"
+            />
+
+            {/* kupu kupu 1 */}
+                  <Image
+                    src="/images/Hero/KupuKupu-1.gif"
+                    alt="Kupu Kupu 1"
+                    width={50}
+                    height={80}
+                    className="absolute bottom-[23vw] left-[21vw] w-[11vw] z-[5]"
+                  />
+
+                  {/* Kupu Kupu 3 */}
+                        <Image
+                          src="/images/Hero/KupuKupu-3.gif"
+                          alt="Kupu Kupu 3"
+                          width={50}
+                          height={80}
+                          className="absolute bottom-[123vw] left-[10vw] w-[11vw] z-[5]"
+                        />
+             
 
       {/* KONTEN - TIDAK DIUBAH */}
       <div className="relative z-10 flex flex-col items-center justify-center leading-none text-center">
@@ -275,7 +333,7 @@ const Tentang = () => {
           </p>
         </div>
 
-        <p className="font-creators text-[12px] text-[#713324] mt-[46px] pb-[171px] tracking-wide leading-[20px]">
+        <p className="font-creators text-[12px] text-[#713324] mt-[46px] pb-[68.5vw] tracking-wide leading-[20px]">
           We would be honoured
           <br />
           by your presence and blessing.

@@ -5,7 +5,7 @@ const TimeLocation = () => {
   return (
     <section
       id="time"
-      className="relative w-full pt-[212px] pb-[320px] overflow-x-hidden"
+      className="bg-[#EADCC8] relative w-full pt-[54.4vw] pb-[82.1vw] overflow-x-hidden"
     >
       {/* ASET BAGIAN ATAS */}
       {/* Ranting Atas Kiri */}
@@ -15,6 +15,22 @@ const TimeLocation = () => {
         width={558}
         height={211}
         className="absolute top-0 left-0 w-[64.2vw] z-0"
+      />
+
+      <Image
+        src="/images/Time/Capung.svg"
+        alt="Pohon Kiri Atas"
+        width={558}
+        height={211}
+        className="absolute top-[50vw] left-[4vw] w-[14vw] z-0"
+      />
+
+      <Image
+        src="/images/Time/Capung.svg"
+        alt="Pohon Kiri Atas"
+        width={558}
+        height={211}
+        className="absolute bottom-[22vw] left-[32vw] w-[18vw] z-0 scale-x-[-1]"
       />
 
       {/* Ranting Atas Kanan */}
@@ -87,7 +103,7 @@ const TimeLocation = () => {
         alt="Dedaunan Belakang"
         width={550}
         height={80}
-        className="absolute bottom-0 right-[12vw] w-[80vw] z-[0]"
+        className="absolute bottom-0 right-[12vw] w-[60vw] z-[0]"
       />
 
       {/* Dedaunan Belakang Kanan */}
@@ -96,7 +112,7 @@ const TimeLocation = () => {
         alt="Dedaunan Belakang"
         width={550}
         height={80}
-        className="absolute bottom-0 -right-[10vw] w-[75vw] z-[0]"
+        className="absolute bottom-0 -right-[10vw] w-[60vw] z-[0]"
       />
       {/* Pohon Akar */}
       <Image
@@ -122,16 +138,16 @@ const TimeLocation = () => {
         alt="Bunga Mawar Putih"
         width={570}
         height={70}
-        className="absolute bottom-0 left-[23vw] w-[32vw] z-[5]"
+        className="absolute bottom-0 left-[23vw] w-[32vw] z-[7]"
       />
 
       {/* Pohon Buah Merah Kiri */}
       <Image
-        src="/images/Hero/Buah-MerahKiri.png"
+        src="/images/LoveStory/Pohon-BungaMerah.png"
         alt="Pohon Buah Merah"
         width={550}
         height={120}
-        className="absolute bottom-0 left-[38vw] w-[40vw] z-[5]"
+        className="absolute bottom-0 left-[38vw] w-[45vw] z-[5]"
       />
 
       {/* Daun Pandan dari aset hero */}
@@ -167,7 +183,7 @@ const TimeLocation = () => {
         alt="Dedaunan Belakang"
         width={550}
         height={80}
-        className="absolute bottom-0 right-[7vw] w-[55vw] z-[1]"
+        className="absolute bottom-0 right-[7vw] w-[25vw] z-[1]"
       />
       {/* Dedaunan Belakang Kanan */}
       <Image
@@ -175,7 +191,7 @@ const TimeLocation = () => {
         alt="Dedaunan Belakang"
         width={550}
         height={80}
-        className="absolute bottom-0 -right-[18vw] w-[55vw] z-[1]"
+        className="absolute bottom-0 -right-[18vw] w-[45vw] z-[1]"
       />
 
       {/* KONTEN */}
