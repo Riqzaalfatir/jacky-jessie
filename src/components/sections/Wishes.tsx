@@ -70,32 +70,32 @@ const Wishes = () => {
         />
 
         {/* KUPU KUPU */}
-              {/* kupu kupu 1 */}
-              <Image
-                src="/images/Hero/KupuKupu-1.gif"
-                alt="Kupu Kupu 1"
-                width={50}
-                height={80}
-                className="absolute bottom-[20vw] left-[21vw] w-[12vw] z-[5]"
-              />
+        {/* kupu kupu 1 */}
+        <Image
+          src="/images/Hero/KupuKupu-1.gif"
+          alt="Kupu Kupu 1"
+          width={50}
+          height={80}
+          className="absolute bottom-[20vw] left-[21vw] w-[12vw] z-[5]"
+        />
 
-              {/* kupu kupu 1 */}
-              <Image
-                src="/images/Hero/KupuKupu-2.gif"
-                alt="Kupu Kupu 1"
-                width={50}
-                height={80}
-                className="absolute top-[35vw] left-[7vw] w-[14vw] z-[5]"
-              />
+        {/* kupu kupu 1 */}
+        <Image
+          src="/images/Hero/KupuKupu-2.gif"
+          alt="Kupu Kupu 1"
+          width={50}
+          height={80}
+          className="absolute top-[35vw] left-[7vw] w-[14vw] z-[5]"
+        />
 
-              {/* Kupu Kupu 4 */}
-                    <Image
-                      src="/images/Hero/KupuKupu-3.gif"
-                      alt="Kupu Kupu 4"
-                      width={50}
-                      height={80}
-                      className="absolute bottom-[73vw] right-[16vw] w-[10vw] z-[5]"
-                    />
+        {/* Kupu Kupu 4 */}
+        <Image
+          src="/images/Hero/KupuKupu-3.gif"
+          alt="Kupu Kupu 4"
+          width={50}
+          height={80}
+          className="absolute bottom-[73vw] right-[16vw] w-[10vw] z-[5]"
+        />
 
         {/* Ranting Kanan Atas */}
         <Image
@@ -108,8 +108,7 @@ const Wishes = () => {
 
         {/* Pohon Golden Kanan */}
         <Image
-                src="/images/Hero/Pohon-GoldenKanan.png"
-
+          src="/images/Hero/Pohon-GoldenKanan.png"
           alt="Pohon Golden Kanan"
           width={550}
           height={80}
@@ -180,7 +179,7 @@ const Wishes = () => {
 
         {/* Daun Pandan dari aset hero */}
         <Image
-        src="/images/Hero/Daun-Pandan.png"
+          src="/images/Hero/Daun-Pandan.png"
           alt="Daun Pandan"
           width={547}
           height={81}
@@ -190,8 +189,7 @@ const Wishes = () => {
 
         {/* Daun Pandan dari aset hero */}
         <Image
-                  src="/images/Hero/Daun-Pandan.png"
-
+          src="/images/Hero/Daun-Pandan.png"
           alt="Daun Pandan"
           width={547}
           height={81}
@@ -201,8 +199,7 @@ const Wishes = () => {
 
         {/* Pohon Akar */}
         <Image
-                src="/images/Hero/Pohon-Akar.png"
-
+          src="/images/Hero/Pohon-Akar.png"
           alt="Pohon Akar"
           width={520}
           height={80}
@@ -211,7 +208,7 @@ const Wishes = () => {
 
         {/* Bunga Mawar Putih */}
         <Image
-      src="/images/Hero/Mawar-Putih.png"
+          src="/images/Hero/Mawar-Putih.png"
           alt="Bunga Mawar Putih"
           width={570}
           height={70}
@@ -220,7 +217,7 @@ const Wishes = () => {
 
         {/* Bunga Mawar Kuning */}
         <Image
-      src="/images/Hero/MawarKuning..png"
+          src="/images/Hero/MawarKuning..png"
           alt="Bunga Mawar Kuning"
           width={580}
           height={80}
@@ -231,7 +228,7 @@ const Wishes = () => {
 
         {/* Daun Pandan dari aset hero */}
         <Image
-        src="/images/Hero/Daun-Pandan.png"
+          src="/images/Hero/Daun-Pandan.png"
           alt="Daun Pandan"
           width={547}
           height={81}
@@ -248,7 +245,7 @@ const Wishes = () => {
 
         {/* Pohon Bunga Kecil */}
         <Image
-        src="/images/Hero/Pohon-BungaKecil.png"
+          src="/images/Hero/Pohon-BungaKecil.png"
           alt="Pohon Bunga Kecil"
           width={500}
           height={80}
@@ -257,7 +254,7 @@ const Wishes = () => {
 
         {/* Bunga Mawar Kuning */}
         <Image
-      src="/images/Hero/MawarKuning..png"
+          src="/images/Hero/MawarKuning..png"
           alt="Bunga Mawar Kuning"
           width={580}
           height={80}
@@ -266,7 +263,7 @@ const Wishes = () => {
 
         {/* Bunga Mawar Putih */}
         <Image
-      src="/images/Hero/Mawar-Putih.png"
+          src="/images/Hero/Mawar-Putih.png"
           alt="Bunga Mawar Putih"
           width={570}
           height={70}
@@ -274,7 +271,7 @@ const Wishes = () => {
         />
         {/* Pohon Bunga Kecil */}
         <Image
-        src="/images/Hero/Pohon-BungaKecil.png"
+          src="/images/Hero/Pohon-BungaKecil.png"
           alt="Pohon Bunga Kecil"
           width={500}
           height={80}
@@ -402,28 +399,28 @@ const Wishes = () => {
                     >
                       <div className="grid grid-cols-2 gap-[2vw] lg:gap-[1.5vw] item-start">
                         {pesanList.map((item) => (
-                         // ✅ BENAR
-<motion.div
-  key={item.id}
-  variants={fadeIn}
-  transition={{ duration: 1.3, ease: "easeOut" }}
-  onClick={() => setSelectedMessage(item)}
-  className="rounded-md overflow-hidden shadow-md bg-[#7A4D2F] flex flex-col cursor-pointer active:scale-95 transition-transform duration-150"
->
-  <div className="p-[10px] relative flex-1 flex flex-col justify-center">
-    <p className="absolute top-[8px] left-[10px] text-[32px] font-bold font-cylburn text-[#FEF8EF]">
-      "
-    </p>
-    <p className="font-creators text-[10px] text-[#FEF8EF]/90 text-center mt-6 mb-2 line-clamp-4">
-      {item.pesan}
-    </p>
-  </div>
-  <div className="bg-[#5C3520] h-[35px] flex items-center justify-center px-4">
-    <p className="text-[#FEF8EF] text-center line-clamp-1 text-[11px] font-creators">
-      {item.nama}
-    </p>
-  </div>
-</motion.div>
+                          // ✅ BENAR
+                          <motion.div
+                            key={item.id}
+                            variants={fadeIn}
+                            transition={{ duration: 1.3, ease: "easeOut" }}
+                            onClick={() => setSelectedMessage(item)}
+                            className="rounded-md overflow-hidden shadow-md bg-[#7A4D2F] flex flex-col cursor-pointer active:scale-95 transition-transform duration-150"
+                          >
+                            <div className="p-[10px] relative flex-1 flex flex-col justify-center">
+                              <p className="absolute top-[8px] left-[10px] text-[32px] font-bold font-cylburn text-[#FEF8EF]">
+                                "
+                              </p>
+                              <p className="font-creators text-[10px] text-[#FEF8EF]/90 text-center mt-6 mb-2 line-clamp-4">
+                                {item.pesan}
+                              </p>
+                            </div>
+                            <div className="bg-[#5C3520] h-[35px] flex items-center justify-center px-4">
+                              <p className="text-[#FEF8EF] text-center line-clamp-1 text-[11px] font-creators">
+                                {item.nama}
+                              </p>
+                            </div>
+                          </motion.div>
                         ))}
                       </div>
                     </motion.div>
@@ -463,70 +460,88 @@ const Wishes = () => {
         </div>
 
         {/* POPUP KETIKA PESAN DIKIRIM */}
-       
-{/* POPUP KETIKA PESAN DIKIRIM */}
-{showPopup && (
-  <div className="fixed inset-0 z-[999] flex items-center justify-center bg-[#2E1D14]/40 backdrop-blur-[4px] px-6">
-    <motion.div
-      initial={{ opacity: 0, scale: 0.9, y: 20 }}
-      animate={{ opacity: 1, scale: 1, y: 0 }}
-      exit={{ opacity: 0, scale: 0.9, y: 20 }}
-      transition={{ duration: 0.45, ease: "easeOut" }}
-      className="relative overflow-hidden rounded-[28px] border border-[#713324]/20 bg-[#F6EBDD]/95 shadow-[0_10px_40px_rgba(113,51,36,0.18)] w-full max-w-[330px]"
-    >
-      {/* ORNAMEN ATAS */}
-      <div className="absolute top-0 left-0 w-full h-[6px] bg-gradient-to-r from-[#C58B63] via-[#E2C6AA] to-[#C58B63]" />
 
-      {/* ISI */}
-      <div className="px-7 pt-9 pb-7 flex flex-col items-center text-center">
-        {/* ICON */}
-        <div className="w-[72px] h-[72px] rounded-full bg-[#E2C6AA]/60 border border-[#713324]/10 flex items-center justify-center mb-5 shadow-inner">
-          <Image
-            src="/images/Wishes/Pesan.svg"
-            alt="Success"
-            width={34}
-            height={34}
-            className="object-contain opacity-90"
-          />
-        </div>
+        {/* POPUP KETIKA PESAN DIKIRIM */}
+        {showPopup && (
+          <div className="fixed inset-0 z-[999] flex items-center justify-center bg-[#2E1D14]/40 backdrop-blur-[4px] px-6">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.9, y: 20 }}
+              transition={{ duration: 0.45, ease: "easeOut" }}
+              className="relative overflow-hidden rounded-[28px] border border-[#713324]/20 bg-[#F6EBDD]/95 shadow-[0_10px_40px_rgba(113,51,36,0.18)] w-full max-w-[330px]"
+            >
+              {/* ORNAMEN ATAS */}
+              <div className="absolute top-0 left-0 w-full h-[6px] bg-gradient-to-r from-[#C58B63] via-[#E2C6AA] to-[#C58B63]" />
 
-        {/* TITLE */}
-        <h3 className="font-cylburn text-[30px] leading-none text-[#713324]">
-          Thank You
-        </h3>
+              {/* ISI */}
+              <div className="px-7 pt-9 pb-7 flex flex-col items-center text-center">
+                {/* ICON */}
+                <div className="w-[72px] h-[72px] rounded-full bg-[#E2C6AA]/60 border border-[#713324]/10 flex items-center justify-center mb-5 shadow-inner">
+                  <Image
+                    src="/images/Wishes/Pesan.svg"
+                    alt="Success"
+                    width={34}
+                    height={34}
+                    className="object-contain opacity-90"
+                  />
+                </div>
 
-        {/* LINE */}
-        <div className="w-[70px] h-[1px] bg-[#713324]/30 my-4" />
+                {/* TITLE */}
+                <h3 className="font-cylburn text-[30px] leading-none text-[#713324]">
+                  Thank You
+                </h3>
 
-        {/* DESC */}
-        <p className="font-creators text-[12px] leading-[22px] text-[#713324]/85 max-w-[240px]">
-          Your wishes and prayers mean so much to us.
-          Thank you for sharing your kind words on our special day.
-        </p>
+                {/* LINE */}
+                <div className="w-[70px] h-[1px] bg-[#713324]/30 my-4" />
 
-        {/* BUTTON */}
-        <button
-          onClick={() => setShowPopup(false)}
-          className="mt-7 bg-[#713324] hover:bg-[#5c281c] active:scale-95 transition-all duration-300 text-[#FEF8EF] font-trajanRegular uppercase tracking-[1.5px] text-[11px] px-8 h-[38px] rounded-full shadow-md"
-        >
-          Close
-        </button>
-      </div>
+                {/* DESC */}
+                <p className="font-creators text-[12px] leading-[22px] text-[#713324]/85 max-w-[240px]">
+                  Your wishes and prayers mean so much to us. Thank you for
+                  sharing your kind words on our special day.
+                </p>
 
-      {/* ORNAMEN BAWAH */}
-      <div className="absolute bottom-0 left-0 w-full h-[5px] bg-gradient-to-r from-[#C58B63] via-[#E2C6AA] to-[#C58B63]" />
-    </motion.div>
-  </div>
-)}
+                {/* BUTTON */}
+                <button
+                  onClick={() => setShowPopup(false)}
+                  className="mt-7 bg-[#713324] hover:bg-[#5c281c] active:scale-95 transition-all duration-300 text-[#FEF8EF] font-trajanRegular uppercase tracking-[1.5px] text-[11px] px-8 h-[38px] rounded-full shadow-md"
+                >
+                  Close
+                </button>
+              </div>
 
+              {/* ORNAMEN BAWAH */}
+              <div className="absolute bottom-0 left-0 w-full h-[5px] bg-gradient-to-r from-[#C58B63] via-[#E2C6AA] to-[#C58B63]" />
+            </motion.div>
+          </div>
+        )}
 
         <div className="flex flex-col items-center justify-center text-center gap-[40px] mt-[98px] z-10">
-          <h2 className="text-[#713324] font-cylburn text-[42px]">Thank You</h2>
-          <p className="font-creators text-[12px] text-[#713324] leading-[25px]">
-            for being part of our journey. <br />
-            We look forward to celebrating love, <br />
-            laughter, and happily ever after with you!
-          </p>
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <h2 className="text-[#713324] font-cylburn text-[42px]">
+              Thank You
+            </h2>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <p className="font-creators text-[12px] text-[#713324] leading-[25px]">
+              for being part of our journey. <br />
+              We look forward to celebrating love, <br />
+              laughter, and happily ever after with you!
+            </p>
+          </motion.div>
         </div>
       </section>
 

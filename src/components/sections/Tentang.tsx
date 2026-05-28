@@ -1,22 +1,23 @@
 import React from "react";
 import Image from "next/image";
-
+import { motion } from "framer-motion";
+import { fadeUp, fadeIn, stagger } from "@/lib/animation";
 
 const Tentang = () => {
   return (
     <section
       id="tentang"
-      className="relative w-full pt-[42.3vw]  bg-[#EADCC8] overflow-x-hidden"
+      className="relative w-full pt-[42.3vw]  bg-[#EADCC8] overflow-x-hidden scrollbar-hide"
       // pt: 165/390*100 = 42.3vw | pb: 267/390*100 = 68.5vw
     >
       {/* ASET BAGIAN ATAS */}
       <Image
-              src="/images/Hero/Burung.gif"
-              alt="Burung"
-              width={400}
-              height={150}
-              className="absolute top-[5px] w-[102.6vw]"
-            />
+        src="/images/Hero/Burung.gif"
+        alt="Burung"
+        width={400}
+        height={150}
+        className="absolute top-[5px] w-[102.6vw]"
+      />
 
       {/* Pohon Golden Kanan */}
       <Image
@@ -142,7 +143,7 @@ const Tentang = () => {
 
       {/* Bunga Mawar Kuning aset dari hero */}
       <Image
-      src="/images/Hero/MawarKuning..png"
+        src="/images/Hero/MawarKuning..png"
         alt="Bunga Mawar Kuning"
         width={500}
         height={80}
@@ -169,7 +170,7 @@ const Tentang = () => {
 
       {/* Bunga Mawar Kuning aset dari hero */}
       <Image
-      src="/images/Hero/MawarKuning..png"
+        src="/images/Hero/MawarKuning..png"
         alt="Bunga Mawar Kuning"
         width={500}
         height={80}
@@ -246,98 +247,162 @@ const Tentang = () => {
       />
 
       {/* Kupu Kupu 2 */}
-            <Image
-              src="/images/Hero/KupuKupu-2.gif"
-              alt="Kupu Kupu 2"
-              width={50}
-              height={80}
-              className="absolute top-[47vw] right-[1.5vw] w-[12vw] z-[5]"
-            />
+      <Image
+        src="/images/Hero/KupuKupu-2.gif"
+        alt="Kupu Kupu 2"
+        width={50}
+        height={80}
+        className="absolute top-[47vw] right-[1.5vw] w-[12vw] z-[5]"
+      />
 
-            {/* kupu kupu 1 */}
-                  <Image
-                    src="/images/Hero/KupuKupu-1.gif"
-                    alt="Kupu Kupu 1"
-                    width={50}
-                    height={80}
-                    className="absolute bottom-[23vw] left-[21vw] w-[11vw] z-[5]"
-                  />
+      {/* kupu kupu 1 */}
+      <Image
+        src="/images/Hero/KupuKupu-1.gif"
+        alt="Kupu Kupu 1"
+        width={50}
+        height={80}
+        className="absolute bottom-[23vw] left-[21vw] w-[11vw] z-[5]"
+      />
 
-                  {/* Kupu Kupu 3 */}
-                        <Image
-                          src="/images/Hero/KupuKupu-3.gif"
-                          alt="Kupu Kupu 3"
-                          width={50}
-                          height={80}
-                          className="absolute bottom-[123vw] left-[10vw] w-[11vw] z-[5]"
-                        />
-             
+      {/* Kupu Kupu 3 */}
+      <Image
+        src="/images/Hero/KupuKupu-3.gif"
+        alt="Kupu Kupu 3"
+        width={50}
+        height={80}
+        className="absolute bottom-[123vw] left-[10vw] w-[11vw] z-[5]"
+      />
 
       {/* KONTEN - TIDAK DIUBAH */}
       <div className="relative z-10 flex flex-col items-center justify-center leading-none text-center">
-        <p className="font-creators text-[12px] text-[#713324] text-cente tracking-wide leading-[20px]">
-          By the Grace of Our God
-          <br />
-          We request the honour of your presence
-          <br />
-          of our wedding
-        </p>
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 1.8, ease: "easeOut" }}
+        >
+          <p className="font-creators text-[12px] text-[#713324] text-cente tracking-wide leading-[20px]">
+            By the Grace of Our God
+            <br />
+            We request the honour of your presence
+            <br />
+            of our wedding
+          </p>
+        </motion.div>
 
         {/* Pengantin Laki-Laki */}
-        <Image
-          src="/images/Tentang/Pengantin-Laki.png"
-          alt="Pengantin Laki-Laki"
-          width={200}
-          height={261}
-          className="mt-[26px]"
-        />
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 1.8, ease: "easeOut" }}
+        >
+          <Image
+            src="/images/Tentang/Pengantin-Laki.png"
+            alt="Pengantin Laki-Laki"
+            width={200}
+            height={261}
+            className="mt-[26px]"
+          />
+        </motion.div>
 
-        <h1 className="font-cylburn text-[40px] text-[#713324] mt-[49px]">
-          Jacky Steven Rusli
-        </h1>
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 1.8, ease: "easeOut" }}
+        >
+          <h1 className="font-cylburn text-[40px] text-[#713324] mt-[49px]">
+            Jacky Steven Rusli
+          </h1>
+        </motion.div>
 
-        <div className="flex flex-col items-center justify-center mt-[31px]">
-          <p className="font-creators text-[12px] text-[#713324] tracking-wide">
-            The Son of
-          </p>
-          <p className="font-creators text-[12px] text-[#713324] mt-3.5 tracking-wide">
-            Mr. AGUS RUSLI and
-          </p>
-          <p className="font-creators text-[12px] text-[#713324] mt-2 tracking-wide ">
-            Mrs. ONG KIE LIM (TRIDEWI)
-          </p>
-        </div>
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 1.8, ease: "easeOut" }}
+        >
+          <div className="flex flex-col items-center justify-center mt-[31px]">
+            <p className="font-creators text-[12px] text-[#713324] tracking-wide">
+              The Son of
+            </p>
+            <p className="font-creators text-[12px] text-[#713324] mt-3.5 tracking-wide">
+              Mr. AGUS RUSLI and
+            </p>
+            <p className="font-creators text-[12px] text-[#713324] mt-2 tracking-wide ">
+              Mrs. ONG KIE LIM (TRIDEWI)
+            </p>
+          </div>
+        </motion.div>
 
         {/* Pengantin Perempuan */}
-        <Image
-          src="/images/Tentang/Pengantin-Perempuan.png"
-          alt="Pengantin Perempuan"
-          width={200}
-          height={261}
-          className="mt-[45px]"
-        />
 
-        <h1 className="font-cylburn text-[40px] text-[#713324] mt-[43px]">
-          Jessie Andayani Santoso
-        </h1>
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 1.8, ease: "easeOut" }}
+        >
+          <Image
+            src="/images/Tentang/Pengantin-Perempuan.png"
+            alt="Pengantin Perempuan"
+            width={200}
+            height={261}
+            className="mt-[45px]"
+          />
+        </motion.div>
 
-        <div className="flex flex-col items-center justify-center mt-[24px] tracking-wide">
-          <p className="font-creators text-[12px] text-[#713324]">
-            The Daughter of
-          </p>
-          <p className="font-creators text-[12px] text-[#713324] mt-4">
-            Mr. WIBOWO SANTOSO and
-          </p>
-          <p className="font-creators text-[12px] text-[#713324] mt-2">
-            Mrs. IMELDA SIEN
-          </p>
-        </div>
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 1.8, ease: "easeOut" }}
+        >
+          <h1 className="font-cylburn text-[40px] text-[#713324] mt-[43px]">
+            Jessie Andayani Santoso
+          </h1>
+        </motion.div>
 
-        <p className="font-creators text-[12px] text-[#713324] mt-[46px] pb-[44vw] tracking-wide leading-[20px]">
-          We would be honoured
-          <br />
-          by your presence and blessing.
-        </p>
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 1.8, ease: "easeOut" }}
+        >
+          <div className="flex flex-col items-center justify-center mt-[24px] tracking-wide">
+            <p className="font-creators text-[12px] text-[#713324]">
+              The Daughter of
+            </p>
+            <p className="font-creators text-[12px] text-[#713324] mt-4">
+              Mr. WIBOWO SANTOSO and
+            </p>
+            <p className="font-creators text-[12px] text-[#713324] mt-2">
+              Mrs. IMELDA SIEN
+            </p>
+          </div>
+        </motion.div>
+
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 1.8, ease: "easeOut" }}
+        >
+          <p className="font-creators text-[12px] text-[#713324] mt-[46px] pb-[44vw] tracking-wide leading-[20px]">
+            We would be honoured
+            <br />
+            by your presence and blessing.
+          </p>
+        </motion.div>
       </div>
     </section>
   );
@@ -345,12 +410,8 @@ const Tentang = () => {
 
 export default Tentang;
 
-
-
-
 // import React from "react";
 // import Image from "next/image";
-
 
 // const Tentang = () => {
 //   return (

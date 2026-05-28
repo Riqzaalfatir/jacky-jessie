@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { fadeUp, fadeIn, stagger } from "@/lib/animation";
 
 const TimeLocation = () => {
   return (
@@ -134,7 +136,7 @@ const TimeLocation = () => {
 
       {/* Bunga Mawar Putih */}
       <Image
-      src="/images/Hero/Mawar-Putih.png"
+        src="/images/Hero/Mawar-Putih.png"
         alt="Bunga Mawar Putih"
         width={570}
         height={70}
@@ -162,7 +164,7 @@ const TimeLocation = () => {
 
       {/* Bunga Mawar Kuning */}
       <Image
-      src="/images/Hero/MawarKuning..png"
+        src="/images/Hero/MawarKuning..png"
         alt="Bunga Mawar Kuning"
         width={580}
         height={80}
@@ -196,34 +198,85 @@ const TimeLocation = () => {
 
       {/* KONTEN */}
       <div className="relative z-10 w-full flex flex-col items-center justify-center leading-none">
-        <h2 className="font-cylburn text-[42px] text-[#713324]">
-          Time & Location
-        </h2>
+        <motion.div
+          variants={fadeUp}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: true, amount: 0.25 }}
+          transition={{ duration: 1.8, ease: "easeOut" }}
+        >
+          <h2 className="font-cylburn text-[42px] text-[#713324]">
+            Time & Location
+          </h2>
+        </motion.div>
 
         <div className="flex flex-col items-center justify-center  text-center mt-[61px]">
-          <h3 className="font-creators text-[20px] text-[#713324] tracking-wide">
-            Catholic Holy Matrimony
-          </h3>
-          <div className="flex flex-col items-center justify-center mt-[27px] gap-4 tracking-wide">
-            <p className="font-creators text-[14px] text-[#713324]">
-              08.30 WIB
-            </p>
-            <p className="font-creators text-[14px] text-[#713324]">at</p>
-          </div>
-          <p className="font-creators text-[12px] text-[#713324] mt-[19px] leading-[20px] tracking-wide">
-            Gereja Katolik <br />
-            Paroki Bunda Tujuh Kedukaan, Pandu
-          </p>
-          <p className="font-creators text-[12px] text-[#713324] mt-5 tracking-wide">
-            Jl. Pandu No.4, Bandung
-          </p>
-          <a
-            href="https://www.google.com/maps/place/Gereja+Katolik+Paroki+Bunda+Tujuh+Kedukaan,+Pandu/@-6.9055223,107.5908405,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e66b9767b619:0x307eda200152ee3d!8m2!3d-6.9055223!4d107.5934154!16s%2Fg%2F122yh67w?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
-            target="_blank"
-            rel="noopener noreferrer"
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
           >
-            <button
-              className="
+            <h3 className="font-creators text-[20px] text-[#713324] tracking-wide">
+              Catholic Holy Matrimony
+            </h3>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <div className="flex flex-col items-center justify-center mt-[27px] gap-4 tracking-wide">
+              <p className="font-creators text-[14px] text-[#713324]">
+                08.30 WIB
+              </p>
+              <p className="font-creators text-[14px] text-[#713324]">at</p>
+            </div>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <p className="font-creators text-[12px] text-[#713324] mt-[19px] leading-[20px] tracking-wide">
+              Gereja Katolik <br />
+              Paroki Bunda Tujuh Kedukaan, Pandu
+            </p>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <p className="font-creators text-[12px] text-[#713324] mt-5 tracking-wide">
+              Jl. Pandu No.4, Bandung
+            </p>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <a
+              href="https://www.google.com/maps/place/Gereja+Katolik+Paroki+Bunda+Tujuh+Kedukaan,+Pandu/@-6.9055223,107.5908405,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e66b9767b619:0x307eda200152ee3d!8m2!3d-6.9055223!4d107.5934154!16s%2Fg%2F122yh67w?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                className="
     w-[160px] h-[33px]
     bg-[#E2C6AA] 
     font-century text-[12px] text-[#713324] 
@@ -233,37 +286,81 @@ const TimeLocation = () => {
     active:bg-[#5a2819] active:text-[#E2C6AA] active:scale-95
     cursor-pointer
   "
-            >
-              GOOGLE MAPS
-            </button>
-          </a>
+              >
+                GOOGLE MAPS
+              </button>
+            </a>
+          </motion.div>
         </div>
 
         <div className="w-3 h-3 rounded-full bg-[#713324] my-[44px]" />
 
         <div className="flex flex-col items-center justify-center  text-center tracking-wide">
-          <h3 className="font-creators text-[20px] text-[#713324] tracking-wide">
-            Buddhist Holy Matrimony
-          </h3>
-          <div className="flex flex-col items-center justify-center mt-[27px] gap-3">
-            <p className="font-creators text-[14px] text-[#713324]">
-              16.00 WIB
-            </p>
-            <p className="font-creators text-[14px] text-[#713324] ">at</p>
-          </div>
-          <p className="font-creators text-[12px] text-[#713324] mt-[19px] leading-[20px]">
-            Imah Seniman
-          </p>
-          <p className="font-creators text-[12px] text-[#713324] mt-5">
-            Jl. Kolonel Masturi No. VIII, Kab. Bandung, Lembang
-          </p>
-          <a
-            href="https://www.google.com/maps/place/Gereja+Katolik+Paroki+Bunda+Tujuh+Kedukaan,+Pandu/@-6.9055223,107.5908405,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e66b9767b619:0x307eda200152ee3d!8m2!3d-6.9055223!4d107.5934154!16s%2Fg%2F122yh67w?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
-            target="_blank"
-            rel="noopener noreferrer"
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
           >
-            <button
-              className="
+            <h3 className="font-creators text-[20px] text-[#713324] tracking-wide">
+              Buddhist Holy Matrimony
+            </h3>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <div className="flex flex-col items-center justify-center mt-[27px] gap-3">
+              <p className="font-creators text-[14px] text-[#713324]">
+                16.00 WIB
+              </p>
+              <p className="font-creators text-[14px] text-[#713324] ">at</p>
+            </div>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <p className="font-creators text-[12px] text-[#713324] mt-[19px] leading-[20px]">
+              Imah Seniman
+            </p>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <p className="font-creators text-[12px] text-[#713324] mt-5">
+              Jl. Kolonel Masturi No. VIII, Kab. Bandung, Lembang
+            </p>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <a
+              href="https://www.google.com/maps/place/Gereja+Katolik+Paroki+Bunda+Tujuh+Kedukaan,+Pandu/@-6.9055223,107.5908405,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e66b9767b619:0x307eda200152ee3d!8m2!3d-6.9055223!4d107.5934154!16s%2Fg%2F122yh67w?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                className="
     w-[160px] h-[33px]
     bg-[#E2C6AA] 
     font-century text-[12px] text-[#713324] 
@@ -273,37 +370,81 @@ const TimeLocation = () => {
     active:bg-[#5a2819] active:text-[#E2C6AA] active:scale-95
     cursor-pointer
   "
-            >
-              GOOGLE MAPS
-            </button>
-          </a>
+              >
+                GOOGLE MAPS
+              </button>
+            </a>
+          </motion.div>
         </div>
 
         <div className="w-3 h-3 rounded-full bg-[#713324] my-[44px]" />
 
         <div className="flex flex-col items-center justify-center  text-center tracking-wide">
-          <h3 className="font-creators text-[20px] text-[#713324]">
-            Wedding Reception
-          </h3>
-          <div className="flex flex-col items-center justify-center mt-[27px] gap-3">
-            <p className="font-creators text-[14px] text-[#713324]">
-              08.30 WIB
-            </p>
-            <p className="font-creators text-[14px] text-[#713324]">at</p>
-          </div>
-          <p className="font-creators text-[12px] text-[#713324] mt-[19px]">
-            Imag Seniman
-          </p>
-          <p className="font-creators text-[12px] text-[#713324] mt-5">
-            Jl. Kolonel Masturi No. VIII, Kab. Bandung, Lembang
-          </p>
-         <a
-            href="https://www.google.com/maps/place/Gereja+Katolik+Paroki+Bunda+Tujuh+Kedukaan,+Pandu/@-6.9055223,107.5908405,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e66b9767b619:0x307eda200152ee3d!8m2!3d-6.9055223!4d107.5934154!16s%2Fg%2F122yh67w?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
-            target="_blank"
-            rel="noopener noreferrer"
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
           >
-            <button
-              className="
+            <h3 className="font-creators text-[20px] text-[#713324]">
+              Wedding Reception
+            </h3>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <div className="flex flex-col items-center justify-center mt-[27px] gap-3">
+              <p className="font-creators text-[14px] text-[#713324]">
+                08.30 WIB
+              </p>
+              <p className="font-creators text-[14px] text-[#713324]">at</p>
+            </div>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <p className="font-creators text-[12px] text-[#713324] mt-[19px]">
+              Imag Seniman
+            </p>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <p className="font-creators text-[12px] text-[#713324] mt-5">
+              Jl. Kolonel Masturi No. VIII, Kab. Bandung, Lembang
+            </p>
+          </motion.div>
+
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: true, amount: 0.25 }}
+            transition={{ duration: 1.8, ease: "easeOut" }}
+          >
+            <a
+              href="https://www.google.com/maps/place/Gereja+Katolik+Paroki+Bunda+Tujuh+Kedukaan,+Pandu/@-6.9055223,107.5908405,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e66b9767b619:0x307eda200152ee3d!8m2!3d-6.9055223!4d107.5934154!16s%2Fg%2F122yh67w?entry=ttu&g_ep=EgoyMDI2MDUyMC4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button
+                className="
     w-[160px] h-[33px]
     bg-[#E2C6AA] 
     font-century text-[12px] text-[#713324] 
@@ -313,10 +454,11 @@ const TimeLocation = () => {
     active:bg-[#5a2819] active:text-[#E2C6AA] active:scale-95
     cursor-pointer
   "
-            >
-              GOOGLE MAPS
-            </button>
-          </a>
+              >
+                GOOGLE MAPS
+              </button>
+            </a>
+          </motion.div>
         </div>
       </div>
     </section>

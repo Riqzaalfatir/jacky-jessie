@@ -3,6 +3,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import NotifModal from "@/components/popup/NotifModal";
+import { motion } from "framer-motion";
+import { fadeUp, fadeIn, stagger, fadeLeft, fadeRight } from "@/lib/animation";
 
 type Pilihan = "hadir" | "tidak_hadir" | null;
 type ModalType = string | null;
@@ -39,20 +41,52 @@ const Rsvp = () => {
                 priority
               />
         <div className="relative flex flex-col items-center justify-center leading-none text-center tracking-wide z-4">
-          <h1 className="font-cylburn text-[42px] text-[#FEF8EF]">Rsvp</h1>
 
+           <motion.div
+                    variants={fadeUp}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.25 }}
+                    transition={{ duration: 1.8, ease: "easeOut" }}
+                  >
+          <h1 className="font-cylburn text-[42px] text-[#FEF8EF]">Rsvp</h1>
+          </motion.div>
+
+          <motion.div
+                    variants={fadeUp}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.25 }}
+                    transition={{ duration: 1.8, ease: "easeOut" }}
+                  >
           <div className="flex flex-col items-center justify-center gap-[26px] mt-[37px]">
             <p className="font-creators text-[12px] text-[#FEF8EF]">Dear</p>
             <p className="font-creators text-[12px] text-[#FEF8EF]">Sela</p>
           </div>
+          </motion.div>
 
+           <motion.div
+                    variants={fadeUp}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.25 }}
+                    transition={{ duration: 1.8, ease: "easeOut" }}
+                  >
           <p className="font-creators text-[12px] text-[#FEF8EF] mt-[24px]">
             Kindly confirm your attendance before{" "}
             <span className="block mt-2">27 June 2026</span>
           </p>
+          </motion.div>
 
           {/* BUTTON ATTEND / UNABLE TO ATTEND */}
           <div className="flex items-center justify-center gap-[19px] mt-[34px]">
+             <motion.div
+                variants={fadeRight}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.45 }}
+                transition={{ duration: 1.8, ease: "easeOut" }}
+              >
             <button
               onClick={() => setPilihan(pilihan === "hadir" ? null : "hadir")}
               className={`w-[146px] h-[33px] font-creators text-[12px] uppercase rounded-[71px] transition-all duration-200
@@ -64,7 +98,15 @@ const Rsvp = () => {
             >
               ATTEND
             </button>
+            </motion.div>
 
+              <motion.div
+                variants={fadeLeft}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.45 }}
+                transition={{ duration: 1.8, ease: "easeOut" }}
+              >
             <button
               onClick={() =>
                 setPilihan(pilihan === "tidak_hadir" ? null : "tidak_hadir")
@@ -78,12 +120,29 @@ const Rsvp = () => {
             >
               UNABLE TO ATTEND
             </button>
+            </motion.div>
           </div>
 
+           <motion.div
+                    variants={fadeUp}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.25 }}
+                    transition={{ duration: 1.8, ease: "easeOut" }}
+                  >
           <p className="font-creators text-[12px] text-[#FEF8EF] mt-[37px]">
             {pilihan === "tidak_hadir" ? "ARE YOU SURE?" : "Confirm your selection?"}
           </p>
+          </motion.div>
 
+          
+           <motion.div
+                    variants={fadeUp}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.25 }}
+                    transition={{ duration: 1.8, ease: "easeOut" }}
+                  >
           <button
             onClick={handleConfirm}
             className="w-[222px] h-[33px] bg-[#FEF8EF] hover:bg-[#e8ddd0] active:bg-[#d4c4b0] active:scale-95 transition-all duration-200 font-creators text-[12px] text-[#A64508] uppercase rounded-[71px] mt-[29px]"
@@ -94,12 +153,28 @@ const Rsvp = () => {
                 ? "CONFIRM NOT ATTEND"
                 : "CONFIRM"}
           </button>
+          </motion.div>
 
+           <motion.div
+                    variants={fadeUp}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.25 }}
+                    transition={{ duration: 1.8, ease: "easeOut" }}
+                  >
           <p className="font-creators text-[10px] text-[#FEF8EF] mt-[54px]">
             If you need assistance with your RSVP,
             <span className="block mt-1">please contact our support team.</span>
           </p>
+          </motion.div>
 
+            <motion.div
+                    variants={fadeUp}
+                    initial="hidden"
+                    whileInView="show"
+                    viewport={{ once: true, amount: 0.25 }}
+                    transition={{ duration: 1.8, ease: "easeOut" }}
+                  >
           <a
             href="https://wa.me/6281234567890"
             target="_blank"
@@ -115,6 +190,7 @@ const Rsvp = () => {
             />
             CHAT SUPPORT
           </a>
+          </motion.div>
         </div>
       </section>
 

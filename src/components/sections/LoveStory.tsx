@@ -1,6 +1,8 @@
 "use client";
 import React, { useRef, useEffect, useState } from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { fadeUp, fadeIn, stagger } from "@/lib/animation";
 
 const LoveStory = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -159,10 +161,25 @@ const LoveStory = () => {
           />
 
           <div className="w-full flex flex-col items-center justify-center leading-none text-center pt-[40vw] pb-[100vw]">
+            <motion.div
+                      variants={fadeUp}
+                      initial="hidden"
+                      whileInView="show"
+                      viewport={{ once: true, amount: 0.25 }}
+                      transition={{ duration: 1.8, ease: "easeOut" }}
+                    >
             <h2 className="font-cylburn text-[42px] text-[#713324] tracking-wide">
               Love Story
             </h2>
+            </motion.div>
 
+             <motion.div
+                      variants={fadeUp}
+                      initial="hidden"
+                      whileInView="show"
+                      viewport={{ once: true, amount: 0.25 }}
+                      transition={{ duration: 1.8, ease: "easeOut" }}
+                    >
             <div className="flex flex-col items-center text-center mt-[51px]">
               <h3 className="font-creators text-[14px] text-[#713324]">
                 First meeting:
@@ -176,7 +193,15 @@ const LoveStory = () => {
                 happily riding along like a true 'passenger princess'
               </h3>
             </div>
+            </motion.div>
 
+             <motion.div
+                      variants={fadeUp}
+                      initial="hidden"
+                      whileInView="show"
+                      viewport={{ once: true, amount: 0.25 }}
+                      transition={{ duration: 1.8, ease: "easeOut" }}
+                    >
             <div className="flex flex-col items-center text-center mt-9">
               <h3 className="font-creators text-[14px] text-[#713324]">
                 Dating:
@@ -191,7 +216,15 @@ const LoveStory = () => {
                 other.
               </h3>
             </div>
+            </motion.div>
 
+             <motion.div
+                      variants={fadeUp}
+                      initial="hidden"
+                      whileInView="show"
+                      viewport={{ once: true, amount: 0.25 }}
+                      transition={{ duration: 1.8, ease: "easeOut" }}
+                    >
             <div className="flex flex-col items-center text-center mt-9">
               <h3 className="font-creators text-[14px] text-[#713324]">
                 Engagement:
@@ -209,7 +242,15 @@ const LoveStory = () => {
                 big "yes."
               </h3>
             </div>
+            </motion.div>
 
+              <motion.div
+                      variants={fadeUp}
+                      initial="hidden"
+                      whileInView="show"
+                      viewport={{ once: true, amount: 0.25 }}
+                      transition={{ duration: 1.8, ease: "easeOut" }}
+                    >
             <div className="flex flex-col items-center text-center mt-9">
               <h3 className="font-creators text-[14px] text-[#713324]">
                 Together:
@@ -221,6 +262,8 @@ const LoveStory = () => {
                 journey as husband and wife.
               </h3>
             </div>
+                      </motion.div>
+
           </div>
 
           <div className="relative w-full" style={{ height: "0px" }}>
