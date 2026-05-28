@@ -71,18 +71,19 @@ const Wishes = () => {
 
         {/* Ranting Kanan Atas */}
         <Image
-          src="/images/Wishes/Ranting-KananAtas.svg"
+          src="/images/Wishes/Ranting-KananAtas.webp"
           alt="Pohon Kanan Atas"
-          width={251}
+          width={551}
           height={205}
           className="absolute top-0 right-0 w-[67vw]"
         />
 
         {/* Pohon Golden Kanan */}
         <Image
-          src="/images/Hero/svg/Pohon-GoldenKanan.svg"
+                src="/images/Hero/Pohon-GoldenKanan.png"
+
           alt="Pohon Golden Kanan"
-          width={50}
+          width={550}
           height={80}
           className="absolute bottom-[85vw] right-0 w-[26vw] z-[1]"
         />
@@ -91,16 +92,16 @@ const Wishes = () => {
         <Image
           src="/images/Wishes/Ranting-KiriTengah.png"
           alt="Pohon Golden Kanan"
-          width={50}
+          width={550}
           height={80}
           className="absolute bottom-[100vw] left-0 w-[18vw] z-[1]"
         />
 
         {/* Pohon Kiri Bawah */}
         <Image
-          src="/images/Wishes/Pohon-Kiri.svg"
+          src="/images/Wishes/Ranting-Kiri.png"
           alt="Pohon Kiri"
-          width={50}
+          width={550}
           height={80}
           className="absolute bottom-[0vw] left-0 w-[30vw] z-[1]"
         />
@@ -109,25 +110,25 @@ const Wishes = () => {
         <Image
           src="/images/Wishes/Pohon-Kanan.png"
           alt="Pohon Kiri"
-          width={50}
+          width={550}
           height={80}
           className="absolute bottom-[0vw] right-0 w-[29vw] z-[1]"
         />
 
         {/* Dedaunan Belakang Kiri */}
         <Image
-          src="/images/Time/Dedaunan-BelakangKiri.svg"
+          src="/images/Time/Dedaunan-BelakangKiri.png"
           alt="Dedaunan Belakang"
-          width={50}
+          width={550}
           height={80}
           className="absolute bottom-0 -left-[5vw] w-[54vw] z-[2]"
         />
 
         {/* Dedaunan Belakang Kanan */}
         <Image
-          src="/images/Wishes/Dedaunan-BungaKanan.svg"
+          src="/images/Wishes/Dedaunan-BelakangKanan..png"
           alt="Dedaunan Belakang"
-          width={50}
+          width={550}
           height={80}
           className="absolute bottom-0 right-[0vw] w-[25vw] z-[3]"
         />
@@ -136,54 +137,56 @@ const Wishes = () => {
         <Image
           src="/images/LoveStory/Pohon-BungaMerah.png"
           alt="Pohon Buah Merah"
-          width={150}
+          width={550}
           height={120}
           className="absolute bottom-0 -left-[15vw] w-[45vw] z-[3]"
         />
 
         {/* Daun Pandan dari aset hero */}
         <Image
-          src="/images/Hero/svg/Daun-Pandan.svg"
+        src="/images/Hero/Daun-Pandan.png"
           alt="Daun Pandan"
-          width={147}
+          width={547}
           height={81}
-          className="absolute bottom-0 -left-[17vw] w-[43vw] z-[5]"
+          className="absolute bottom-0 -left-[17vw] w-[37vw] z-[5]"
           // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
         />
 
         {/* Daun Pandan dari aset hero */}
         <Image
-          src="/images/Hero/svg/Daun-Pandan.svg"
+                  src="/images/Hero/Daun-Pandan.png"
+
           alt="Daun Pandan"
-          width={147}
+          width={547}
           height={81}
-          className="absolute bottom-0 left-[4vw] w-[32vw] z-[4]"
+          className="absolute bottom-0 left-[4vw] w-[27vw] z-[4]"
           // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
         />
 
         {/* Pohon Akar */}
         <Image
-          src="/images/Hero/svg/Pohon-Akar.svg"
+                src="/images/Hero/Pohon-Akar.png"
+
           alt="Pohon Akar"
-          width={120}
+          width={520}
           height={80}
           className="absolute bottom-0 left-[15vw] w-[27vw] z-[5]"
         />
 
         {/* Bunga Mawar Putih */}
         <Image
-          src="/images/Hero/svg/Bunga-MawarPutih.svg"
+      src="/images/Hero/Mawar-Putih.png"
           alt="Bunga Mawar Putih"
-          width={70}
+          width={570}
           height={70}
           className="absolute bottom-0 left-[24vw] w-[24vw] z-[5]"
         />
 
         {/* Bunga Mawar Kuning */}
         <Image
-          src="/images/Hero/svg/Bunga-MawarKuning.svg"
+      src="/images/Hero/MawarKuning..png"
           alt="Bunga Mawar Kuning"
-          width={80}
+          width={580}
           height={80}
           className="absolute bottom-0 left-[39.5vw] w-[15vw] z-[6]"
         />
@@ -192,52 +195,52 @@ const Wishes = () => {
 
         {/* Daun Pandan dari aset hero */}
         <Image
-          src="/images/Hero/svg/Daun-Pandan.svg"
+        src="/images/Hero/Daun-Pandan.png"
           alt="Daun Pandan"
-          width={147}
+          width={547}
           height={81}
-          className="absolute bottom-0 left-[39vw] w-[34vw] z-[6]"
+          className="absolute bottom-0 left-[39vw] w-[30vw] z-[6]"
           // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
         />
         <Image
           src="/images/LoveStory/Pohon-BungaMerah.png"
           alt="Pohon Buah Merah"
-          width={150}
+          width={550}
           height={120}
           className="absolute bottom-0 left-[35vw] w-[37vw] z-[4]"
         />
 
         {/* Pohon Bunga Kecil */}
         <Image
-          src="/images/Hero/svg/Pohon-BungaKecil.svg"
+        src="/images/Hero/Pohon-BungaKecil.png"
           alt="Pohon Bunga Kecil"
-          width={100}
+          width={500}
           height={80}
           className="absolute bottom-0 left-[54vw] w-[27vw] z-[2]"
         />
 
         {/* Bunga Mawar Kuning */}
         <Image
-          src="/images/Hero/svg/Bunga-MawarKuning.svg"
+      src="/images/Hero/MawarKuning..png"
           alt="Bunga Mawar Kuning"
-          width={80}
+          width={580}
           height={80}
           className="absolute bottom-0 left-[66vw] w-[20vw] z-[6]"
         />
 
         {/* Bunga Mawar Putih */}
         <Image
-          src="/images/Hero/svg/Bunga-MawarPutih.svg"
+      src="/images/Hero/Mawar-Putih.png"
           alt="Bunga Mawar Putih"
-          width={70}
+          width={570}
           height={70}
           className="absolute bottom-0 left-[77vw] w-[20vw] z-[7]"
         />
         {/* Pohon Bunga Kecil */}
         <Image
-          src="/images/Hero/svg/Pohon-BungaKecil.svg"
+        src="/images/Hero/Pohon-BungaKecil.png"
           alt="Pohon Bunga Kecil"
-          width={100}
+          width={500}
           height={80}
           className="absolute bottom-0 left-[86vw] w-[25vw] z-[7]"
         />
@@ -245,7 +248,7 @@ const Wishes = () => {
         <Image
           src="/images/LoveStory/Pohon-BungaMerah.png"
           alt="Pohon Buah Merah"
-          width={150}
+          width={550}
           height={120}
           className="absolute bottom-0 left-[71vw] w-[30vw] z-[4]"
         />

@@ -10,9 +10,9 @@ const TimeLocation = () => {
       {/* ASET BAGIAN ATAS */}
       {/* Ranting Atas Kiri */}
       <Image
-        src="/images/Time/Ranting-KiriAtas.svg"
+        src="/images/Time/Ranting-KiriAtas.png"
         alt="Pohon Kiri Atas"
-        width={258}
+        width={558}
         height={211}
         className="absolute top-0 left-0 w-[64.2vw] z-0"
       />
@@ -21,7 +21,7 @@ const TimeLocation = () => {
       <Image
         src="/images/Time/Ranting-KananAtas.png"
         alt="Pohon Kiri Atas"
-        width={258}
+        width={558}
         height={211}
         className="absolute top-0 right-0 w-[64.2vw] z-0"
       />
@@ -30,7 +30,7 @@ const TimeLocation = () => {
       <Image
         src="/images/Time/Ranting-Tengah.png"
         alt="Pohon Kiri Atas"
-        width={258}
+        width={558}
         height={211}
         className="absolute top-[180vw] right-0 w-[34.2vw] z-0"
       />
@@ -49,16 +49,16 @@ const TimeLocation = () => {
       <Image
         src="/images/Time/Ranting-KiriBawah.png"
         alt="Pohon Kiri Atas"
-        width={258}
+        width={558}
         height={211}
         className="absolute bottom-0 left-0 w-[39vw] z-0"
       />
 
       {/* Ranting Kanan */}
       <Image
-        src="/images/Time/Ranting-KananBawah.svg"
+        src="/images/Time/Ranting-KananBawah.png"
         alt="Pohon Kiri Atas"
-        width={258}
+        width={558}
         height={211}
         className="absolute bottom-0 right-0 w-[53vw] z-0"
       />
@@ -67,7 +67,7 @@ const TimeLocation = () => {
       <Image
         src="/images/LoveStory/Pohon-BungaMerah.png"
         alt="Pohon Buah Merah"
-        width={150}
+        width={550}
         height={120}
         className="absolute bottom-0 -left-[23vw] w-[58vw] z-[3]"
       />
@@ -100,17 +100,17 @@ const TimeLocation = () => {
       />
       {/* Pohon Akar */}
       <Image
-        src="/images/Hero/svg/Pohon-Akar.svg"
+        src="/images/Hero/Pohon-Akar.png"
         alt="Pohon Akar"
-        width={120}
+        width={520}
         height={80}
         className="absolute bottom-0 left-[14vw] w-[37vw] z-[5]"
       />
       {/* Daun Pandan dari aset hero */}
       <Image
-        src="/images/Hero/svg/Daun-Pandan.svg"
+        src="/images/Hero/Daun-Pandan.png"
         alt="Daun Pandan"
-        width={147}
+        width={547}
         height={81}
         className="absolute bottom-0 left-[3vw] w-[38vw] z-[4]"
         // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
@@ -118,18 +118,18 @@ const TimeLocation = () => {
 
       {/* Bunga Mawar Putih */}
       <Image
-        src="/images/Hero/svg/Bunga-MawarPutih.svg"
+      src="/images/Hero/Mawar-Putih.png"
         alt="Bunga Mawar Putih"
-        width={70}
+        width={570}
         height={70}
         className="absolute bottom-0 left-[23vw] w-[32vw] z-[5]"
       />
 
       {/* Pohon Buah Merah Kiri */}
       <Image
-        src="/images/LoveStory/Pohon-BungaMerah.png"
+        src="/images/Hero/Buah-MerahKiri.png"
         alt="Pohon Buah Merah"
-        width={150}
+        width={550}
         height={120}
         className="absolute bottom-0 left-[38vw] w-[40vw] z-[5]"
       />
@@ -146,9 +146,9 @@ const TimeLocation = () => {
 
       {/* Bunga Mawar Kuning */}
       <Image
-        src="/images/Hero/svg/Bunga-MawarKuning.svg"
+      src="/images/Hero/MawarKuning..png"
         alt="Bunga Mawar Kuning"
-        width={80}
+        width={580}
         height={80}
         className="absolute bottom-0 left-[72vw] w-[15vw] z-[6]"
       />
@@ -156,7 +156,7 @@ const TimeLocation = () => {
       <Image
         src="/images/LoveStory/Pohon-BungaMerah.png"
         alt="Pohon Buah Merah"
-        width={150}
+        width={550}
         height={120}
         className="absolute bottom-0 left-[70vw] w-[33vw] z-[5]"
       />

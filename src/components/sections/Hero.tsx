@@ -77,7 +77,7 @@ const Hero = () => {
       <Image
       src="/images/Hero/Mawar-Putih.png"
         alt="Bunga Mawar Putih"
-        width={70}
+        width={570}
         height={70}
         className="absolute bottom-0 left-[11vw] w-[16vw] z-[3]"
       />
@@ -105,7 +105,7 @@ const Hero = () => {
         src="/images/Hero/Pohon-Akar.png"
         alt="Pohon Akar"
         width={520}
-        height={80}
+       height={80}
         className="absolute bottom-0 left-[30.5vw] w-[27.8vw] z-[1]"
       />
 
@@ -156,18 +156,19 @@ const Hero = () => {
 
       {/* Pohon-BungaMerah */}
       <Image
-        src="/images/Hero/svg/Pohon-BungaMerah2.svg"
+              src="/images/Hero/Buah-MerahKiri.png"
+
         alt="Bunga Bunga Merah"
-        width={50}
+        width={550}
         height={80}
         className="absolute bottom-0 right-0 w-[30vw] z-[1]"
       />
 
       {/* Pohon Golden Kanan */}
       <Image
-        src="/images/Hero/svg/Pohon-GoldenKanan.svg"
+        src="/images/Hero/Pohon-GoldenKanan.png"
         alt="Pohon Golden Kanan"
-        width={50}
+        width={550}
         height={80}
         className="absolute bottom-[10vw] right-0 w-[32vw] z-[1]"
       />
@@ -192,9 +193,9 @@ const Hero = () => {
 
       {/* Dedaunan Belakang Kiri */}
       <Image
-        src="/images/Hero/svg/Dedaunan-BelakangKiri.svg"
+        src="/images/Hero/DedaunanBelakangKiri.png"
         alt="Dedaunan Belakang"
-        width={50}
+        width={550}
         height={80}
         className="absolute bottom-0 left-4 w-[55vw] z-[0]"
       />

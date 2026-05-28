@@ -17,26 +17,26 @@ const LoveStory = () => {
       />
 
       <Image
-        src="/images/LoveStory/Ranting-KananAtas.svg"
+        src="/images/LoveStory/Ranting-Kanan.png"
         alt="Pohon Golden Kiri Bawah"
-        width={160}
+        width={560}
         height={282}
         className="absolute top-0 right-0 w-[45vw] z-[1]"
       />
 
       <Image
-        src="/images/LoveStory/Ranting-KiriAtas.png"
+        src="/images/LoveStory/Ranting-Kiri.png"
         alt="Pohon Golden Kiri Bawah"
-        width={160}
+        width={560}
         height={282}
         className="absolute top-0 left-0 w-[45vw] z-[1]"
       />
 
       {/* Pohon Golden Kiri Bawah */}
       <Image
-        src="/images/Hero/svg/Pohon-GoldenKiri.svg"
+        src="/images/Hero/Pohon-KiriBawah.png"
         alt="Pohon Golden Kiri Bawah"
-        width={160}
+        width={560}
         height={282}
         className="absolute bottom-0 left-0 w-[48vw] z-[1]"
       />
@@ -52,18 +52,19 @@ const LoveStory = () => {
 
       {/* Dedaunan Belakang Kanan */}
       <Image
-        src="/images/Tentang/Bunga-BelakangKiri.svg"
+              src="/images/Hero/DedaunanBelakangKiri.png"
+
         alt="Dedaunan Belakang"
-        width={50}
+        width={650}
         height={80}
         className="absolute bottom-0 left-0 w-[60vw] z-[0]"
       />
 
       {/* Daun Pandan dari aset hero */}
       <Image
-        src="/images/Hero/svg/Daun-Pandan.svg"
+        src="/images/Hero/Daun-Pandan.png"
         alt="Daun Pandan"
-        width={147}
+        width={547}
         height={81}
         className="absolute bottom-0 -left-[18vw] w-[57vw] z-[2]"
         // -left: 65/390*100 = 16.7vw | w: 147/390*100 = 37.7vw
@@ -71,36 +72,36 @@ const LoveStory = () => {
 
       {/* Pohon Buah Merah Kiri */}
       <Image
-        src="/images/Hero/svg/Pohon-BuahMerah1.svg"
+        src="/images/Hero/Buah-MerahKiri.png"
         alt="Pohon Buah Merah"
-        width={150}
+        width={550}
         height={120}
         className="absolute bottom-0 -left-[6vw] w-[47vw] z-[1]"
       />
 
       {/* Pohon Akar */}
       <Image
-        src="/images/Hero/svg/Pohon-Akar.svg"
+        src="/images/Hero/Pohon-Akar.png"
         alt="Pohon Akar"
-        width={120}
+        width={520}
         height={80}
         className="absolute bottom-0 left-[29.5vw] w-[25vw] z-[1]"
       />
 
       {/* Bunga Mawar Putih */}
       <Image
-        src="/images/Hero/svg/Bunga-MawarPutih.svg"
+      src="/images/Hero/Mawar-Putih.png"
         alt="Bunga Mawar Putih"
-        width={70}
+        width={570}
         height={70}
         className="absolute bottom-0 left-[38vw] w-[26vw] z-[3]"
       />
 
       {/* Bunga Mawar Kuning */}
       <Image
-        src="/images/Hero/svg/Bunga-MawarKuning.svg"
+      src="/images/Hero/MawarKuning..png"
         alt="Bunga Mawar Kuning"
-        width={80}
+        width={580}
         height={80}
         className="absolute bottom-0 left-[50vw] w-[19vw] z-[2]"
       />
@@ -125,9 +126,9 @@ const LoveStory = () => {
 
       {/* Pohon Bunga Kecil */}
       <Image
-        src="/images/Hero/svg/Pohon-BungaKecil.svg"
+        src="/images/Hero/Pohon-BungaKecil.png"
         alt="Pohon Bunga Kecil"
-        width={100}
+        width={500}
         height={80}
         className="absolute bottom-0 right-[4vw] w-[20vw] z-[2]"
       />
