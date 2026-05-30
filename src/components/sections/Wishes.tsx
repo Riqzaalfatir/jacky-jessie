@@ -165,13 +165,13 @@ const Wishes = () => {
 
 
              <img
-        src="/images/Time/Aset-Bawah3.webp"
+        src="/images/Wishes/Aset-Bawah.webp"
         alt="Pohon Kanan Bawah"
-        className="absolute -bottom-[13vw] z-[1] lg:hidden"
+        className="absolute bottom-0 z-[1] lg:hidden"
         style={{
-          width: "192vw",
+          width: "172vw",
           height: "auto",
-          left: "39.9%",
+          left: "55%",
           transform: "translateX(-50%)",
           maxWidth: "none",
         }}
