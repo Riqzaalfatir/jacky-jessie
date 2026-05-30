@@ -45,15 +45,25 @@ const CountDown = () => {
   return (
     <section
       id="countdown"
-      className="relative w-full pt-[48px] pb-[51px] bg-[#935D3B]"
+      className="relative w-full pt-[48px] pb-[51px]   bg-[#935D3B]"
     >
       <Image
         src="/images/Countdown/Layer-Countdown.png"
         alt="Hero Background"
         fill
-        className="object-cover"
+        className="object-cover lg:hidden"
         priority
       />
+
+      <Image
+        src="/images/Countdown/Layer-Dekstop.webp"
+        alt="Hero Background"
+        fill
+        className="object-cover hidden lg:block"
+        priority
+      />
+
+
       {/* Burung */}
       <Image
         src="/images/Hero/Burung.gif"
@@ -70,12 +80,12 @@ const CountDown = () => {
         viewport={{ once: true, amount: 0.25 }}
         transition={{ duration: 1.8, ease: "easeOut" }}
       >
-        <h1 className="font-cylburn text-[32px] text-[#FEF8EF] text-center">
+        <h1 className="font-cylburn text-[32px] lg:text-[64px] text-[#FEF8EF] text-center">
           Saturday, 27 June 2026
         </h1>
       </motion.div>
 
-     <div className="flex justify-center items-center gap-[10px] mt-[16px]">
+     <div className="flex justify-center items-center gap-[10px] lg:gap-[24px] mt-[16px] lg:mt-[20px]">
   {boxes.map((box, i) => (
     <motion.div
       key={i}
@@ -86,11 +96,11 @@ const CountDown = () => {
       transition={{ duration: 2.2, ease: "easeOut", delay: i * 0.30 }}
     >
       {/* Kotak 49x49 */}
-      <div className="w-[49px] h-[49px] bg-[#FEF8EF] rounded-[8px] flex flex-col items-center justify-center leading-none gap-[0px]">
-        <span className="font-creators text-[28px] text-[#A64508]">
+      <div className="w-[49px] h-[49px] lg:w-[81px] lg:h-[79px] bg-[#F3E9DD] rounded-[8px] lg:rounded-[16px] flex flex-col items-center justify-center leading-none gap-[0px]">
+        <span className="font-creators text-[28px] lg:text-[46px] text-[#A64508]">
           {String(box.value).padStart(2, "0")}
         </span>
-        <span className="font-creators text-[5.66px] text-[#A64508] tracking-widest">
+        <span className="font-creators text-[5.66px] lg:text-[10px] text-[#A64508]">
           {box.label}
         </span>
       </div>

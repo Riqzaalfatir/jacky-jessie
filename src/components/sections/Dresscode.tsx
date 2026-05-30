@@ -5,16 +5,16 @@ import { fadeUp, fadeIn, stagger } from "@/lib/animation";
 
 const Dresscode = () => {
   return (
-    <section id="dresscode" className="relative w-full pt-[66px] pb-[74px]">
+    <section id="dresscode" className="relative w-full pt-[66px] pb-[74px] lg:pt-[128px] lg:pb-[134px]">
       {/* Background Image */}
       <Image
-        src="/images/Dresscode/Bg-Dresscode.png"
+        src="/images/Dresscode/Bg-Dresscode.svg"
         alt="Hero Background"
         fill
         className="object-cover object-bottom"
         priority
       />
-      <div className="relative flex flex-col items-center justify-center text-center gap-[12px]">
+      <div className="relative flex flex-col items-center justify-center leading-none text-center gap-[12px] lg:gap-[40px]">
         <motion.div
           variants={fadeUp}
           initial="hidden"
@@ -22,7 +22,7 @@ const Dresscode = () => {
           viewport={{ once: true, amount: 0.25 }}
           transition={{ duration: 1.8, ease: "easeOut" }}
         >
-          <h2 className="font-cylburn text-[42px] text-[#713324]">
+          <h2 className="font-cylburn text-[42px] lg:text-[64px] text-[#713324]">
             Dress Code
           </h2>
         </motion.div>
@@ -34,7 +34,7 @@ const Dresscode = () => {
           viewport={{ once: true, amount: 0.25 }}
           transition={{ duration: 1.8, ease: "easeOut" }}
         >
-          <p className="font-creators text-[12px] text-[#713324] leading-[20px] tracking-wide">
+          <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] leading-[20px] lg:leading-[40px] tracking-wide ">
             Black preferred, <br />
             or your darkest colour
           </p>

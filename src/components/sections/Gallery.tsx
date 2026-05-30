@@ -16,7 +16,7 @@ import "yet-another-react-lightbox/plugins/counter.css";
 
 const photos: string[] = [
   "/images/Gallery/Aset-Pengantin1.png",
-  "/images/Gallery/Aset-Pengantin1.png",
+  "/images/Gallery/Aset-Pengantin2.svg",
   "/images/Gallery/Aset-Pengantin1.png",
 ];
 
