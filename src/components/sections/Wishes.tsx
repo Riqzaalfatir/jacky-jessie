@@ -208,7 +208,7 @@ const Wishes = () => {
           alt="Pohon Kanan Atas"
           width={551}
           height={205}
-          className="absolute top-[2vw] right-0 w-[60vw] lg:hidden"
+          className="absolute top-[3.5vw] right-0 w-[63vw] lg:hidden"
         />
 
         {/* Ranting Kanan Atas DEKSTOP */}
@@ -235,7 +235,7 @@ const Wishes = () => {
           alt="Pohon Golden Kanan"
           width={550}
           height={80}
-          className="absolute bottom-[100vw] left-0 w-[17vw] z-[1] lg:hidden"
+          className="absolute bottom-[30.5%] left-0 w-[18vw] z-[1] lg:hidden"
         />
 
 

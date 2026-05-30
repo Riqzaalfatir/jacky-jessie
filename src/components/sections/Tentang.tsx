@@ -118,7 +118,7 @@ const Tentang = () => {
         alt="Pohon Golden Kanan"
         width={550}
         height={80}
-        className="absolute right-0 z-[1] top-[25%] w-[31.5vw] lg:top-[280px] lg:w-[180px] lg:hidden"
+        className="absolute right-0 z-[1] top-[22.5%] w-[31.8vw]  lg:hidden"
       />
 
       <Image
@@ -186,9 +186,9 @@ const Tentang = () => {
         alt="Pohon Kanan Bawah"
         className="absolute -bottom-[10.3vw] z-[1] lg:hidden"
         style={{
-          width: "175vw",
+          width: "178vw",
           height: "auto",
-          left: "55%",
+          left: "57%",
           transform: "translateX(-50%)",
           maxWidth: "none",
         }}
@@ -199,7 +199,7 @@ const Tentang = () => {
         alt="Pohon Golden Kiri Bawah"
         width={560}
         height={282}
-        className="absolute bottom-0 left-0 z-[0] w-[35vw] lg:w-[14.8vw] "
+        className="absolute bottom-0 left-0 z-[0] w-[38vw] lg:w-[14.8vw] "
       />
 
       <Image
@@ -207,7 +207,7 @@ const Tentang = () => {
         alt="Pohon Kanan Bawah"
         width={560}
         height={282}
-        className="absolute bottom-0 right-0 z-[0] w-[37vw] lg:hidden"
+        className="absolute bottom-0 right-0 z-[0] w-[38vw] lg:hidden"
       />
 
       {/* POHON KANAN BAWAH UNTUK DEKSTOP */}
@@ -260,7 +260,7 @@ const Tentang = () => {
           </p>
         </motion.div>
 
-        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-0 lg:gap-[300px] mt-[50px] lg:mt-[75px]">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-0 lg:gap-[300px] mt-[5px] lg:mt-[75px]">
 
           {/* Kolom Jacky */}
           <motion.div

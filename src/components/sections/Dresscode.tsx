@@ -42,7 +42,7 @@ const Dresscode = () => {
           viewport={{ once: true, amount: 0.25 }}
           transition={{ duration: 1.8, ease: "easeOut" }}
         >
-          <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] leading-[20px] lg:leading-[40px] tracking-wide ">
+          <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] leading-[25px] lg:leading-[40px] tracking-wide ">
             Black preferred, <br />
             or your darkest colour
           </p>

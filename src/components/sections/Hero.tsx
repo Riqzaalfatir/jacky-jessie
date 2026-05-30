@@ -247,7 +247,7 @@ const Hero = ({ start }: HeroProps) => {
         alt="Kupu Kupu 4"
         width={87}
         height={87}
-        className="absolute bottom-[21vw] right-[3.5vw] w-[7vw] z-[5] lg:hidden"
+        className="absolute bottom-[21vw] right-[8vw] w-[5vw] z-[5] lg:hidden"
       />
       <Image
         src="/images/Hero/KupuKupu-3.gif"

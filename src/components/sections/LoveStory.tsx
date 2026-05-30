@@ -181,7 +181,7 @@ const LoveStory = () => {
         alt="Pohon Golden Kiri Bawah"
         width={560}
         height={282}
-        className="absolute top-0 right-0 w-[43vw] z-[1] lg:hidden"
+        className="absolute top-0 right-0 w-[45vw] z-[1] lg:hidden"
       />
 
       <Image
@@ -189,7 +189,7 @@ const LoveStory = () => {
         alt="Pohon Golden Kiri Bawah"
         width={560}
         height={282}
-        className="absolute top-0 left-0 w-[43vw] z-[1] lg:hidden"
+        className="absolute top-0 left-0 w-[45vw] z-[1] lg:hidden"
       />
 
       {/* RANTING KHUSUS DEKSTOP */}
@@ -264,9 +264,9 @@ const LoveStory = () => {
         alt="Pohon Kanan Bawah"
         className="absolute -bottom-[0.5vw] z-[1] lg:hidden"
         style={{
-          width: "150vw",
+          width: "155vw",
           height: "auto",
-          left: "35%",
+          left: "34.5%",
           transform: "translateX(-50%)",
           maxWidth: "none",
         }}

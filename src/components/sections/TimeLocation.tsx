@@ -42,7 +42,7 @@ const TimeLocation = () => {
         alt="Capung Tengah"
         width={558}
         height={211}
-        className="absolute bottom-[22vw] left-[32vw] w-[18vw] lg:bottom-[10.5vw] lg:left-[40.5vw] lg:w-[4vw] z-0 scale-x-[-1]"
+        className="absolute bottom-[20.5vw] left-[32vw] w-[18vw] lg:bottom-[10.5vw] lg:left-[40.5vw] lg:w-[4vw] z-0 scale-x-[-1]"
       />
 
       <Image
@@ -58,7 +58,7 @@ const TimeLocation = () => {
         alt="Ranting Tengah"
         width={558}
         height={211}
-        className="absolute top-[47.5%] right-0 w-[33.5vw] z-0 lg:hidden"
+        className="absolute top-[46.9%] right-0 w-[33.5vw] z-0 lg:hidden"
       />
 
       {/* Kupu Kupu 3 */}
