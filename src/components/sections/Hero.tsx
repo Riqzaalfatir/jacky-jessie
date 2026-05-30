@@ -35,9 +35,11 @@ const Hero = ({ start }: HeroProps) => {
   if (!mounted) return null 
 
   return (
+    // bg-[#F2E8D8]
     <section
       id="hero"
-      className="relative w-full pt-[42vw] pb-[70vw] lg:pt-[107px] lg:pb-[302px] overflow-x-hidden"
+      className="relative w-full pt-[42vw] pb-[70vw] lg:pt-[107px] lg:pb-[302px] overflow-x-hidden bg-[#F2E8D8] "
+      
     >
       {/* Background Image */}
       {isMobile ? (
@@ -57,6 +59,84 @@ const Hero = ({ start }: HeroProps) => {
           priority
         />
       )}
+
+      {/* 3 KUNANG KUNANG KHUSUS DEKSTOP */}
+      <video
+        src="/images/Hero/dekstop/Kunang.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute pointer-events-none z-[2] hidden lg:block"
+        style={{
+          // Cover seluruh section hero
+          width: "40%",
+          height: "22vw",
+          bottom: 0,
+          left: 0,
+          objectFit: "cover",
+          mixBlendMode: "screen",
+        }}
+      />
+
+      
+
+      <video
+        src="/images/Hero/dekstop/Kunang.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute pointer-events-none z-[2] hidden lg:block"
+        style={{
+          width: "40%",
+          height: "22vw",
+          bottom: 0,
+          left: "50%",
+          transform: "translateX(-50%)",
+          objectFit: "cover",
+          mixBlendMode: "screen",
+        }}
+      />
+
+      <video
+        src="/images/Hero/dekstop/Kunang.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute pointer-events-none z-[2] hidden lg:block"
+        style={{
+          // Cover seluruh section hero
+          width: "40%",
+          height: "22vw",
+          bottom: 0,
+          right: 0,
+          objectFit: "cover",
+          mixBlendMode: "screen",
+        }}
+      />
+
+
+
+      {/* MODE MOBILE */}
+     <video
+  src="/images/Hero/Kunang2.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="absolute pointer-events-none z-[2] lg:hidden"
+  style={{
+    // Cover seluruh section hero
+    width: "100%",
+    height: "25%",
+    bottom: 0,
+    left: 0,
+    objectFit: "cover",
+    mixBlendMode: "screen",
+  }}
+/>
 
       {/* ── ASET ATAS (langsung muncul saat start) ── */}
 

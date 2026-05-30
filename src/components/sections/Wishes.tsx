@@ -58,7 +58,7 @@ const Wishes = () => {
     <>
       <section
         id="wishes"
-        className="relative w-full flex flex-col items-center px-8 bg-[#F7F4EF] pt-[48.7vw] pb-[56.4vw] lg:pt-[160px] lg:pb-[327px]  overflow-x-hidden overflow-y-hidden"
+        className="relative w-full flex flex-col items-center px-8 bg-[#F2E8D8] pt-[48.7vw] pb-[56.4vw] lg:pt-[160px] lg:pb-[327px]  overflow-x-hidden overflow-y-hidden"
       >
 
         {/* Background Image */}
@@ -77,6 +77,83 @@ const Wishes = () => {
           className="object-cover object-bottom hidden lg:block"
           priority
         />
+
+        
+      {/* 3 KUNANG KUNANG KHUSUS DEKSTOP */}
+      <video
+        src="/images/Hero/dekstop/Kunang.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute pointer-events-none z-[2] hidden lg:block"
+        style={{
+          // Cover seluruh section hero
+          width: "40%",
+          height: "22vw",
+          bottom: 0,
+          left: 0,
+          objectFit: "cover",
+          mixBlendMode: "screen",
+        }}
+      />
+
+      <video
+        src="/images/Hero/dekstop/Kunang.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute pointer-events-none z-[2] hidden lg:block"
+        style={{
+          width: "40%",
+          height: "22vw",
+          bottom: 0,
+          left: "50%",
+          transform: "translateX(-50%)",
+          objectFit: "cover",
+          mixBlendMode: "screen",
+        }}
+      />
+
+      <video
+        src="/images/Hero/dekstop/Kunang.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute pointer-events-none z-[2] hidden lg:block"
+        style={{
+          // Cover seluruh section hero
+          width: "40%",
+          height: "22vw",
+          bottom: 0,
+          right: 0,
+          objectFit: "cover",
+          mixBlendMode: "screen",
+        }}
+      />
+
+
+
+      {/* MODE MOBILE */}
+     <video
+  src="/images/Hero/Kunang2.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="absolute pointer-events-none z-[2] lg:hidden"
+  style={{
+    // Cover seluruh section hero
+    width: "100%",
+    height: "15%",
+    bottom: 0,
+    left: 0,
+    objectFit: "cover",
+    mixBlendMode: "screen",
+  }}
+/>
 
         {/* KUPU KUPU */}
         {/* kupu kupu 1 */}

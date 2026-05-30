@@ -27,7 +27,7 @@ const Tentang = () => {
   return (
     <section
       id="tentang"
-      className="relative w-full pt-[42.3vw] lg:pt-[109px] bg-[#EADCC8] overflow-x-hidden scrollbar-hide overflow-y-hidden"
+      className="relative w-full pt-[42.3vw] lg:pt-[109px] bg-[#EADCC8] overflow-x-hidden scrollbar-hide overflow-y-hidden  "
     >
       {/* ── ASET BAGIAN ATAS ── */}
       <Image
@@ -37,6 +37,81 @@ const Tentang = () => {
         height={150}
         className="absolute top-[5px] w-[102.6vw] lg:w-[667px] lg:left-[350px]"
       />
+
+     {/* 3 KUNANG KUNANG KHUSUS DEKSTOP */}
+      <video
+        src="/images/Hero/dekstop/Kunang.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute pointer-events-none z-[2] hidden lg:block"
+        style={{
+          // Cover seluruh section hero
+          width: "40%",
+          height: "22vw",
+          bottom: 0,
+          left: 0,
+          objectFit: "cover",
+          mixBlendMode: "screen",
+        }}
+      />
+
+      <video
+        src="/images/Hero/dekstop/Kunang.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute pointer-events-none z-[2] hidden lg:block"
+        style={{
+          width: "40%",
+          height: "22vw",
+          bottom: 0,
+          left: "50%",
+          transform: "translateX(-50%)",
+          objectFit: "cover",
+          mixBlendMode: "screen",
+        }}
+      />
+
+      <video
+        src="/images/Hero/dekstop/Kunang.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute pointer-events-none z-[2] hidden lg:block"
+        style={{
+          // Cover seluruh section hero
+          width: "40%",
+          height: "22vw",
+          bottom: 0,
+          right: 0,
+          objectFit: "cover",
+          mixBlendMode: "screen",
+        }}
+      />
+
+      
+      {/* MODE MOBILE */}
+     <video
+  src="/images/Hero/Kunang2.mp4"
+  autoPlay
+  loop
+  muted
+  playsInline
+  className="absolute pointer-events-none z-[2] lg:hidden"
+  style={{
+    // Cover seluruh section hero
+    width: "100%",
+    height: "12%",
+    bottom: 0,
+    left: 0,
+    objectFit: "cover",
+    mixBlendMode: "screen",
+  }}
+/>
 
       <Image
         src="/images/Tentang/Pohon-goldenKanan.png"
@@ -109,7 +184,7 @@ const Tentang = () => {
       <img
         src="/images/Tentang/AsetMobile.webp"
         alt="Pohon Kanan Bawah"
-        className="absolute -bottom-[9.5vw] z-[1] lg:hidden"
+        className="absolute -bottom-[10.3vw] z-[1] lg:hidden"
         style={{
           width: "175vw",
           height: "auto",
