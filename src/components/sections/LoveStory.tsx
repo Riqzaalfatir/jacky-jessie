@@ -108,7 +108,7 @@ const LoveStory = () => {
       />
 
       <Image
-        src="/images/LoveStory/dekstop/Ranting-Kiri.webp"
+        src="/images/LoveStory/Ranting-Kiri.png"
         alt="Pohon Golden Kiri Bawah"
         width={560}
         height={282}

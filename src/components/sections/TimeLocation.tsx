@@ -242,7 +242,7 @@ const TimeLocation = () => {
         </div>
         </div>
 
-        <div className="w-3 h-3 lg:w-[13px] lg:h-[13px] rounded-full bg-[#713324] my-[11.3vw] mx-auto" />
+        <div className="w-3 h-3 lg:w-[13px] lg:h-[13px] rounded-full bg-[#713324] my-[11.3vw] lg:my-[11.2vw] mx-auto" />
 
         {/* Wedding Reception */}
         <div className="flex flex-col items-center text-center tracking-wide">

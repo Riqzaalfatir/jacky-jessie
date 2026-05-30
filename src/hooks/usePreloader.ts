@@ -3,28 +3,36 @@ import { useEffect, useState } from "react";
 
 const IMAGES_TO_PRELOAD = [
   // OPENING
-  "/images/Cover/Pengantin.svg",
-  "/images/Opening/Pengantin..png",
-  "/images/Opening/Ranting-KiriAtas.png",
-  "/images/Opening/Ranting-KananAtas.png",
-  "/images/Opening/Pohon-Golden.png",
-  "/images/Opening/Pohon-GoldenKanan.png",
-  "/images/Opening/Aset-KiriBawah..png",
-  "/images/Opening/Aset-KananBawah.png",
+ // OPENING
+"/images/Cover/Pengantin.svg",
+"/images/Opening/Pengantin..png",
+"/images/Opening/Ranting-KiriAtas.png",
+"/images/Opening/Ranting-KananAtas.png",
+"/images/Opening/Pohon-Golden.png",
+"/images/Opening/Pohon-GoldenKanan.png",
+"/images/Opening/Aset-KiriBawah..png",
+"/images/Opening/Daun-Akar.png",        
+"/images/Opening/Aset-Tambahan.png",    
+"/images/Opening/Aset-KananBawah.png",
 
-  // HERO — Background
+
+   // HERO — Background
   "/images/Hero/Bg-Hero.svg",
+  "/images/Hero/dekstop/Bg-Dekstop.svg",
 
-  // HERO — Aset Atas
+  // HERO — Aset Atas Mobile
   "/images/Hero/PohonKiriAtas.png",
   "/images/Hero/Pohon-KananAtas.webp",
-  "/images/Hero/Burung.gif",
 
-  // HERO — Aset Bawah
+  // HERO — Aset Atas Desktop
+  "/images/Hero/dekstop/Pohon-KiriAtas.png",
+  "/images/Hero/dekstop/Pohon-KananAtas.png",
+  "/images/Hero/dekstop/Burung.gif",
+
+  // HERO — Aset Bawah Mobile
   "/images/Hero/Pohon-KiriBawah.png",
   "/images/Hero/svg/Daun-Pandan.svg",
   "/images/Hero/Buah-MerahKiri.png",
-  "/images/Hero/Mawar-Putih.png",
   "/images/Hero/MawarKuning..png",
   "/images/Hero/Daun-Pandan.png",
   "/images/Hero/Pohon-Akar.png",
@@ -32,6 +40,13 @@ const IMAGES_TO_PRELOAD = [
   "/images/Hero/Pohon-GoldenKanan.png",
   "/images/Hero/DedaunanBelakang.png",
   "/images/Hero/DedaunanBelakangKiri.png",
+
+  // HERO — Aset Bawah Desktop
+  "/images/Hero/dekstop/Pohon-KiriBawah.png",
+  "/images/Hero/dekstop/Mawar-Putih.svg",
+  "/images/Hero/dekstop/Bunga-Merah.webp",
+  "/images/Hero/dekstop/Golden-Kanan.webp",
+  "/images/Hero/dekstop/Dedaunan-Belakang.webp",
 
   // HERO — Kupu Kupu
   "/images/Hero/KupuKupu-1.gif",

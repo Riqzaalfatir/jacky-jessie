@@ -159,7 +159,7 @@ const Opening = ({ setStart, namaTamu = "Sela" }: OpeningProps) => {
                 className="absolute -bottom-16 lg:-bottom-[86px] left-36 w-[70px] lg:left-[220px] lg:w-[90px] z-[0]"
               />
               <Image
-                src="/images/Opening/Aset-Tambahan.png"
+                src="/images/Opening/Aset-tambahan.png"
                 alt="Pohon Golden"
                 width={761}
                 height={163}
