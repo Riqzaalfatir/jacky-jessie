@@ -3,20 +3,18 @@ import { useEffect, useState } from "react";
 
 const IMAGES_TO_PRELOAD = [
   // OPENING
- // OPENING
-"/images/Cover/Pengantin.svg",
-"/images/Opening/Pengantin..png",
-"/images/Opening/Ranting-KiriAtas.png",
-"/images/Opening/Ranting-KananAtas.png",
-"/images/Opening/Pohon-Golden.png",
-"/images/Opening/Pohon-GoldenKanan.png",
-"/images/Opening/Aset-KiriBawah..png",
-"/images/Opening/Daun-Akar.png",        
-"/images/Opening/Aset-Tambahan.png",    
-"/images/Opening/Aset-KananBawah.png",
+  "/images/Cover/Pengantin.svg",
+  "/images/Opening/Pengantin..png",
+  "/images/Opening/Ranting-KiriAtas.png",
+  "/images/Opening/Ranting-KananAtas.png",
+  "/images/Opening/Pohon-Golden.png",
+  "/images/Opening/Pohon-GoldenKanan.png",
+  "/images/Opening/Aset-KiriBawah..png",
+  "/images/Opening/Daun-Akar.png",
+  "/images/Opening/Aset-Tambahan.png",
+  "/images/Opening/Aset-KananBawah.png",
 
-
-   // HERO — Background
+  // HERO — Background
   "/images/Hero/Bg-Hero.svg",
   "/images/Hero/dekstop/Bg-Dekstop.svg",
 
@@ -29,33 +27,31 @@ const IMAGES_TO_PRELOAD = [
   "/images/Hero/dekstop/Pohon-KananAtas.png",
   "/images/Hero/dekstop/Burung.gif",
 
-  // HERO — Aset Bawah Mobile
-  "/images/Hero/Pohon-KiriBawah.png",
-  "/images/Hero/svg/Daun-Pandan.svg",
-  "/images/Hero/Buah-MerahKiri.png",
-  "/images/Hero/MawarKuning..png",
-  "/images/Hero/Daun-Pandan.png",
-  "/images/Hero/Pohon-Akar.png",
-  "/images/Hero/Pohon-BungaKecil.png",
-  "/images/Hero/Pohon-GoldenKanan.png",
-  "/images/Hero/DedaunanBelakang.png",
-  "/images/Hero/DedaunanBelakangKiri.png",
+  // HERO — Pohon Golden
+  "/images/Hero/Pohon-GoldenKanan.png", // mobile
+  "/images/Hero/dekstop/Golden-Kanan.webp", // desktop
 
-  // HERO — Aset Bawah Desktop
-  "/images/Hero/dekstop/Pohon-KiriBawah.png",
-  "/images/Hero/dekstop/Mawar-Putih.svg",
-  "/images/Hero/dekstop/Bunga-Merah.webp",
-  "/images/Hero/dekstop/Golden-Kanan.webp",
-  "/images/Hero/dekstop/Dedaunan-Belakang.webp",
+  // HERO — Aset Bawah (Aset-Bawah)
+  "/images/Hero/Aset-Bawah.webp", // mobile
+  "/images/Hero/dekstop/Aset-Bawah.webp", // desktop
+
+  // HERO — Pohon Golden Kiri Bawah
+  "/images/Hero/Pohon-KiriBawah.png", // mobile
+  "/images/Hero/dekstop/Pohon-KiriBawah.png", // desktop
 
   // HERO — Kupu Kupu
   "/images/Hero/KupuKupu-1.gif",
   "/images/Hero/KupuKupu-2.gif",
-  "/images/Hero/KupuKupu4.png",
   "/images/Hero/KupuKupu-3.gif",
+  "/images/Hero/KupuKupu4.png",
 
   // HERO — Konten
   "/images/Hero/Logo-J.svg",
+
+  // KUNANG KUNANG
+  "/images/Hero/dekstop/Kunang.mp4", // desktop
+  "/images/Hero/Kunang.mp4" // mobile
+
 ];
 
 export function usePreloader() {
