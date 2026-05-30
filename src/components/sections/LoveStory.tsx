@@ -107,7 +107,7 @@ const LoveStory = () => {
         alt="Burung"
         width={400}
         height={150}
-        className="absolute top-[65px] w-[102.6vw] lg:hidden"
+        className="absolute top-[65px] w-[102.6vw] lg:w-[667px] lg:left-[350px]"
       />
 
       <Image
@@ -115,7 +115,7 @@ const LoveStory = () => {
         alt="Kupu Kupu 3"
         width={133}
         height={99}
-        className="absolute top-[31%] left-[0vw] w-[21vw] z-[5] lg:hidden"
+        className="absolute top-[31%] left-[0vw] w-[21vw] z-[5] lg:top-[26%] lg:left-[8vw] lg:w-[11vw]"
       />
 
       <Image
@@ -123,7 +123,7 @@ const LoveStory = () => {
         alt="Kupu Kupu 3"
         width={133}
         height={99}
-        className="absolute bottom-[33.5%] -right-[6vw] w-[24vw] z-[5] lg:hidden"
+        className="absolute bottom-[33.5%] -right-[6vw] w-[24vw] z-[5] lg:bottom-[49%] lg:right-[4vw] lg:w-[10vw]"
       />
 
       {/* Kupu Kupu 3 */}
@@ -172,7 +172,7 @@ const LoveStory = () => {
         alt="Kupu Kupu 3"
         width={50}
         height={80}
-        className="absolute bottom-[73vw] right-[5vw] w-[9.5vw] lg:top-[11.5%] lg:right-[9%] lg:w-[5vw]  z-[5]"
+        className="absolute bottom-[73vw] right-[5vw] w-[9.5vw] lg:top-[10%] lg:right-[9.5%] lg:w-[5vw]  z-[5]"
       />
 
       {/* RANTING KHUSUS MOBILE */}
@@ -199,7 +199,7 @@ const LoveStory = () => {
         alt="Pohon Golden Kiri Bawah"
         width={960}
         height={282}
-        className="absolute -top-[2vw] left-0 w-[250px] z-[1] hidden lg:block"
+        className="absolute -top-[4vw] left-0 w-[265px] z-[1] hidden lg:block"
       />
 
       <Image
@@ -207,7 +207,7 @@ const LoveStory = () => {
         alt="Pohon Golden Kiri Bawah"
         width={960}
         height={282}
-        className="absolute -top-[2vw] right-0 w-[250px] z-[1] hidden lg:block"
+        className="absolute -top-[4vw] right-0 w-[265px] z-[1] hidden lg:block"
       />
 
       {/* Pohon Golden Kiri Bawah MOBILE */}

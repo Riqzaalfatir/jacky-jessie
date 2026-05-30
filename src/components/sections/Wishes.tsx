@@ -246,7 +246,7 @@ const Wishes = () => {
           alt="Pohon Kiri"
           width={550}
           height={80}
-          className="absolute bottom-[0vw] left-0 w-[30vw] lg:w-[17vw] z-[1]"
+          className="absolute bottom-[0vw] left-0 w-[30vw] lg:w-[17.5vw] z-[1]"
         />
 
         {/* Pohon Kanan Bawah */}
@@ -255,7 +255,7 @@ const Wishes = () => {
           alt="Pohon Kiri"
           width={550}
           height={80}
-          className="absolute bottom-[0vw] right-0 w-[29vw] lg:w-[17vw] z-[1]"
+          className="absolute bottom-[0vw] right-0 w-[29vw] lg:w-[17.8vw] z-[1]"
         />
 
 

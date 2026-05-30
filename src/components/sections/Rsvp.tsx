@@ -62,7 +62,7 @@ const Rsvp = () => {
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 1.8, ease: "easeOut" }}
           >
-            <div className="flex flex-col items-center justify-center gap-[26px] lg:gap-[49px] mt-[27px] lg:mt-[53px]">
+            <div className="flex flex-col items-center justify-center gap-[26px] lg:gap-[49px] mt-[27px] lg:mt-[60px]">
               <p className="font-creators text-[12px] lg:text-[18px] text-[#FEF8EF]">Dear Mr. /Mrs. / Ms.</p>
               <p className="font-creators text-[12px] lg:text-[18px] text-[#FEF8EF]">Sela</p>
             </div>

@@ -240,7 +240,7 @@ const Hero = ({ start }: HeroProps) => {
         alt="Kupu Kupu 2"
         width={87}
         height={87}
-        className="absolute bottom-[9vw] left-[69vw] w-[11vw] z-[5] lg:bottom-[7.8vw] lg:left-[73.4vw] lg:w-[3.5vw]"
+        className="absolute bottom-[9vw] left-[69vw] w-[11vw] z-[5] lg:bottom-[8.4vw] lg:left-[78.5vw] lg:w-[3.5vw]"
       />
       <Image
         src="/images/Hero/KupuKupu4.png"
@@ -254,7 +254,7 @@ const Hero = ({ start }: HeroProps) => {
         alt="Kupu Kupu 3"
         width={87}
         height={87}
-        className="absolute bottom-[51vw] right-[20vw] w-[11vw] z-[5] scale-x-[-1]   lg:bottom-[8vw] lg:left-[40vw] lg:w-[3.5vw]"
+        className="absolute bottom-[51vw] right-[20vw] w-[11vw] z-[5] scale-x-[-1]   lg:bottom-[8vw] lg:left-[41vw] lg:w-[4vw]"
       />
 
       {/* KUPU KUPU TAMBAHAN UNTUK ASET DEKSTOP */}
@@ -360,7 +360,7 @@ const Hero = ({ start }: HeroProps) => {
           transition={{ duration: 1, ease: "easeIn", delay: 2 }}
         >
           <p
-            className={`font-century ${isMobile ? "text-[12px] mt-[28px]" : "text-[18px] mt-[58px]"} text-[#6D3323] tracking-wide text-center leading-[20px]`}
+            className={`font-century ${isMobile ? "text-[12px] mt-[28px]" : "text-[18px] mt-[58px]"} text-[#6D3323] tracking-wide text-center leading-[20px] lg:leading-[30px]`}
           >
             In a forest of a billion souls, <br />I found the one who speaks my
             silence.

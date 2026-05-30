@@ -5,7 +5,7 @@ import { fadeUp, fadeIn, stagger } from "@/lib/animation";
 
 const Dresscode = () => {
   return (
-    <section id="dresscode" className="relative w-full pt-[66px] pb-[74px] lg:pt-[108px] lg:pb-[114px]">
+    <section id="dresscode" className="relative w-full pt-[66px] pb-[74px] lg:pt-[108px] lg:pb-[114px] lg:bg-[#EADCC8]">
       {/* Background Image */}
       <Image
         src="/images/Dresscode/Bg-Dresscode.svg"
