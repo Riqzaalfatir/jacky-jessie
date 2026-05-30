@@ -84,7 +84,7 @@ const LoveStory = () => {
 
       {/* MODE MOBILE */}
      <video
-  src="/images/Hero/Kunang2.mp4"
+  src="/images/Hero/Kunang.mp4"
   autoPlay
   loop
   muted
