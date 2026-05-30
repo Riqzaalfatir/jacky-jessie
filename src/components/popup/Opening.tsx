@@ -26,7 +26,11 @@ const cardVariants = {
     opacity: 1,
     scale: 1,
     y: 0,
-    transition: { duration: 1.0, ease: [0.22, 1, 0.36, 1] as const, delay: 0.5 },
+    transition: {
+      duration: 1.0,
+      ease: [0.22, 1, 0.36, 1] as const,
+      delay: 0.5,
+    },
   },
   exit: {
     opacity: 0,
@@ -87,25 +91,104 @@ const Opening = ({ setStart, namaTamu = "Sela" }: OpeningProps) => {
             </div>
 
             {/* KONTEN TEXT */}
-            <div className="relative flex flex-col items-center text-center px-4 pt-[30px] mb-[60px] lg:pt-[26px] flex-1 leading-none">
-              <Image src="/images/Opening/Ranting-KiriAtas.png" alt="RantingKiriAtas" width={503} height={74} className="absolute top-0 left-0 w-[103px] z-[1]" />
-              <Image src="/images/Opening/Ranting-KananAtas.png" alt="RantingKiriAtas" width={503} height={74} className="absolute top-0 right-0 w-[103px] z-[1]" />
-              <Image src="/images/Opening/Pohon-Golden.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-[65px] -left-[10px] w-[61px] z-[1]" />
-              <Image src="/images/Opening/Pohon-GoldenKanan.png" alt="Pohon Golden" width={761} height={163} className="absolute top-[110px] right-[0px] w-[61px] z-[1]" />
-              <Image src="/images/Opening/Aset-KiriBawah..png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-0 w-[151px] z-[1]" />
-              <Image src="/images/Opening/Daun-Akar.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-8 w-[80px] z-[0]" />
-              <Image src="/images/Opening/Daun-Akar.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-20 w-[70px] z-[0]" />
-              <Image src="/images/Opening/Daun-Akar.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-32 w-[70px] z-[0]" />
-              <Image src="/images/Opening/Daun-Akar.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-36 w-[70px] z-[0]" />
-              <Image src="/images/Opening/Aset-Tambahan.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 left-4 w-[171px] z-[1]" />
-              <Image src="/images/Opening/Aset-KananBawah.png" alt="Pohon Golden" width={761} height={163} className="absolute -bottom-16 right-0 w-[151px] z-[1]" />
+            <div className="relative flex flex-col items-center text-center px-4 pt-[30px] mb-[60px] lg:pt-[26px] lg:mb-[83px] flex-1 leading-none">
+              <Image
+                src="/images/Opening/Ranting-KiriAtas.png"
+                alt="RantingKiriAtas"
+                width={503}
+                height={74}
+                className="absolute top-0 left-0 w-[103px] lg:w-[133px] z-[1]"
+              />
+              <Image
+                src="/images/Opening/Ranting-KananAtas.png"
+                alt="RantingKiriAtas"
+                width={503}
+                height={74}
+                className="absolute top-0 right-0 w-[103px] lg:w-[123px] z-[1]"
+              />
 
-              <p className="relative z-[2] text-[10px] text-[#713324] font-creators tracking-wide">THE WEDDING OF</p>
-              <h1 className="relative z-[2] text-[36px] lg:text-[48px] text-[#713324] pt-[12px] font-cylburn">Jacky & Jessie</h1>
-              <p className="relative z-[2] text-[10px] lg:text-[14px] text-[#713324] font-creators pt-[14px] md:pt-[19px]">Dear.</p>
-              <p className="relative z-[2] text-[14px] lg:text-[18px] text-[#713324] font-creators pt-[14px] md:pt-[17px]">{namaTamu}</p>
+
+              <Image
+                src="/images/Opening/Pohon-Golden.png"
+                alt="Pohon Golden"
+                width={761}
+                height={163}
+                className="absolute -bottom-[65px] lg:-bottom-[78px]  -left-[5px] lg:-left-[0px] w-[61px] lg:w-[75px] z-[1]"
+              />
+              <Image
+                src="/images/Opening/Pohon-GoldenKanan.png"
+                alt="Pohon Golden"
+                width={761}
+                height={163}
+                className="absolute top-[110px] right-[0px] w-[61px] lg:top-[155px] lg:right-[0px] lg:w-[85px] z-[1]"
+              />
+
+              <Image
+                src="/images/Opening/Aset-KiriBawah..png"
+                alt="Pohon Golden"
+                width={761}
+                height={163}
+                className="absolute -bottom-16 left-0 w-[151px] lg:-bottom-[86px] lg:-left-1 lg:w-[211px] z-[1]"
+              />
+              <Image
+                src="/images/Opening/Daun-Akar.png"
+                alt="Pohon Golden"
+                width={761}
+                height={163}
+                className="absolute -bottom-16 left-8 w-[80px] lg:-bottom-[86px]  lg:left-6 lg:w-[100px]  z-[0]"
+              />
+              <Image
+                src="/images/Opening/Daun-Akar.png"
+                alt="Pohon Golden"
+                width={761}
+                height={163}
+                className="absolute -bottom-16 lg:-bottom-[86px] left-20 w-[70px] lg:left-[110px] lg:w-[90px] z-[0]"
+              />
+              <Image
+                src="/images/Opening/Daun-Akar.png"
+                alt="Pohon Golden"
+                width={761}
+                height={163}
+                className="absolute -bottom-16 lg:-bottom-[86px] left-32 w-[70px] lg:left-[150px] lg:w-[90px] z-[0]"
+              />
+              <Image
+                src="/images/Opening/Daun-Akar.png"
+                alt="Pohon Golden"
+                width={761}
+                height={163}
+                className="absolute -bottom-16 lg:-bottom-[86px] left-36 w-[70px] lg:left-[220px] lg:w-[90px] z-[0]"
+              />
+              <Image
+                src="/images/Opening/Aset-Tambahan.png"
+                alt="Pohon Golden"
+                width={761}
+                height={163}
+                className="absolute -bottom-16 left-4 w-[171px] lg:-bottom-[84px] lg:left-[48px] lg:w-[220px] z-[1]"
+              />
+              <Image
+                src="/images/Opening/Aset-KananBawah.png"
+                alt="Pohon Golden"
+                width={761}
+                height={163}
+                className="absolute -bottom-16 right-0 w-[151px] lg:-bottom-[86px]   lg:right-0 lg:w-[205px] z-[1]"
+              />
+
+              <p className="relative z-[2] text-[10px] lg:text-[14px] text-[#713324] font-creators tracking-wide">
+                THE WEDDING OF
+              </p>
+              <h1 className="relative z-[2] text-[36px] lg:text-[56px] text-[#713324] pt-[12px] lg:pt-[8px] font-cylburn">
+                Jacky & Jessie
+              </h1>
+              <p className="relative z-[2] text-[10px] lg:text-[14px] text-[#713324] font-creators pt-[14px] md:pt-[19px]">
+                Dear Mr. /Mrs. / Ms.
+              </p>
+              <p className="relative z-[2] text-[14px] lg:text-[18px] text-[#713324] font-creators pt-[14px] md:pt-[17px]">
+                {namaTamu}
+              </p>
               <p className="relative z-[2] text-[8px] lg:text-[12px] text-[#713324] font-creators leading-[1.6] pt-[17px] md:pt-[23px] tracking-wide">
-                We sincerely apologize<br />for any misspelling of names or titles.
+                We sincerely apologize
+                <br />
+                for any misspelling of names or titles.
               </p>
               <button
                 onClick={handleOpen}

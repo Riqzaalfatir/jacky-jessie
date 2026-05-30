@@ -85,16 +85,25 @@ const Wishes = () => {
           alt="Kupu Kupu 1"
           width={50}
           height={80}
-          className="absolute bottom-[20vw] left-[21vw] w-[12vw] z-[5]"
+          className="absolute bottom-[24vw] left-[19vw] w-[12vw] z-[5] lg:bottom-[9vw] lg:left-[8vw] lg:w-[5vw]"
         />
 
-        {/* kupu kupu 1 */}
+        {/* kupu kupu khusus dekstop */}
+        <Image
+          src="/images/Hero/KupuKupu-1.gif"
+          alt="Kupu Kupu 1"
+          width={50}
+          height={80}
+          className="absolute bottom-[8vw] z-[5] right-[24vw] w-[5vw] hidden lg:block"
+        />
+
+        {/* kupu kupu khusus mobile */}
         <Image
           src="/images/Hero/KupuKupu-2.gif"
           alt="Kupu Kupu 1"
           width={50}
           height={80}
-          className="absolute top-[35vw] left-[7vw] w-[14vw] z-[5]"
+          className="absolute top-[35vw] left-[7vw] w-[14vw]  z-[5] lg:hidden"
         />
 
         {/* Kupu Kupu 4 */}
@@ -103,7 +112,16 @@ const Wishes = () => {
           alt="Kupu Kupu 4"
           width={50}
           height={80}
-          className="absolute bottom-[73vw] right-[16vw] w-[10vw] z-[5]"
+          className="absolute bottom-[73vw] right-[16vw] w-[10vw] z-[5] lg:bottom-[10vw] lg:right-[15vw] lg:w-[4vw]"
+        />
+
+        {/* Kupu Kupu KHUSUS DEKSTOP */}
+        <Image
+          src="/images/Hero/KupuKupu-3.gif"
+          alt="Kupu Kupu 4"
+          width={50}
+          height={80}
+          className="absolute bottom-[29vw] left-[6.5vw] w-[4.5vw] z-[5] hidden lg:block"
         />
 
 
@@ -131,7 +149,7 @@ const Wishes = () => {
           alt="Pohon Golden Kanan"
           width={550}
           height={80}
-          className="absolute bottom-[85vw] right-0 w-[26vw] z-[1] lg:hidden"
+          className="absolute bottom-[89vw] right-0 w-[26vw] z-[1] lg:hidden"
         />
 
         {/* Ranting Kiri Tengah */}
@@ -256,7 +274,7 @@ const Wishes = () => {
                     alt="Kirim"
                     width={24}
                     height={30}
-                    className="object-contain w-[17px] lg:w-[22px]"
+                    className="object-contain w-[17px] lg:w-[24px]"
                   />
                   Send
                 </button>
@@ -278,13 +296,13 @@ const Wishes = () => {
                   {!showAll ? (
                     <div>
                       <div className="sticky top-0 w-full h-[18px] bg-[#E2C6AA]  z-10" />
-                      <div className="px-[13px] lg:px-[23px] py-[2px]">
+                      <div className="px-[13px] lg:px-[23px] py-[2px] lg:py-[10px] ">
                         {pesanList.slice(0, 8).map((item, index, array) => (
                           <div key={item.id}>
-                            <p className="text-[#713324] font-trajanBold text-[12px] lg:text-[18px] mb-[4px] lg:mb-[12px]">
+                            <p className="text-[#713324] font-trajanBold text-[12px] lg:text-[18px] mb-[4px] lg:mb-[14px]">
                               {item.nama}
                             </p>
-                            <p className="text-[#713324] font-trajanRegular text-[10px] lg:text-[18px] tracking-[0.5px] mb-[10px]">
+                            <p className="text-[#713324] font-trajanRegular text-[10px] lg:text-[18px] tracking-[0.5px] mb-[10px] lg:mb-[15px]">
                               {item.pesan}
                             </p>
                             {index !== array.length - 1 && (

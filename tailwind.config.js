@@ -16,7 +16,9 @@ module.exports = {
       burgues: ["var(--font-burgues-script)"],
       elMessiri: ["var(--font-el-messiri)"],
       cylburn: ["var(--font-cylburn-script)"],  
-              sans: ["var(--font-noto-sans)"],
+      sans: ["var(--font-noto-sans)"],
+        ibm: ["var(--font-ibm-plex-sans)"], // <- tambahkan ini
+
   
     },
     },

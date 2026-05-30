@@ -34,7 +34,7 @@ const Rsvp = () => {
     <>
       <section
         id="rsvp"
-        className="relative w-full pt-[72px] pb-[85px] bg-[#935D3B]"
+        className="relative w-full pt-[72px] pb-[85px] lg:pt-[109px] lg:pb-[120px] bg-[#935D3B]"
       >
         <Image
           src="/images/Rsvp/LayerRsvp.webp"
@@ -62,8 +62,8 @@ const Rsvp = () => {
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 1.8, ease: "easeOut" }}
           >
-            <div className="flex flex-col items-center justify-center gap-[26px] mt-[37px]">
-              <p className="font-creators text-[12px] lg:text-[18px] text-[#FEF8EF]">Dear</p>
+            <div className="flex flex-col items-center justify-center gap-[26px] lg:gap-[49px] mt-[37px] lg:mt-[53px]">
+              <p className="font-creators text-[12px] lg:text-[18px] text-[#FEF8EF]">Dear Mr. /Mrs. / Ms.</p>
               <p className="font-creators text-[12px] lg:text-[18px] text-[#FEF8EF]">Sela</p>
             </div>
           </motion.div>
@@ -75,14 +75,14 @@ const Rsvp = () => {
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 1.8, ease: "easeOut" }}
           >
-            <p className="font-creators text-[12px] lg:text-[18px] text-[#FEF8EF] mt-[24px]">
+            <p className="font-creators text-[12px] lg:text-[18px] text-[#FEF8EF] mt-[25px] lg:mt-[48px]">
               Kindly confirm your attendance before{" "}
               <span className="block mt-2">27 June 2026</span>
             </p>
           </motion.div>
 
           {/* BUTTON ATTEND / UNABLE TO ATTEND */}
-          <div className="flex items-center justify-center gap-[19px] lg:gap-[24px] mt-[34px]">
+          <div className="flex items-center justify-center gap-[19px] lg:gap-[24px] mt-[34px] lg:mt-[47px]">
             <motion.div
               variants={fadeRight}
               initial="hidden"
@@ -133,7 +133,7 @@ const Rsvp = () => {
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 1.8, ease: "easeOut" }}
           >
-            <p className="font-creators text-[12px] lg:text-[18px] text-[#FEF8EF] mt-[37px]">
+            <p className="font-creators text-[12px] lg:text-[18px] text-[#FEF8EF] mt-[37px] lg:mt-[43px]">
               {pilihan === "tidak_hadir"
                 ? "ARE YOU SURE?"
                 : "Confirm your selection?"}
@@ -150,7 +150,7 @@ const Rsvp = () => {
           >
             <button
               onClick={handleConfirm}
-              className="w-[222px] lg:w-full h-[33px] lg:h-[40px] bg-[#FEF8EF] hover:bg-[#e8ddd0] active:bg-[#d4c4b0] active:scale-95 transition-all duration-200 font-creators text-[12px] lg:text-[18px] text-[#713324] uppercase rounded-[71px] mt-[29px]"
+              className="w-[222px] lg:w-full h-[33px] lg:h-[40px] bg-[#FEF8EF] hover:bg-[#e8ddd0] active:bg-[#d4c4b0] active:scale-95 transition-all duration-200 font-creators text-[12px] lg:text-[18px] text-[#713324] uppercase rounded-[71px] mt-[29px] lg:mt-[42px]"
             >
               {pilihan === "hadir"
                 ? "CONFIRM ATTEND"
@@ -167,8 +167,9 @@ const Rsvp = () => {
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 1.8, ease: "easeOut" }}
           >
-            <p className="font-creators text-[10px] lg:text-[18px] text-[#FEF8EF] mt-[54px]">
-              Having trouble with RSVP?
+            <p className="font-creators text-[10px] lg:text-[18px] text-[#FEF8EF] mt-[54px] lg:mt-[81px] leading-[20px]">
+              If you need assistance with your RSVP, <br />
+please contact our support team.
                         </p>
           </motion.div>
 
@@ -183,7 +184,7 @@ const Rsvp = () => {
               href="https://wa.me/6281234567890"
               target="_blank"
               rel="noopener noreferrer"
-              className="h-[33px] w-[160px] lg:h-[40px] lg:w-[212px] bg-[#12877B] hover:bg-[#0F6B61] active:bg-[#0A4F47] transition-colors duration-200 text-[#FEF8EF] flex items-center justify-center font-creators text-[12px] lg:text-[18px] rounded-full gap-[6px] mt-[24px] z-[5]"
+              className="h-[33px] w-[160px] lg:h-[40px] lg:w-[212px] bg-[#12877B] hover:bg-[#0F6B61] active:bg-[#0A4F47] transition-colors duration-200 text-[#FEF8EF] flex items-center justify-center font-creators text-[12px] lg:text-[18px] rounded-full gap-[6px] mt-[24px] lg:mt-[44px] z-[5]"
             >
               <Image
                 src="/images/Rsvp/Logo-Wa.svg"

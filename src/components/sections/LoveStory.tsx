@@ -38,7 +38,7 @@ const LoveStory = () => {
         alt="Kupu Kupu 3"
         width={133}
         height={99}
-        className="absolute top-[30%] left-[0vw] w-[21vw] z-[5] lg:hidden"
+        className="absolute top-[31%] left-[0vw] w-[21vw] z-[5] lg:hidden"
       />
 
       <Image
@@ -50,16 +50,55 @@ const LoveStory = () => {
       />
 
       {/* Kupu Kupu 3 */}
-            <Image
-              src="/images/Hero/KupuKupu-3.gif"
-              alt="Kupu Kupu 3"
-              width={50}
-              height={80}
-              className="absolute bottom-[vw] left-[39vw] w-[11vw] z-[5] lg:hidden"
-            />
+      <Image
+        src="/images/Hero/KupuKupu-3.gif"
+        alt="Kupu Kupu 3"
+        width={50}
+        height={80}
+        className="absolute bottom-[20vw] left-[37vw] w-[11vw] z-[5] lg:hidden"
+      />
+
+      {/* KUPU KUPU TAMBAHAN DEKSTOP */}
+      <Image
+        src="/images/Hero/KupuKupu-3.gif"
+        alt="Kupu Kupu 3"
+        width={50}
+        height={80}
+        className="absolute bottom-[13vw] right-[16vw] w-[5vw] z-[5] hidden lg:block"
+      />
+
+      {/* KUPU KUPU TAMBAHAN DEKSTOP */}
+      <Image
+        src="/images/Hero/KupuKupu-3.gif"
+        alt="Kupu Kupu 3"
+        width={50}
+        height={80}
+        className="absolute bottom-[9vw] left-[39.5vw] w-[3.5vw] z-[5] hidden lg:block scale-x-[-1]"
+      />
+
+            {/* KUPU KUPU TAMBAHAN DEKSTOP */}
+ <Image
+        src="/images/Hero/KupuKupu-1.gif"
+        alt="Kupu Kupu 3"
+        width={50}
+        height={80}
+        className="absolute bottom-[15vw] left-[7.5%] w-[5vw]  z-[5] hidden lg:block"
+      />
 
 
-    {/* RANTING KHUSUS MOBILE */}
+
+
+
+
+      <Image
+        src="/images/Hero/KupuKupu-1.gif"
+        alt="Kupu Kupu 3"
+        width={50}
+        height={80}
+        className="absolute bottom-[73vw] right-[5vw] w-[9.5vw] lg:top-[11.5%] lg:right-[9%] lg:w-[5vw]  z-[5]"
+      />
+
+      {/* RANTING KHUSUS MOBILE */}
       <Image
         src="/images/LoveStory/Ranting-Kanan.png"
         alt="Pohon Golden Kiri Bawah"
@@ -76,7 +115,7 @@ const LoveStory = () => {
         className="absolute top-0 left-0 w-[43vw] z-[1] lg:hidden"
       />
 
-    {/* RANTING KHUSUS DEKSTOP */}
+      {/* RANTING KHUSUS DEKSTOP */}
 
       <Image
         src="/images/LoveStory/dekstop/Ranting-Kiri.webp"
@@ -86,14 +125,13 @@ const LoveStory = () => {
         className="absolute -top-[2vw] left-0 w-[250px] z-[1] hidden lg:block"
       />
 
-    <Image
+      <Image
         src="/images/LoveStory/dekstop/Ranting-Kanan.webp"
         alt="Pohon Golden Kiri Bawah"
         width={960}
         height={282}
         className="absolute -top-[2vw] right-0 w-[250px] z-[1] hidden lg:block"
       />
-
 
       {/* Pohon Golden Kiri Bawah MOBILE */}
       <Image
@@ -110,7 +148,7 @@ const LoveStory = () => {
         alt="Pohon Golden Kiri Bawah"
         width={560}
         height={282}
-        className="absolute bottom-0 lg:-bottom-[1vw] left-0 w-[22vw]  z-[1] hidden lg:block"
+        className="absolute bottom-0 lg:-bottom-[1vw] -left-[1vw] w-[23vw]  z-[1] hidden lg:block"
       />
 
       {/* Pohon Kanan Bawah MOBILE */}
@@ -131,20 +169,20 @@ const LoveStory = () => {
         className="absolute bottom-0 right-0 w-[23.5vw] z-[1] hidden lg:block"
       />
 
-<img
-  src="/images/LoveStory/dekstop/Aset.webp"
-  alt="Pohon Kanan Bawah"
-  className="absolute -bottom-[0.1vw] z-[1] hidden lg:block"
-  style={{ 
-    width: '115vw', 
-    height: 'auto',
-    left: '50%',
-    transform: 'translateX(-50%)',
-    maxWidth: 'none'
-  }}
-/>
+      <img
+        src="/images/LoveStory/dekstop/Aset.webp"
+        alt="Pohon Kanan Bawah"
+        className="absolute -bottom-[0.1vw] z-[1] hidden lg:block"
+        style={{
+          width: "117vw",
+          height: "auto",
+          left: "51%",
+          transform: "translateX(-50%)",
+          maxWidth: "none",
+        }}
+      />
 
-<img
+      <img
         src="/images/LoveStory/Aset.webp"
         alt="Pohon Kanan Bawah"
         className="absolute -bottom-[0.5vw] z-[1] lg:hidden"
@@ -157,7 +195,6 @@ const LoveStory = () => {
         }}
       />
 
-      
       <div className="relative  w-full flex flex-col items-center justify-center leading-none z-10">
         <h2 className="font-cylburn text-[42px] lg:text-[64px] text-[#713324] tracking-wide">
           Love Story
@@ -168,24 +205,40 @@ const LoveStory = () => {
             First meeting:
           </h3>
           <h3 className="font-creators text-[12px] lg:text-[18px] text-[#713324] mt-3 leading-5 lg:mt-5 lg:leading-9">
-            Their story began at a Starbucks in Bandung, where <br className="lg:hidden" />
-            Jessie grabbed the coffee since she'd arrived <br className="hidden lg:block" /> on <br className="lg:hidden" />
-            time. Then Jacky, visiting from Singapore, only had <br className="lg:hidden" />
-            his SG cards and cash, so Jessie treated him <br className="hidden lg:block" /> to lunch <br className="lg:hidden" />
-            too. Later, she drove him around the city, with Jacky <br className="lg:hidden" />
-            happily riding along like a true <br className="hidden lg:block" /> 'passenger princess <br />
+            Their story began at a Starbucks in Bandung, where{" "}
+            <br className="lg:hidden" />
+            Jessie grabbed the coffee since she'd arrived{" "}
+            <br className="hidden lg:block" /> on <br className="lg:hidden" />
+            time. Then Jacky, visiting from Singapore, only had{" "}
+            <br className="lg:hidden" />
+            his SG cards and cash, so Jessie treated him{" "}
+            <br className="hidden lg:block" /> to lunch{" "}
+            <br className="lg:hidden" />
+            too. Later, she drove him around the city, with Jacky{" "}
+            <br className="lg:hidden" />
+            happily riding along like a true <br className="hidden lg:block" />{" "}
+            'passenger princess <br />
           </h3>
         </div>
 
         <div className="flex flex-col items-center justify-center text-center mt-7 lg:mt-12">
-          <h3 className="font-creators text-[14px] text-[#713324] lg:text-[20px]">Dating:</h3>
+          <h3 className="font-creators text-[14px] text-[#713324] lg:text-[20px]">
+            Dating:
+          </h3>
           <h3 className="font-creators text-[12px] text-[#713324] mt-3 leading-5 lg:text-[18px] lg:mt-5 lg:leading-9">
-            From that first day, their connection grew through <br className="lg:hidden" />
-            laughter that felt like home, conversations that <br /> 
-            stretched late into the night, and adventures across <br className="lg:hidden" />
-            many cities. They made memories by the sea <br className="hidden lg:block"/> and in <br className="lg:hidden" />
-            the mountains, dreamed of the future, and slowly <br className="lg:hidden" />
-            realised they had found their perfect <br className="hidden lg:block" /> match in each <br className="lg:hidden" />
+            From that first day, their connection grew through{" "}
+            <br className="lg:hidden" />
+            laughter that felt like home, conversations that <br />
+            stretched late into the night, and adventures across{" "}
+            <br className="lg:hidden" />
+            many cities. They made memories by the sea{" "}
+            <br className="hidden lg:block" /> and in{" "}
+            <br className="lg:hidden" />
+            the mountains, dreamed of the future, and slowly{" "}
+            <br className="lg:hidden" />
+            realised they had found their perfect{" "}
+            <br className="hidden lg:block" /> match in each{" "}
+            <br className="lg:hidden" />
             other.
           </h3>
         </div>
@@ -195,13 +248,20 @@ const LoveStory = () => {
             Engagement:
           </h3>
           <h3 className="font-creators text-[12px] text-[#713324] mt-3 leading-5 lg:text-[18px] lg:mt-5 lg:leading-9">
-            Jessie thought it was just a casual trip to Singapore. <br className="lg:hidden" />
+            Jessie thought it was just a casual trip to Singapore.{" "}
+            <br className="lg:hidden" />
             In reality, Jacky had planned a surprise trip to <br />
-            Hangzhou. He'd been sneaking around Xiaohongshu <br className="lg:hidden" />
-            like a wedding planner on steroids—scouting <br className="hidden lg:block" /> the <br className="lg:hidden" />
-            perfect spot, arranging a violinist, and hiring a <br className="lg:hidden" /> 
-            florist. To top it off, he flew in two of Jessie's <br className="hidden lg:block" /> friends <br className="lg:hidden" /> 
-            for the surprise. The result? Tears, laughter, and a <br className="lg:hidden" /> 
+            Hangzhou. He'd been sneaking around Xiaohongshu{" "}
+            <br className="lg:hidden" />
+            like a wedding planner on steroids—scouting{" "}
+            <br className="hidden lg:block" /> the <br className="lg:hidden" />
+            perfect spot, arranging a violinist, and hiring a{" "}
+            <br className="lg:hidden" />
+            florist. To top it off, he flew in two of Jessie's{" "}
+            <br className="hidden lg:block" /> friends{" "}
+            <br className="lg:hidden" />
+            for the surprise. The result? Tears, laughter, and a{" "}
+            <br className="lg:hidden" />
             very big "yes."
           </h3>
         </div>
@@ -211,9 +271,13 @@ const LoveStory = () => {
             Together:
           </h3>
           <h3 className="font-creators text-[12px] text-[#713324] mt-3 leading-5 lg:text-[18px] lg:mt-5 lg:leading-9">
-            Now, they can't wait to step into their next chapter<br className="lg:hidden" />
-            together. Surrounded by family and closest <br className="hidden lg:block" /> friends,<br className="lg:hidden" /> 
-            they're ready to celebrate their love and begin their<br className="lg:hidden" /> 
+            Now, they can't wait to step into their next chapter
+            <br className="lg:hidden" />
+            together. Surrounded by family and closest{" "}
+            <br className="hidden lg:block" /> friends,
+            <br className="lg:hidden" />
+            they're ready to celebrate their love and begin their
+            <br className="lg:hidden" />
             journey as husband and wife
           </h3>
         </div>
@@ -223,50 +287,6 @@ const LoveStory = () => {
 };
 
 export default LoveStory;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // versi scrrol namun belum fix
 // "use client";
@@ -640,7 +660,6 @@ export default LoveStory;
 // };
 // export default LoveStory;
 
-
 // VERSI 150
 // "use client";
 // import React, { useRef, useEffect, useState } from "react";
@@ -951,24 +970,6 @@ export default LoveStory;
 
 // export default LoveStory;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // VERSI NORMAL UNTUK MOBILE ASETNYA MASIH SATU PERSATU FILE SEDANGKAN DEKSTOP SUDAH SATU FILE
 // import React from "react";
 // import Image from "next/image";
@@ -1029,7 +1030,6 @@ export default LoveStory;
 //               className="absolute bottom-[vw] left-[39vw] w-[11vw] z-[5] lg:hidden"
 //             />
 
-
 //     {/* RANTING KHUSUS MOBILE */}
 //       <Image
 //         src="/images/LoveStory/Ranting-Kanan.png"
@@ -1064,7 +1064,6 @@ export default LoveStory;
 //         height={282}
 //         className="absolute -top-[2vw] right-0 w-[250px] z-[1] hidden lg:block"
 //       />
-
 
 //       {/* Pohon Golden Kiri Bawah MOBILE */}
 //       <Image
@@ -1106,8 +1105,8 @@ export default LoveStory;
 //   src="/images/LoveStory/dekstop/Aset.webp"
 //   alt="Pohon Kanan Bawah"
 //   className="absolute -bottom-[0.1vw] z-[1] hidden lg:block"
-//   style={{ 
-//     width: '115vw', 
+//   style={{
+//     width: '115vw',
 //     height: 'auto',
 //     left: '50%',
 //     transform: 'translateX(-50%)',
@@ -1229,7 +1228,7 @@ export default LoveStory;
 //           <h3 className="font-creators text-[14px] text-[#713324] lg:text-[20px]">Dating:</h3>
 //           <h3 className="font-creators text-[12px] text-[#713324] mt-3 leading-5 lg:text-[18px] lg:mt-5 lg:leading-9">
 //             From that first day, their connection grew through <br className="lg:hidden" />
-//             laughter that felt like home, conversations that <br /> 
+//             laughter that felt like home, conversations that <br />
 //             stretched late into the night, and adventures across <br className="lg:hidden" />
 //             many cities. They made memories by the sea <br className="hidden lg:block"/> and in <br className="lg:hidden" />
 //             the mountains, dreamed of the future, and slowly <br className="lg:hidden" />
@@ -1247,9 +1246,9 @@ export default LoveStory;
 //             In reality, Jacky had planned a surprise trip to <br />
 //             Hangzhou. He'd been sneaking around Xiaohongshu <br className="lg:hidden" />
 //             like a wedding planner on steroids—scouting <br className="hidden lg:block" /> the <br className="lg:hidden" />
-//             perfect spot, arranging a violinist, and hiring a <br className="lg:hidden" /> 
-//             florist. To top it off, he flew in two of Jessie's <br className="hidden lg:block" /> friends <br className="lg:hidden" /> 
-//             for the surprise. The result? Tears, laughter, and a <br className="lg:hidden" /> 
+//             perfect spot, arranging a violinist, and hiring a <br className="lg:hidden" />
+//             florist. To top it off, he flew in two of Jessie's <br className="hidden lg:block" /> friends <br className="lg:hidden" />
+//             for the surprise. The result? Tears, laughter, and a <br className="lg:hidden" />
 //             very big "yes."
 //           </h3>
 //         </div>
@@ -1260,8 +1259,8 @@ export default LoveStory;
 //           </h3>
 //           <h3 className="font-creators text-[12px] text-[#713324] mt-3 leading-5 lg:text-[18px] lg:mt-5 lg:leading-9">
 //             Now, they can't wait to step into their next chapter<br className="lg:hidden" />
-//             together. Surrounded by family and closest <br className="hidden lg:block" /> friends,<br className="lg:hidden" /> 
-//             they're ready to celebrate their love and begin their<br className="lg:hidden" /> 
+//             together. Surrounded by family and closest <br className="hidden lg:block" /> friends,<br className="lg:hidden" />
+//             they're ready to celebrate their love and begin their<br className="lg:hidden" />
 //             journey as husband and wife
 //           </h3>
 //         </div>

@@ -8,6 +8,7 @@ import {
   elMessiri,
   cylburn,
   notoSans,
+  ibmPlexSans
 } from "@/lib/fonts";
 import "./globals.css";
 import AOSInit from "@/components/AOSINIT";
@@ -25,7 +26,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${notoSans.variable} ${century.variable} ${creatorsWavy.variable} ${trajanProBold.variable} ${trajanProRegular.variable} ${burguesScript.variable} ${cylburn.variable} ${elMessiri.variable}`}
+      className={`${notoSans.variable}  ${ibmPlexSans.variable} ${century.variable} ${creatorsWavy.variable} ${trajanProBold.variable} ${trajanProRegular.variable} ${burguesScript.variable} ${cylburn.variable} ${elMessiri.variable}`}
     >
       <body>
         <AOSInit />

@@ -37,7 +37,7 @@ const Hero = ({ start }: HeroProps) => {
   return (
     <section
       id="hero"
-      className="relative w-full pt-[42.8vw] pb-[70vw] lg:pt-[107px] lg:pb-[302px] overflow-x-hidden"
+      className="relative w-full pt-[42vw] pb-[70vw] lg:pt-[107px] lg:pb-[302px] overflow-x-hidden"
     >
       {/* Background Image */}
       {isMobile ? (
@@ -87,9 +87,9 @@ const Hero = ({ start }: HeroProps) => {
         initial={false}
         animate={{ opacity: start ? 1 : 0 }}
         transition={{ duration: 1.8, ease: "easeIn", delay: 0 }}
-        className={`absolute top-[70px] ${isMobile ? "w-[102.6vw]" : "w-[667px]"}`}
+        className={`absolute top-[70px] ${isMobile ? "w-[102.6vw]" : "w-[667px] left-[400px]"}`}
       >
-        <Image src="/images/Hero/Burung.gif" alt="Burung" width={400} height={150} className="w-full" />
+        <Image src="/images/Hero/dekstop/Burung.gif" alt="Burung" width={400} height={150} className="w-full" />
       </motion.div>
 
       {/* Konten — muncul saat start, bertahap */}
@@ -102,20 +102,20 @@ const Hero = ({ start }: HeroProps) => {
         </motion.div>
         <div className="flex flex-col items-center text-[#713324] mt-[20px] lg:mt-[30px]">
           <motion.div initial={false} animate={{ opacity: start ? 1 : 0 }} transition={{ duration: 1, ease: "easeIn", delay: 0.8 }}>
-            <h1 className={`font-creators ${isMobile ? "text-[48px]" : "text-[58px] -ml-[100px]"}`}><span className="font-burgues">J</span>acky</h1>
+            <h1 className={`font-creators ${isMobile ? "text-[48px] -ml-[60px]" : "text-[58px] -ml-[100px]"}`}><span className="font-burgues">J</span>acky</h1>
           </motion.div>
           <motion.div initial={false} animate={{ opacity: start ? 1 : 0 }} transition={{ duration: 1, ease: "easeIn", delay: 1.1 }}>
-            <h3 className={`font-creators ${isMobile ? "text-[24px]" : "text-[28px]"}`}>&amp;</h3>
+            <h3 className={`font-creators ${isMobile ? "text-[24px] ml-[25px]" : "text-[28px]"}`}>&amp;</h3>
           </motion.div>
           <motion.div initial={false} animate={{ opacity: start ? 1 : 0 }} transition={{ duration: 1, ease: "easeIn", delay: 1.4 }}>
-            <h1 className={`font-creators ${isMobile ? "text-[48px] ml-[115px]" : "text-[58px] ml-[145px]"}`}><span className="font-burgues">J</span>essie</h1>
+            <h1 className={`font-creators ${isMobile ? "text-[48px] ml-[135px]" : "text-[58px] ml-[145px]"}`}><span className="font-burgues">J</span>essie</h1>
           </motion.div>
         </div>
         <motion.div initial={false} animate={{ opacity: start ? 1 : 0 }} transition={{ duration: 1, ease: "easeIn", delay: 1.7 }}>
           <p className={`uppercase font-creators ${isMobile ? "text-[14px] mt-[31px]" : "text-[20px] mt-[45px]"} text-[#713324] tracking-wide`}>27 June 2026</p>
         </motion.div>
         <motion.div initial={false} animate={{ opacity: start ? 1 : 0 }} transition={{ duration: 1, ease: "easeIn", delay: 2 }}>
-          <p className={`font-century ${isMobile ? "text-[12px] mt-[28px]" : "text-[18px] mt-[58px]"} text-[#6D3323] tracking-wide text-center leading-[25px]`}>
+          <p className={`font-century ${isMobile ? "text-[12px] mt-[28px]" : "text-[18px] mt-[58px]"} text-[#6D3323] tracking-wide text-center leading-[20px]`}>
             In a forest of a billion souls, <br />
             I found the one who speaks my silence.
           </p>
@@ -147,7 +147,7 @@ const Hero = ({ start }: HeroProps) => {
           </motion.div>
 
           {/* Bunga Mawar Putih kiri */}
-          <motion.div {...bottomAnim} transition={{ duration: 1.2, ease: "easeIn", delay: 0.2 }} className={`absolute bottom-0 ${isMobile ? "left-[11vw] w-[16vw] z-[3]" : "left-[5vw] w-[9vw] z-[5]"}`}>
+          <motion.div {...bottomAnim} transition={{ duration: 1.2, ease: "easeIn", delay: 0.2 }} className={`absolute bottom-0 ${isMobile ? "left-[11vw] w-[16vw] z-[5]" : "left-[5vw] w-[9vw] z-[5]"}`}>
             <Image src="/images/Hero/dekstop/Mawar-Putih.svg" alt="Bunga Mawar Putih" width={770} height={70} className="w-full" />
           </motion.div>
 
@@ -326,8 +326,8 @@ const Hero = ({ start }: HeroProps) => {
 
               {/* Kupu Kupu Mobile */}
               <Image src="/images/Hero/KupuKupu-1.gif" alt="Kupu Kupu 1" width={87} height={87} className="absolute bottom-[10.5vw] left-[24.5vw] w-[11vw] z-[5]" />
-              <Image src="/images/Hero/KupuKupu-2.gif" alt="Kupu Kupu 2" width={87} height={87} className="absolute bottom-[9vw] left-[69vw] w-[11vw] z-[5]" />
-              <Image src="/images/Hero/KupuKupu4.png" alt="Kupu Kupu 4" width={87} height={87} className="absolute bottom-[21vw] right-[3.5vw] w-[7vw] z-[5]" />
+              <Image src="/images/Hero/KupuKupu-2.gif" alt="Kupu Kupu 2" width={87} height={87} className="absolute bottom-[13vw] left-[69vw] w-[10vw] z-[5]" />
+              <Image src="/images/Hero/KupuKupu4.png" alt="Kupu Kupu 4" width={87} height={87} className="absolute bottom-[21vw] right-[3.5vw] w-[6vw] z-[5]" />
               <Image src="/images/Hero/KupuKupu-3.gif" alt="Kupu Kupu 3" width={87} height={87} className="absolute bottom-[51vw] right-[20vw] w-[11vw] z-[5] scale-x-[-1]" />
             </>
           )}

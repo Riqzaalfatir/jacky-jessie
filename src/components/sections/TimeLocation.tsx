@@ -21,12 +21,20 @@ const TimeLocation = () => {
         className="absolute top-0 left-0 w-[64.2vw] z-0 lg:hidden"
       />
 
+         <Image
+              src="/images/Hero/Burung.gif"
+              alt="Burung"
+              width={400}
+              height={150}
+              className="absolute top-[25px] w-[667px] left-[400px] hidden lg:block"
+            />
+
       <Image
         src="/images/Time/Capung.svg"
         alt="Capung Kiri"
         width={558}
         height={211}
-        className="absolute top-[30vw] left-[4vw] w-[14vw] z-0 lg:hidden"
+        className="absolute top-[50vw] left-[4vw] w-[14vw] z-0 lg:hidden"
       />
 
       <Image
@@ -34,7 +42,7 @@ const TimeLocation = () => {
         alt="Capung Tengah"
         width={558}
         height={211}
-        className="absolute bottom-[22vw] left-[32vw] w-[18vw] z-0 scale-x-[-1] lg:hidden"
+        className="absolute bottom-[22vw] left-[32vw] w-[18vw] lg:bottom-[10.5vw] lg:left-[40.5vw] lg:w-[4vw] z-0 scale-x-[-1]"
       />
 
       <Image
@@ -53,6 +61,31 @@ const TimeLocation = () => {
         className="absolute top-[47.5%] right-0 w-[33.5vw] z-0 lg:hidden"
       />
 
+      {/* Kupu Kupu 3 */}
+           <Image
+             src="/images/Hero/KupuKupu-3.gif"
+             alt="Kupu Kupu 3"
+             width={50}
+             height={80}
+             className="absolute bottom-[18vw] right-[29vw] w-[4vw] z-[5] hidden lg:block"
+           />
+
+      {/* Kupu Kupu 3 */}
+           <Image
+             src="/images/Hero/KupuKupu-3.gif"
+             alt="Kupu Kupu 3"
+             width={50}
+             height={80}
+             className="absolute bottom-[5.5vw] left-[25vw] w-[4vw] z-[5] scale-x-[-1] hidden lg:block"
+           />
+
+            <Image
+                   src="/images/Hero/KupuKupu-1.gif"
+                   alt="Kupu Kupu 3"
+                   width={50}
+                   height={80}
+                   className="absolute bottom-[19vw] left-[6%] w-[5vw]  z-[5] hidden lg:block"
+                 />
 
 
       {/* RANTING DEKSTOP */}
@@ -179,7 +212,7 @@ const TimeLocation = () => {
           </div>
         </div>
 
-        <div className="w-3 h-3 lg:w-[13px] lg:h-[12px] rounded-full bg-[#713324] my-[11.3vw]" />
+        <div className="w-3 h-3 lg:w-[13px] lg:h-[12px] rounded-full bg-[#713324] my-[11.3vw] mx-auto" />
 
         {/* Buddhist */}
         <div className="flex flex-col items-center text-center tracking-wide">
@@ -209,7 +242,7 @@ const TimeLocation = () => {
         </div>
         </div>
 
-        <div className="w-3 h-3 lg:w-[13px] lg:h-[13px] rounded-full bg-[#713324] my-[11.3vw]" />
+        <div className="w-3 h-3 lg:w-[13px] lg:h-[13px] rounded-full bg-[#713324] my-[11.3vw] mx-auto" />
 
         {/* Wedding Reception */}
         <div className="flex flex-col items-center text-center tracking-wide">

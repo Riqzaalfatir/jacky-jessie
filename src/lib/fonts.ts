@@ -1,5 +1,5 @@
 import localFont from "next/font/local";
-import { El_Messiri, Noto_Sans } from "next/font/google";
+import { El_Messiri, Noto_Sans, IBM_Plex_Sans  } from "next/font/google";
 
 export const century = localFont({
   src: "../../public/fonts/Century.ttf",
@@ -39,5 +39,11 @@ export const elMessiri = El_Messiri({
 export const notoSans = Noto_Sans({
   subsets: ["latin"],
   variable: "--font-noto-sans",
-  weight: ["400", "500", "600", "700"],
+  weight: ["300", "400", "500", "600", "700"],
+});
+
+export const ibmPlexSans = IBM_Plex_Sans({
+  subsets: ["latin"],
+  variable: "--font-ibm-plex-sans",
+  weight: ["300", "400", "500", "600", "700"],
 });

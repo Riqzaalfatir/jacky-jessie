@@ -5,16 +5,24 @@ import { fadeUp, fadeIn, stagger } from "@/lib/animation";
 
 const Dresscode = () => {
   return (
-    <section id="dresscode" className="relative w-full pt-[66px] pb-[74px] lg:pt-[128px] lg:pb-[134px]">
+    <section id="dresscode" className="relative w-full pt-[66px] pb-[74px] lg:pt-[108px] lg:pb-[114px]">
       {/* Background Image */}
       <Image
         src="/images/Dresscode/Bg-Dresscode.svg"
         alt="Hero Background"
         fill
-        className="object-cover object-bottom"
+        className="object-cover object-bottom hidden lg:block"
         priority
       />
-      <div className="relative flex flex-col items-center justify-center leading-none text-center gap-[12px] lg:gap-[40px]">
+
+      <Image
+        src="/images/Dresscode/Bg-Mobile.svg"
+        alt="Hero Background"
+        fill
+        className="object-cover object-bottom lg:hidden"
+        priority
+      />
+      <div className="relative flex flex-col items-center justify-center leading-none text-center gap-[12px] lg:gap-[45px]">
         <motion.div
           variants={fadeUp}
           initial="hidden"

@@ -37,13 +37,23 @@ const Tentang = () => {
         height={150}
         className="absolute top-[5px] w-[102.6vw] lg:w-[667px] lg:left-[350px]"
       />
+
       <Image
         src="/images/Tentang/Pohon-goldenKanan.png"
         alt="Pohon Golden Kanan"
         width={550}
         height={80}
-        className="absolute right-0 z-[1] top-[23%] w-[31vw] lg:top-[280px] lg:w-[180px] lg:hidden"
+        className="absolute right-0 z-[1] top-[25%] w-[31.5vw] lg:top-[280px] lg:w-[180px] lg:hidden"
       />
+
+      <Image
+        src="/images/Tentang/Ranting-Kiri.webp"
+        alt="Pohon Golden Kanan"
+        width={550}
+        height={80}
+        className="absolute left-0 z-[1] bottom-[33%] w-[27vw] lg:hidden"
+      />
+
 
       {/* RANTING KIRI ATAS MOBILE */}
       <Image
@@ -101,9 +111,9 @@ const Tentang = () => {
         alt="Pohon Kanan Bawah"
         className="absolute -bottom-[9.5vw] z-[1] lg:hidden"
         style={{
-          width: "165vw",
+          width: "175vw",
           height: "auto",
-          left: "51%",
+          left: "55%",
           transform: "translateX(-50%)",
           maxWidth: "none",
         }}
@@ -176,6 +186,7 @@ const Tentang = () => {
         </motion.div>
 
         <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-0 lg:gap-[300px] mt-[50px] lg:mt-[75px]">
+
           {/* Kolom Jacky */}
           <motion.div
             variants={fadeUp}
@@ -192,14 +203,14 @@ const Tentang = () => {
               height={261}
               className="mt-[26px] lg:mt-0 w-[200px] lg:w-[260px]"
             />
-            <h1 className="font-cylburn text-[40px] lg:text-[64px] text-[#713324] mt-[49px] lg:mt-[40px]">
+            <h1 className="font-cylburn text-[40px] lg:text-[64px] text-[#713324] mt-[49px] lg:mt-[35px]">
               Jacky Steven Rusli
             </h1>
-            <div className="flex flex-col items-center mt-[31px] lg:mt-[23px]">
+            <div className="flex flex-col items-center mt-[31px] lg:mt-[43px]">
               <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] tracking-wide">
                 The Son of
               </p>
-              <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] mt-3.5 lg:mt-6 tracking-wide">
+              <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] mt-3.5 lg:mt-[27px] tracking-wide">
                 Mr. AGUS RUSLI and
               </p>
               <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] mt-2 lg:mt-3 tracking-wide">
@@ -224,14 +235,14 @@ const Tentang = () => {
               height={261}
               className="mt-[45px] lg:mt-0 w-[200px] lg:w-[260px]"
             />
-            <h1 className="font-cylburn text-[40px] lg:text-[64px] text-[#713324] mt-[43px] lg:mt-[40px]">
+            <h1 className="font-cylburn text-[40px] lg:text-[64px] text-[#713324] mt-[43px] lg:mt-[35px]">
               Jessie Andayani Santoso
             </h1>
-            <div className="flex flex-col items-center mt-[24px] lg:mt-[23px] tracking-wide">
+            <div className="flex flex-col items-center mt-[24px] lg:mt-[43px] tracking-wide">
               <p className="font-creators text-[12px] lg:text-[18px] text-[#713324]">
                 The Daughter of
               </p>
-              <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] mt-4 lg:mt-6">
+              <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] mt-4 lg:mt-[27px]">
                 Mr. WIBOWO SANTOSO and
               </p>
               <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] mt-2 lg:mt-3">
@@ -248,7 +259,7 @@ const Tentang = () => {
           viewport={{ once: true, amount: 0.25 }}
           transition={{ duration: 1.8, ease: "easeOut" }}
         >
-          <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] mt-[46px] lg:mt-[80px] pb-[44vw] lg:pb-[261px] tracking-wide leading-[20px] lg:leading-[28px]">
+          <p className="font-creators text-[12px] lg:text-[18px] text-[#713324] mt-[46px] lg:mt-[80px] pb-[46vw] lg:pb-[261px] tracking-wide leading-[20px] lg:leading-[28px]">
             We would be honoured
             <br />
             by your presence and blessing.

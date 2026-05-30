@@ -45,7 +45,7 @@ const CountDown = () => {
   return (
     <section
       id="countdown"
-      className="relative w-full pt-[48px] pb-[51px]   bg-[#935D3B]"
+      className="relative w-full pt-[38px] pb-[51px]   bg-[#935D3B]"
     >
       <Image
         src="/images/Countdown/Layer-Countdown.png"
@@ -70,7 +70,7 @@ const CountDown = () => {
         alt="Burung"
         width={400}
         height={150}
-        className="absolute -top-[70px] w-[102.6vw]"
+        className="absolute -top-[70px] w-[102.6vw] lg:hidden"
       />
 
       <motion.div
