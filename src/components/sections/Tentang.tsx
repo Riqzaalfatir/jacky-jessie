@@ -27,7 +27,7 @@ const Tentang = () => {
   return (
     <section
       id="tentang"
-      className="relative w-full  pt-[42.3vw] lg:pt-[109px] bg-[#EADCC8] overflow-x-hidden scrollbar-hiden"
+      className="relative w-full  pt-[42.3vw] lg:pt-[109px] bg-[#EADCC8] overflow-x-hidden scrollbar-hide overflow-y-hidden  "
     >
       {/* ── ASET BAGIAN ATAS ── */}
       <Image
@@ -260,7 +260,7 @@ const Tentang = () => {
           </p>
         </motion.div>
 
-        <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center gap-0 lg:gap-[300px] mt-[5px] lg:mt-[75px]">
+        <div className="flex flex-col w-full lg:flex-row items-center lg:items-start justify-center gap-0 lg:gap-[300px] mt-[5px] lg:mt-[75px]">
 
           {/* Kolom Jacky */}
           <motion.div
@@ -278,7 +278,7 @@ const Tentang = () => {
               height={261}
               className="mt-[26px] lg:mt-0 w-[200px] lg:w-[260px]"
             />
-            <h1 className="font-cylburn text-[40px] lg:text-[64px] text-[#713324] mt-[49px] lg:mt-[35px]">
+            <h1 className="font-cylburn w-full  text-[40px] lg:text-[64px] text-[#713324] mt-[49px] lg:mt-[35px]">
               Jacky Steven Rusli
             </h1>
             <div className="flex flex-col items-center mt-[31px] lg:mt-[43px]">
@@ -310,7 +310,7 @@ const Tentang = () => {
               height={261}
               className="mt-[45px] lg:mt-0 w-[200px] lg:w-[260px]"
             />
-            <h1 className="font-cylburn text-[40px] lg:text-[64px] text-[#713324] mt-[43px] lg:mt-[35px]">
+            <h1 className="font-cylburn w-full text-[40px] lg:text-[64px] text-[#713324] mt-[43px] lg:mt-[35px]">
               Jessie Andayani Santoso
             </h1>
             <div className="flex flex-col items-center mt-[24px] lg:mt-[43px] tracking-wide">

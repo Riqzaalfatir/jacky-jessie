@@ -167,7 +167,7 @@ const TimeLocation = () => {
 
       
       {/* KONTEN */}
-      <div className="relative z-10 w-full flex flex-col items-center justify-center leading-none">
+      <div className="relative z-10 w-full flex flex-col items-center justify-center">
         <motion.div
           variants={fadeUp}
           initial="hidden"
@@ -175,7 +175,7 @@ const TimeLocation = () => {
           viewport={{ once: true, amount: 0.25 }}
           transition={{ duration: 1.8, ease: "easeOut" }}
         >
-          <h2 className="font-cylburn text-[42px] lg:text-[64px] text-[#713324]">
+          <h2 className="font-cylburn leading-[1.3] text-[42px] lg:text-[64px] text-[#713324]">
             Time & Location
           </h2>
         </motion.div>
