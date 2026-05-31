@@ -173,7 +173,7 @@ const Tentang = () => {
         alt="Pohon Kanan Bawah"
         className="absolute -bottom-[0.1vw] z-[1] hidden lg:block"
         style={{
-          width: "119vw",
+          width: "115vw",
           height: "auto",
           left: "51%",
           transform: "translateX(-50%)",
