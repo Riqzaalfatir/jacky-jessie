@@ -203,7 +203,7 @@ const TimeLocation = () => {
           </motion.div>
           <div className="mt-auto">
           <motion.div  variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.25 }} transition={{ duration: 1.8, ease: "easeOut" }}>
-            <a href="https://www.google.com/maps/place/Gereja+Katolik+Paroki+Bunda+Tujuh+Kedukaan,+Pandu/@-6.9055223,107.5908405,17z" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.google.com/maps/place/Gereja+Katolik+Paroki+Bunda+Tujuh+Kedukaan,+Pandu/@-6.9055223,107.5908405,17z/data=!3m1!4b1!4m6!3m5!1s0x2e68e66b9767b619:0x307eda200152ee3d!8m2!3d-6.9055223!4d107.5934154!16s%2Fg%2F122yh67w?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
               <button className="w-[160px] h-[33px] lg:w-[216px] lg:h-[40px] bg-[#E2C6AA] font-century text-[12px] lg:text-[18px] text-[#713324] rounded-[44px] mt-[10.3vw] lg:mt-[51px] transition-all duration-300 ease-in-out hover:bg-[#713324] hover:text-[#E2C6AA] active:bg-[#5a2819] active:text-[#E2C6AA] active:scale-95 cursor-pointer">
                 GOOGLE MAPS
               </button>
@@ -233,7 +233,7 @@ const TimeLocation = () => {
           </motion.div>
           <div className="mt-auto">
           <motion.div  variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.25 }} transition={{ duration: 1.8, ease: "easeOut" }}>
-            <a href="https://www.google.com/maps/place/Imah+Seniman/@-6.8326678,107.6093505,17z" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.google.com/maps/place/Imah+Seniman/@-6.8234627,107.6055034,16.12z/data=!4m9!3m8!1s0x2e68e10da997fe61:0xadbff9819b03b5d2!5m2!4m1!1i2!8m2!3d-6.8218893!4d107.6063488!16s%2Fg%2F1hhwvpf10?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
               <button className="w-[160px] h-[33px] lg:w-[216px] lg:h-[40px] lg:text-[18px] bg-[#E2C6AA] font-century text-[12px] text-[#713324] rounded-[44px] mt-[10.3vw]  lg:mt-[51px] transition-all duration-300 ease-in-out hover:bg-[#713324] hover:text-[#E2C6AA] active:bg-[#5a2819] active:text-[#E2C6AA] active:scale-95 cursor-pointer">
                 GOOGLE MAPS
               </button>
@@ -263,7 +263,7 @@ const TimeLocation = () => {
           </motion.div>
           <div className="mt-auto">
           <motion.div  variants={fadeUp} initial="hidden" whileInView="show" viewport={{ once: true, amount: 0.25 }} transition={{ duration: 1.8, ease: "easeOut" }}>
-            <a href="https://www.google.com/maps/place/Imah+Seniman/@-6.8326678,107.6093505,17z" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.google.com/maps/place/Imah+Seniman/@-6.8234627,107.6055034,16.12z/data=!4m9!3m8!1s0x2e68e10da997fe61:0xadbff9819b03b5d2!5m2!4m1!1i2!8m2!3d-6.8218893!4d107.6063488!16s%2Fg%2F1hhwvpf10?entry=ttu&g_ep=EgoyMDI2MDUyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
               <button className="w-[160px] h-[33px] lg:w-[216px] lg:h-[40px] lg:text-[18px] lg:mt-[51px] bg-[#E2C6AA] font-century text-[12px] text-[#713324] rounded-[44px] mt-[10.3vw] transition-all duration-300 ease-in-out hover:bg-[#713324] hover:text-[#E2C6AA] active:bg-[#5a2819] active:text-[#E2C6AA] active:scale-95 cursor-pointer">
                 GOOGLE MAPS
               </button>
