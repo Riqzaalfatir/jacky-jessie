@@ -27,7 +27,7 @@ const Tentang = () => {
   return (
     <section
       id="tentang"
-      className="relative w-full pt-[42.3vw] lg:pt-[109px] bg-[#EADCC8] overflow-x-hidden scrollbar-hide overflow-y-hidden  "
+      className="relative w-full  pt-[42.3vw] lg:pt-[109px] bg-[#EADCC8] overflow-x-hidden scrollbar-hide overflow-y-hidden  "
     >
       {/* ── ASET BAGIAN ATAS ── */}
       <Image

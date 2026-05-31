@@ -35,7 +35,7 @@ const Hero = ({ start }: HeroProps) => {
   return (
     <section
       id="hero"
-      className="relative w-full pt-[42vw] pb-[70vw] lg:pt-[107px] lg:pb-[302px] overflow-x-hidden overflow-y-hidden bg-[#F2E8D8] "
+      className="relative w-full  pt-[42vw] pb-[70vw] lg:pt-[107px] lg:pb-[302px] overflow-x-hidden overflow-y-hidden bg-[#F2E8D8] "
     >
       {/* Background Image */}
       {isMobile ? (
@@ -349,7 +349,7 @@ const Hero = ({ start }: HeroProps) => {
           transition={{ duration: 1, ease: "easeIn", delay: 1.7 }}
         >
           <p
-            className={`uppercase font-creators ${isMobile ? "text-[14px] mt-[31px]" : "text-[20px] mt-[45px]"} text-[#713324] tracking-wide`}
+            className={`uppercase font-creators ${isMobile ? "text-[14px] mt-[38px]" : "text-[20px] mt-[45px]"} text-[#713324] tracking-wide`}
           >
             27 June 2026
           </p>
@@ -360,7 +360,7 @@ const Hero = ({ start }: HeroProps) => {
           transition={{ duration: 1, ease: "easeIn", delay: 2 }}
         >
           <p
-            className={`font-century ${isMobile ? "text-[12px] mt-[28px]" : "text-[18px] mt-[58px]"} text-[#6D3323] tracking-wide text-center leading-[20px] lg:leading-[30px]`}
+            className={`font-century ${isMobile ? "text-[12px] mt-[28px]" : "text-[18px] mt-[70px]"} text-[#6D3323] tracking-wide text-center leading-[20px] lg:leading-[30px]`}
           >
             In a forest of a billion souls, <br />I found the one who speaks my
             silence.

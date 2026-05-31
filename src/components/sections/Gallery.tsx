@@ -49,7 +49,7 @@ const Gallery = () => {
 
   return (
     <>
-      <section id="gallery" className="w-full h-[601px] min-h-[601px] max-h-[601px] lg:h-[945px] lg:min-h-[945px] lg:max-h-[945px]">
+      <section id="gallery" className="w-full  h-[601px] min-h-[601px] max-h-[601px] lg:h-[945px] lg:min-h-[945px] lg:max-h-[945px]">
         <div className="overflow-hidden w-full h-full" ref={emblaRef}>
           <div className="flex h-full">
             {photos.map((src, index) => (

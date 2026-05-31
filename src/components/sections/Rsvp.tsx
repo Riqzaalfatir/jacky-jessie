@@ -34,7 +34,7 @@ const Rsvp = () => {
     <>
       <section
         id="rsvp"
-        className="relative w-full pt-[72px] pb-[85px] lg:pt-[109px] lg:pb-[120px] bg-[#935D3B]"
+        className="relative w-full  pt-[72px] pb-[85px] lg:pt-[109px] lg:pb-[120px] bg-[#935D3B]"
       >
         <Image
           src="/images/Rsvp/LayerRsvp.webp"

@@ -45,7 +45,7 @@ const CountDown = () => {
   return (
     <section
       id="countdown"
-      className="relative w-full pt-[38px] pb-[51px]   bg-[#935D3B]"
+      className="relative w-full pt-[38px] pb-[51px]    bg-[#935D3B]"
     >
       <Image
         src="/images/Countdown/Layer-Countdown.png"
