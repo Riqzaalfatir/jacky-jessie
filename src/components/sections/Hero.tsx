@@ -35,7 +35,7 @@ const Hero = ({ start }: HeroProps) => {
   return (
     <section
       id="hero"
-      className="relative w-full  pt-[42vw] pb-[70vw] lg:pt-[107px] lg:pb-[302px] overflow-x-hidden overflow-y-hidden bg-[#F2E8D8] "
+      className="relative w-full  pt-[42vw] pb-[70vw] lg:pt-[107px] lg:pb-[302px] overflow-x-hidden overflow-y-hidden bg-[#F2E8D8] lg:min-h-screen"
     >
       {/* Background Image */}
       {isMobile ? (
@@ -203,7 +203,7 @@ const Hero = ({ start }: HeroProps) => {
         <img
           src="/images/Hero/Aset-Bawah.webp"
           alt="Pohon Kanan Bawah"
-          className="absolute -bottom-[0.1vw] z-[1]"
+          className="absolute -bottom-[0.1vw] z-[2]"
           style={{
             width: "138vw",
             height: "auto",
@@ -216,7 +216,7 @@ const Hero = ({ start }: HeroProps) => {
         <img
           src="/images/Hero/dekstop/Aset-Bawah.webp"
           alt="Pohon Kanan Bawah"
-          className="absolute -bottom-[0.1vw] z-[1] hidden lg:block"
+          className="absolute -bottom-[0.1vw] z-[2] hidden lg:block"
           style={{
             width: "125vw",
             height: "auto",
@@ -371,7 +371,7 @@ const Hero = ({ start }: HeroProps) => {
 
           {/* Pohon Golden Kiri Bawah */}
           {isMobile ? (
-            <div className="absolute bottom-0 left-0 w-[38vw] z-[3]">
+            <div className="absolute bottom-0 left-0 w-[38vw] z-[1]">
               <Image
                 src="/images/Hero/Pohon-KiriBawah.png"
                 alt="Pohon Golden Kiri Bawah"
@@ -381,7 +381,7 @@ const Hero = ({ start }: HeroProps) => {
               />
             </div>
           ) : (
-            <div className="absolute bottom-0 left-0 w-[21vw] z-[3]">
+            <div className="absolute bottom-0 left-0 w-[21vw] z-[1]">
               <Image
                 src="/images/Hero/dekstop/Pohon-KiriBawah.png"
                 alt="Pohon Golden Kiri Bawah"

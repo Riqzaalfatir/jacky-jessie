@@ -376,10 +376,10 @@ const Wishes = () => {
                       <div className="px-[13px] lg:px-[23px] py-[2px] lg:py-[10px] ">
                         {pesanList.slice(0, 8).map((item, index, array) => (
                           <div key={item.id}>
-                            <p className="text-[#713324] font-trajanBold text-[12px] lg:text-[18px] mb-[4px] lg:mb-[14px]">
+                            <p className="text-[#713324] font-creators text-[12px] lg:text-[18px] mb-[4px] lg:mb-[14px]">
                               {item.nama}
                             </p>
-                            <p className="text-[#713324] font-trajanRegular text-[10px] lg:text-[18px] tracking-[0.5px] mb-[10px] lg:mb-[15px]">
+                            <p className="text-[#713324] font-creators text-[10px] lg:text-[18px] tracking-[0.5px] mb-[10px] lg:mb-[15px]">
                               {item.pesan}
                             </p>
                             {index !== array.length - 1 && (

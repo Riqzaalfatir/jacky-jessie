@@ -67,7 +67,7 @@ const TimeLocation = () => {
              alt="Kupu Kupu 3"
              width={50}
              height={80}
-             className="absolute bottom-[18vw] right-[29vw] w-[4vw] z-[5] hidden lg:block"
+             className="absolute bottom-[24%] right-[29%] w-[4vw] z-[5] hidden lg:block"
            />
 
       {/* Kupu Kupu 3 */}

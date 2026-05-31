@@ -167,7 +167,7 @@ const Rsvp = () => {
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 1.8, ease: "easeOut" }}
           >
-            <p className="font-creators text-[10px] lg:text-[18px] text-[#FEF8EF] mt-[54px] lg:mt-[81px] leading-[20px]">
+            <p className="font-creators text-[10px] lg:text-[18px] text-[#FEF8EF] mt-[54px] lg:mt-[81px] leading-[20px] lg:leading-[30px]">
               If you need assistance with your RSVP, <br />
 please contact our support team.
                         </p>

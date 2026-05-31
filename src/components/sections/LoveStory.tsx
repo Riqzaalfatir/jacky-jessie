@@ -39,8 +39,8 @@ const LoveStory = () => {
           priority
         />
         {/* Ranting Mobile */}
-        <Image src="/images/LoveStory/Ranting-Kanan.png" alt="Ranting Kanan" width={560} height={282} className="absolute top-0 right-0 w-[45vw] z-[1]" />
-        <Image src="/images/LoveStory/Ranting-Kiri.png" alt="Ranting Kiri" width={560} height={282} className="absolute top-0 left-0 w-[45vw] z-[1]" />
+        {/* <Image src="/images/LoveStory/Ranting-Kanan.png" alt="Ranting Kanan" width={560} height={282} className="absolute top-0 right-0 w-[45vw] z-[1]" />
+        <Image src="/images/LoveStory/Ranting-Kiri.png" alt="Ranting Kiri" width={560} height={282} className="absolute top-0 left-0 w-[45vw] z-[1]" /> */}
       </div>
 
       {/* BG DESKTOP — normal (tidak sticky) */}
@@ -59,6 +59,8 @@ const LoveStory = () => {
       >
 
         <Image src="/images/Hero/Burung.gif" alt="Burung" width={400} height={150} className="absolute top-[65px] w-[102.6vw]" />
+        <Image src="/images/LoveStory/Ranting-Kanan.png" alt="Ranting Kanan" width={560} height={282} className="absolute top-0 right-0 w-[45vw] z-[1]" />
+        <Image src="/images/LoveStory/Ranting-Kiri.png" alt="Ranting Kiri" width={560} height={282} className="absolute top-0 left-0 w-[45vw] z-[1]" />
         <Image src="/images/LoveStory/Burung.svg" alt="Burung" width={133} height={99} className="absolute top-[110vw] left-0 w-[21vw] z-[3]" />
         <Image src="/images/LoveStory/Burung.svg" alt="Burung" width={133} height={99} className="absolute top-[202vw] -right-[7vw] w-[24vw] z-[3]" />
         <Image src="/images/Hero/KupuKupu-3.gif" alt="Kupu Kupu" width={50} height={80} className="absolute bottom-[20vw] left-[37vw] w-[11vw] z-[3]" />
